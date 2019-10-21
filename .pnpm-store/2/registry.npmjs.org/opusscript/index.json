@@ -1,0 +1,62 @@
+{
+	"versions": {
+		"0.0.1": {
+			"name": "opusscript",
+			"version": "0.0.1",
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "c8f61d4301b2942ee9ddf68b075b3e373b7943dd",
+				"tarball": "https://registry.npmjs.org/opusscript/-/opusscript-0.0.1.tgz"
+			}
+		},
+		"0.0.2": {
+			"name": "opusscript",
+			"version": "0.0.2",
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "5fdd7274c13991fd96f64320e69ad56f5b0b9bcd",
+				"tarball": "https://registry.npmjs.org/opusscript/-/opusscript-0.0.2.tgz"
+			}
+		},
+		"0.0.3": {
+			"name": "opusscript",
+			"version": "0.0.3",
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "ce46717fc8d6f901c5191e69485c889a036a8674",
+				"tarball": "https://registry.npmjs.org/opusscript/-/opusscript-0.0.3.tgz"
+			}
+		},
+		"0.0.4": {
+			"name": "opusscript",
+			"version": "0.0.4",
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"integrity": "sha512-bEPZFE2lhUJYQD5yfTFO4RhbRZ937x6hRwBC1YoGacT35bwDVwKFP1+amU8NYfZL/v4EU7ZTU3INTqzYAnuP7Q==",
+				"shasum": "c718edcfdcd2a1f55fadb266dd07268d4a46afde",
+				"tarball": "https://registry.npmjs.org/opusscript/-/opusscript-0.0.4.tgz"
+			}
+		},
+		"0.0.6": {
+			"name": "opusscript",
+			"version": "0.0.6",
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"integrity": "sha512-F7nx1SWZCD5Rq2W+5Fx39HlkRkz/5Zqt0LglEB9uHexk8HjedDEiM+u/Y2rBfDFcS/0uQIWu2lJhw+Gjsta+cA==",
+				"shasum": "cf492fc5fb2c819af296ae02eaa3cf210433c9ba",
+				"tarball": "https://registry.npmjs.org/opusscript/-/opusscript-0.0.6.tgz"
+			}
+		}
+	},
+	"name": "opusscript",
+	"dist-tags": {
+		"latest": "0.0.6"
+	},
+	"modified": "2017-12-13T20:22:09.298Z",
+	"cachedAt": 1556862598126
+}

@@ -1,0 +1,904 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/app/node_modules/node/bin/node',
+1 verbose cli   '/opt/nvm/versions/node/v8/bin/npm-real',
+1 verbose cli   'i',
+1 verbose cli   'canvas' ]
+2 info using npm@6.4.1
+3 info using node@v11.6.0
+4 verbose config Skipping project config: /app/.npmrc. (matches userconfig)
+5 verbose npm-session 366f238ceb129f61
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 304 https://registry.npmjs.org/canvas 141ms (from cache)
+9 silly pacote tag manifest for canvas@latest fetched in 154ms
+10 timing stage:loadCurrentTree Completed in 865ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 4ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 328ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule canvas@2.2.0 checking installable status
+18 http fetch GET 304 https://registry.npmjs.org/nan 33ms (from cache)
+19 silly pacote range manifest for nan@^2.11.1 fetched in 36ms
+20 silly resolveWithNewModule nan@2.12.1 checking installable status
+21 http fetch GET 304 https://registry.npmjs.org/node-pre-gyp 38ms (from cache)
+22 silly pacote range manifest for node-pre-gyp@^0.11.0 fetched in 41ms
+23 silly resolveWithNewModule node-pre-gyp@0.11.0 checking installable status
+24 http fetch GET 200 https://registry.npmjs.org/nopt 38ms (from cache)
+25 http fetch GET 200 https://registry.npmjs.org/npmlog 38ms (from cache)
+26 http fetch GET 200 https://registry.npmjs.org/rimraf 39ms (from cache)
+27 http fetch GET 200 https://registry.npmjs.org/semver 40ms (from cache)
+28 silly pacote range manifest for nopt@^4.0.1 fetched in 44ms
+29 silly resolveWithNewModule nopt@4.0.1 checking installable status
+30 http fetch GET 200 https://registry.npmjs.org/tar 46ms (from cache)
+31 silly pacote range manifest for npmlog@^4.0.2 fetched in 49ms
+32 silly resolveWithNewModule npmlog@4.1.2 checking installable status
+33 silly pacote range manifest for rimraf@^2.6.1 fetched in 48ms
+34 silly resolveWithNewModule rimraf@2.6.3 checking installable status
+35 silly pacote range manifest for semver@^5.3.0 fetched in 50ms
+36 silly resolveWithNewModule semver@5.6.0 checking installable status
+37 silly pacote range manifest for tar@^4 fetched in 51ms
+38 silly resolveWithNewModule tar@4.4.8 checking installable status
+39 http fetch GET 304 https://registry.npmjs.org/detect-libc 72ms (from cache)
+40 http fetch GET 304 https://registry.npmjs.org/needle 72ms (from cache)
+41 silly pacote range manifest for detect-libc@^1.0.2 fetched in 75ms
+42 silly resolveWithNewModule detect-libc@1.0.3 checking installable status
+43 silly pacote range manifest for needle@^2.2.1 fetched in 76ms
+44 silly resolveWithNewModule needle@2.2.4 checking installable status
+45 http fetch GET 304 https://registry.npmjs.org/npm-packlist 79ms (from cache)
+46 silly pacote range manifest for npm-packlist@^1.1.6 fetched in 80ms
+47 silly resolveWithNewModule npm-packlist@1.2.0 checking installable status
+48 http fetch GET 304 https://registry.npmjs.org/rc 79ms (from cache)
+49 silly pacote range manifest for rc@^1.2.7 fetched in 80ms
+50 silly resolveWithNewModule rc@1.2.8 checking installable status
+51 http fetch GET 200 https://registry.npmjs.org/abbrev 5ms (from cache)
+52 http fetch GET 200 https://registry.npmjs.org/osenv 5ms (from cache)
+53 silly pacote range manifest for abbrev@1 fetched in 5ms
+54 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+55 silly pacote range manifest for osenv@^0.1.4 fetched in 6ms
+56 silly resolveWithNewModule osenv@0.1.5 checking installable status
+57 http fetch GET 200 https://registry.npmjs.org/os-homedir 7ms (from cache)
+58 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 7ms (from cache)
+59 silly pacote range manifest for os-homedir@^1.0.0 fetched in 9ms
+60 silly resolveWithNewModule os-homedir@1.0.2 checking installable status
+61 silly pacote range manifest for os-tmpdir@^1.0.0 fetched in 13ms
+62 silly resolveWithNewModule os-tmpdir@1.0.2 checking installable status
+63 http fetch GET 304 https://registry.npmjs.org/npm-bundled 39ms (from cache)
+64 http fetch GET 304 https://registry.npmjs.org/ignore-walk 41ms (from cache)
+65 silly pacote range manifest for npm-bundled@^1.0.1 fetched in 42ms
+66 silly resolveWithNewModule npm-bundled@1.0.5 checking installable status
+67 silly pacote range manifest for ignore-walk@^3.0.1 fetched in 43ms
+68 silly resolveWithNewModule ignore-walk@3.0.1 checking installable status
+69 http fetch GET 200 https://registry.npmjs.org/minimatch 4ms (from cache)
+70 silly pacote range manifest for minimatch@^3.0.4 fetched in 4ms
+71 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+72 http fetch GET 200 https://registry.npmjs.org/brace-expansion 4ms (from cache)
+73 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 9ms
+74 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+75 http fetch GET 200 https://registry.npmjs.org/balanced-match 5ms (from cache)
+76 http fetch GET 200 https://registry.npmjs.org/concat-map 5ms (from cache)
+77 silly pacote range manifest for balanced-match@^1.0.0 fetched in 6ms
+78 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+79 silly pacote version manifest for concat-map@0.0.1 fetched in 7ms
+80 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+81 http fetch GET 200 https://registry.npmjs.org/are-we-there-yet 15ms (from cache)
+82 http fetch GET 200 https://registry.npmjs.org/console-control-strings 16ms (from cache)
+83 http fetch GET 200 https://registry.npmjs.org/set-blocking 15ms (from cache)
+84 http fetch GET 200 https://registry.npmjs.org/gauge 17ms (from cache)
+85 silly pacote range manifest for are-we-there-yet@~1.1.2 fetched in 21ms
+86 silly resolveWithNewModule are-we-there-yet@1.1.5 checking installable status
+87 silly pacote range manifest for console-control-strings@~1.1.0 fetched in 22ms
+88 silly resolveWithNewModule console-control-strings@1.1.0 checking installable status
+89 silly pacote range manifest for set-blocking@~2.0.0 fetched in 22ms
+90 silly resolveWithNewModule set-blocking@2.0.0 checking installable status
+91 silly pacote range manifest for gauge@~2.7.3 fetched in 24ms
+92 silly resolveWithNewModule gauge@2.7.4 checking installable status
+93 http fetch GET 200 https://registry.npmjs.org/delegates 32ms (from cache)
+94 silly pacote range manifest for delegates@^1.0.0 fetched in 33ms
+95 silly resolveWithNewModule delegates@1.0.0 checking installable status
+96 http fetch GET 200 https://registry.npmjs.org/readable-stream 33ms (from cache)
+97 silly pacote range manifest for readable-stream@^2.0.6 fetched in 52ms
+98 silly resolveWithNewModule readable-stream@2.3.6 checking installable status
+99 http fetch GET 200 https://registry.npmjs.org/core-util-is 26ms (from cache)
+100 http fetch GET 200 https://registry.npmjs.org/isarray 26ms (from cache)
+101 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 26ms (from cache)
+102 http fetch GET 200 https://registry.npmjs.org/string_decoder 26ms (from cache)
+103 http fetch GET 200 https://registry.npmjs.org/util-deprecate 26ms (from cache)
+104 silly pacote range manifest for core-util-is@~1.0.0 fetched in 30ms
+105 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+106 silly pacote range manifest for isarray@~1.0.0 fetched in 30ms
+107 silly resolveWithNewModule isarray@1.0.0 checking installable status
+108 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 31ms
+109 silly resolveWithNewModule process-nextick-args@2.0.0 checking installable status
+110 silly pacote range manifest for string_decoder@~1.1.1 fetched in 32ms
+111 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+112 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 34ms
+113 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+114 http fetch GET 200 https://registry.npmjs.org/aproba 22ms (from cache)
+115 http fetch GET 200 https://registry.npmjs.org/has-unicode 23ms (from cache)
+116 http fetch GET 200 https://registry.npmjs.org/object-assign 22ms (from cache)
+117 http fetch GET 200 https://registry.npmjs.org/signal-exit 22ms (from cache)
+118 http fetch GET 200 https://registry.npmjs.org/string-width 22ms (from cache)
+119 http fetch GET 200 https://registry.npmjs.org/strip-ansi 22ms (from cache)
+120 http fetch GET 200 https://registry.npmjs.org/wide-align 23ms (from cache)
+121 silly pacote range manifest for aproba@^1.0.3 fetched in 28ms
+122 silly resolveWithNewModule aproba@1.2.0 checking installable status
+123 silly pacote range manifest for has-unicode@^2.0.0 fetched in 31ms
+124 silly resolveWithNewModule has-unicode@2.0.1 checking installable status
+125 silly pacote range manifest for object-assign@^4.1.0 fetched in 31ms
+126 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+127 silly pacote range manifest for signal-exit@^3.0.0 fetched in 31ms
+128 silly resolveWithNewModule signal-exit@3.0.2 checking installable status
+129 silly pacote range manifest for string-width@^1.0.1 fetched in 34ms
+130 silly resolveWithNewModule string-width@1.0.2 checking installable status
+131 silly pacote range manifest for strip-ansi@^3.0.1 fetched in 36ms
+132 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+133 silly pacote range manifest for wide-align@^1.1.0 fetched in 37ms
+134 silly resolveWithNewModule wide-align@1.1.3 checking installable status
+135 http fetch GET 200 https://registry.npmjs.org/code-point-at 6ms (from cache)
+136 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 6ms (from cache)
+137 silly pacote range manifest for code-point-at@^1.0.0 fetched in 9ms
+138 silly resolveWithNewModule code-point-at@1.1.0 checking installable status
+139 silly pacote range manifest for is-fullwidth-code-point@^1.0.0 fetched in 10ms
+140 silly resolveWithNewModule is-fullwidth-code-point@1.0.0 checking installable status
+141 http fetch GET 200 https://registry.npmjs.org/number-is-nan 6ms (from cache)
+142 silly pacote range manifest for number-is-nan@^1.0.0 fetched in 7ms
+143 silly resolveWithNewModule number-is-nan@1.0.1 checking installable status
+144 http fetch GET 200 https://registry.npmjs.org/ansi-regex 3ms (from cache)
+145 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 4ms
+146 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+147 http fetch GET 200 https://registry.npmjs.org/minimist 18ms (from cache)
+148 silly pacote range manifest for minimist@^1.2.0 fetched in 19ms
+149 silly resolveWithNewModule minimist@1.2.0 checking installable status
+150 http fetch GET 304 https://registry.npmjs.org/deep-extend 53ms (from cache)
+151 silly pacote range manifest for deep-extend@^0.6.0 fetched in 55ms
+152 silly resolveWithNewModule deep-extend@0.6.0 checking installable status
+153 http fetch GET 304 https://registry.npmjs.org/ini 55ms (from cache)
+154 silly pacote range manifest for ini@~1.3.0 fetched in 61ms
+155 silly resolveWithNewModule ini@1.3.5 checking installable status
+156 http fetch GET 304 https://registry.npmjs.org/strip-json-comments 505ms (from cache)
+157 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 506ms
+158 silly resolveWithNewModule strip-json-comments@2.0.1 checking installable status
+159 http fetch GET 200 https://registry.npmjs.org/glob 4ms (from cache)
+160 silly pacote range manifest for glob@^7.1.3 fetched in 6ms
+161 silly resolveWithNewModule glob@7.1.3 checking installable status
+162 http fetch GET 200 https://registry.npmjs.org/fs.realpath 16ms (from cache)
+163 http fetch GET 200 https://registry.npmjs.org/inflight 15ms (from cache)
+164 http fetch GET 200 https://registry.npmjs.org/once 16ms (from cache)
+165 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 16ms (from cache)
+166 silly pacote range manifest for fs.realpath@^1.0.0 fetched in 26ms
+167 silly resolveWithNewModule fs.realpath@1.0.0 checking installable status
+168 silly pacote range manifest for inflight@^1.0.4 fetched in 26ms
+169 silly resolveWithNewModule inflight@1.0.6 checking installable status
+170 silly pacote range manifest for once@^1.3.0 fetched in 27ms
+171 silly resolveWithNewModule once@1.4.0 checking installable status
+172 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 28ms
+173 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+174 http fetch GET 200 https://registry.npmjs.org/wrappy 4ms (from cache)
+175 silly pacote range manifest for wrappy@1 fetched in 5ms
+176 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+177 http fetch GET 304 https://registry.npmjs.org/fs-minipass 66ms (from cache)
+178 http fetch GET 304 https://registry.npmjs.org/chownr 67ms (from cache)
+179 http fetch GET 304 https://registry.npmjs.org/minizlib 67ms (from cache)
+180 silly pacote range manifest for fs-minipass@^1.2.5 fetched in 72ms
+181 silly resolveWithNewModule fs-minipass@1.2.5 checking installable status
+182 silly pacote range manifest for chownr@^1.1.1 fetched in 74ms
+183 silly resolveWithNewModule chownr@1.1.1 checking installable status
+184 silly pacote range manifest for minizlib@^1.1.1 fetched in 74ms
+185 silly resolveWithNewModule minizlib@1.2.1 checking installable status
+186 http fetch GET 304 https://registry.npmjs.org/minipass 78ms (from cache)
+187 silly pacote range manifest for minipass@^2.3.4 fetched in 81ms
+188 silly resolveWithNewModule minipass@2.3.5 checking installable status
+189 http fetch GET 304 https://registry.npmjs.org/yallist 84ms (from cache)
+190 silly pacote range manifest for yallist@^3.0.2 fetched in 100ms
+191 silly resolveWithNewModule yallist@3.0.3 checking installable status
+192 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 1418ms
+193 timing stage:loadIdealTree Completed in 1804ms
+194 silly currentTree contextio-glitch@0.0.2
+194 silly currentTree ├── @babel/polyfill@7.2.5
+194 silly currentTree ├── @jimp/bmp@0.6.0
+194 silly currentTree ├── @jimp/core@0.6.0
+194 silly currentTree ├── @jimp/custom@0.6.0
+194 silly currentTree ├── @jimp/gif@0.6.0
+194 silly currentTree ├── @jimp/jpeg@0.6.0
+194 silly currentTree ├── @jimp/plugin-blit@0.6.0
+194 silly currentTree ├── @jimp/plugin-blur@0.6.0
+194 silly currentTree ├── @jimp/plugin-color@0.6.0
+194 silly currentTree ├── @jimp/plugin-contain@0.6.0
+194 silly currentTree ├── @jimp/plugin-cover@0.6.0
+194 silly currentTree ├── @jimp/plugin-crop@0.6.0
+194 silly currentTree ├── @jimp/plugin-displace@0.6.0
+194 silly currentTree ├── @jimp/plugin-dither@0.6.0
+194 silly currentTree ├── @jimp/plugin-flip@0.6.0
+194 silly currentTree ├── @jimp/plugin-gaussian@0.6.0
+194 silly currentTree ├── @jimp/plugin-invert@0.6.0
+194 silly currentTree ├── @jimp/plugin-mask@0.6.0
+194 silly currentTree ├── @jimp/plugin-normalize@0.6.0
+194 silly currentTree ├── @jimp/plugin-print@0.6.0
+194 silly currentTree ├── @jimp/plugin-resize@0.6.0
+194 silly currentTree ├── @jimp/plugin-rotate@0.6.0
+194 silly currentTree ├── @jimp/plugin-scale@0.6.0
+194 silly currentTree ├── @jimp/plugins@0.6.0
+194 silly currentTree ├── @jimp/png@0.6.0
+194 silly currentTree ├── @jimp/tiff@0.6.0
+194 silly currentTree ├── @jimp/types@0.6.0
+194 silly currentTree ├── @jimp/utils@0.6.0
+194 silly currentTree ├── abbrev@1.1.1
+194 silly currentTree ├── accepts@1.3.5
+194 silly currentTree ├── ansi-regex@2.1.1
+194 silly currentTree ├── any-base@1.1.0
+194 silly currentTree ├── aproba@1.2.0
+194 silly currentTree ├── are-we-there-yet@1.1.5
+194 silly currentTree ├── array-flatten@1.1.1
+194 silly currentTree ├── async-limiter@1.0.0
+194 silly currentTree ├── balanced-match@1.0.0
+194 silly currentTree ├── base64-js@1.3.0
+194 silly currentTree ├── bmp-js@0.1.0
+194 silly currentTree ├── body-parser@1.18.3
+194 silly currentTree ├── brace-expansion@1.1.11
+194 silly currentTree ├── buffer-equal@0.0.1
+194 silly currentTree ├── buffer@5.2.1
+194 silly currentTree ├── bytes@3.0.0
+194 silly currentTree ├── canvas@2.0.1
+194 silly currentTree ├── chownr@1.1.1
+194 silly currentTree ├── code-point-at@1.1.0
+194 silly currentTree ├── common-tags@1.8.0
+194 silly currentTree ├── concat-map@0.0.1
+194 silly currentTree ├── console-control-strings@1.1.0
+194 silly currentTree ├── content-disposition@0.5.2
+194 silly currentTree ├── content-type@1.0.4
+194 silly currentTree ├── cookie-signature@1.0.6
+194 silly currentTree ├── cookie@0.3.1
+194 silly currentTree ├── core-js@2.6.1
+194 silly currentTree ├── core-util-is@1.0.2
+194 silly currentTree ├── debug@2.6.9
+194 silly currentTree ├── deep-extend@0.6.0
+194 silly currentTree ├── delegates@1.0.0
+194 silly currentTree ├── depd@1.1.2
+194 silly currentTree ├── destroy@1.0.4
+194 silly currentTree ├── detect-libc@1.0.3
+194 silly currentTree ├── discord.js-commando@0.10.0
+194 silly currentTree ├── discord.js@11.4.2
+194 silly currentTree ├── dom-walk@0.1.1
+194 silly currentTree ├── ee-first@1.1.1
+194 silly currentTree ├── encodeurl@1.0.2
+194 silly currentTree ├── escape-html@1.0.3
+194 silly currentTree ├── escape-string-regexp@1.0.5
+194 silly currentTree ├── etag@1.8.1
+194 silly currentTree ├── exif-parser@0.1.12
+194 silly currentTree ├── express@4.16.4
+194 silly currentTree ├── file-type@9.0.0
+194 silly currentTree ├── finalhandler@1.1.1
+194 silly currentTree ├── for-each@0.3.3
+194 silly currentTree ├── forwarded@0.1.2
+194 silly currentTree ├── fresh@0.5.2
+194 silly currentTree ├── fs-minipass@1.2.5
+194 silly currentTree ├── fs.realpath@1.0.0
+194 silly currentTree ├── gauge@2.7.4
+194 silly currentTree ├── glob@7.1.3
+194 silly currentTree ├── global@4.3.2
+194 silly currentTree ├── has-unicode@2.0.1
+194 silly currentTree ├── http-errors@1.6.3
+194 silly currentTree ├── iconv-lite@0.4.23
+194 silly currentTree ├── ieee754@1.1.12
+194 silly currentTree ├── ignore-walk@3.0.1
+194 silly currentTree ├── inflight@1.0.6
+194 silly currentTree ├── inherits@2.0.3
+194 silly currentTree ├── ini@1.3.5
+194 silly currentTree ├── ipaddr.js@1.8.0
+194 silly currentTree ├── is-callable@1.1.4
+194 silly currentTree ├── is-fullwidth-code-point@1.0.0
+194 silly currentTree ├── is-function@1.0.1
+194 silly currentTree ├── isarray@1.0.0
+194 silly currentTree ├── jimp@0.6.0
+194 silly currentTree ├── jpeg-js@0.3.4
+194 silly currentTree ├─┬ load-bmfont@1.4.0
+194 silly currentTree │ └── mime@1.6.0
+194 silly currentTree ├── long@4.0.0
+194 silly currentTree ├── media-typer@0.3.0
+194 silly currentTree ├── merge-descriptors@1.0.1
+194 silly currentTree ├── methods@1.1.2
+194 silly currentTree ├── mime-db@1.37.0
+194 silly currentTree ├── mime-types@2.1.21
+194 silly currentTree ├── mime@2.4.0
+194 silly currentTree ├── min-document@2.19.0
+194 silly currentTree ├── minimatch@3.0.4
+194 silly currentTree ├── minimist@0.0.8
+194 silly currentTree ├── minipass@2.3.5
+194 silly currentTree ├── minizlib@1.2.1
+194 silly currentTree ├── mkdirp@0.5.1
+194 silly currentTree ├── ms@2.0.0
+194 silly currentTree ├── nan@2.12.1
+194 silly currentTree ├── needle@2.2.4
+194 silly currentTree ├── negotiator@0.6.1
+194 silly currentTree ├── node-bin-setup@1.0.6
+194 silly currentTree ├─┬ node-libcurl
+194 silly currentTree │ └── node-pre-gyp
+194 silly currentTree ├── node-pre-gyp@0.11.0
+194 silly currentTree ├── node@11.6.0
+194 silly currentTree ├── nopt@4.0.1
+194 silly currentTree ├── npm-bundled@1.0.5
+194 silly currentTree ├── npm-packlist@1.2.0
+194 silly currentTree ├── npmlog@4.1.2
+194 silly currentTree ├── number-is-nan@1.0.1
+194 silly currentTree ├── object-assign@4.1.1
+194 silly currentTree ├── omggif@1.0.9
+194 silly currentTree ├── on-finished@2.3.0
+194 silly currentTree ├── once@1.4.0
+194 silly currentTree ├── opusscript@0.0.6
+194 silly currentTree ├── os-homedir@1.0.2
+194 silly currentTree ├── os-tmpdir@1.0.2
+194 silly currentTree ├── osenv@0.1.5
+194 silly currentTree ├── pako@1.0.7
+194 silly currentTree ├── parse-bmfont-ascii@1.0.6
+194 silly currentTree ├── parse-bmfont-binary@1.0.6
+194 silly currentTree ├── parse-bmfont-xml@1.1.4
+194 silly currentTree ├── parse-headers@2.0.1
+194 silly currentTree ├── parseurl@1.3.2
+194 silly currentTree ├── path-is-absolute@1.0.1
+194 silly currentTree ├── path-to-regexp@0.1.7
+194 silly currentTree ├── phin@2.9.3
+194 silly currentTree ├── pixelmatch@4.0.2
+194 silly currentTree ├── pngjs@3.3.3
+194 silly currentTree ├── prism-media@0.0.3
+194 silly currentTree ├── process-nextick-args@2.0.0
+194 silly currentTree ├── process@0.5.2
+194 silly currentTree ├── proxy-addr@2.0.4
+194 silly currentTree ├── qs@6.5.2
+194 silly currentTree ├── range-parser@1.2.0
+194 silly currentTree ├── raw-body@2.3.3
+194 silly currentTree ├─┬ rc@1.2.8
+194 silly currentTree │ └── minimist@1.2.0
+194 silly currentTree ├── readable-stream@2.3.6
+194 silly currentTree ├── regenerator-runtime@0.12.1
+194 silly currentTree ├── require-all@2.2.0
+194 silly currentTree ├── rimraf@2.6.3
+194 silly currentTree ├── safe-buffer@5.1.2
+194 silly currentTree ├── safer-buffer@2.1.2
+194 silly currentTree ├── sax@1.2.4
+194 silly currentTree ├── semver@5.6.0
+194 silly currentTree ├─┬ send@0.16.2
+194 silly currentTree │ └── mime@1.4.1
+194 silly currentTree ├── serve-static@1.13.2
+194 silly currentTree ├── set-blocking@2.0.0
+194 silly currentTree ├── setprototypeof@1.1.0
+194 silly currentTree ├── signal-exit@3.0.2
+194 silly currentTree ├── snekfetch@3.6.4
+194 silly currentTree ├── statuses@1.4.0
+194 silly currentTree ├── string_decoder@1.1.1
+194 silly currentTree ├── string-width@1.0.2
+194 silly currentTree ├── strip-ansi@3.0.1
+194 silly currentTree ├── strip-json-comments@2.0.1
+194 silly currentTree ├── tar@4.4.8
+194 silly currentTree ├── timm@1.6.1
+194 silly currentTree ├── tinycolor2@1.4.1
+194 silly currentTree ├── trim@0.0.1
+194 silly currentTree ├── tweetnacl@1.0.0
+194 silly currentTree ├── type-is@1.6.16
+194 silly currentTree ├── unpipe@1.0.0
+194 silly currentTree ├── utif@2.0.1
+194 silly currentTree ├── util-deprecate@1.0.2
+194 silly currentTree ├── utils-merge@1.0.1
+194 silly currentTree ├── vary@1.1.2
+194 silly currentTree ├── wide-align@1.1.3
+194 silly currentTree ├── wrappy@1.0.2
+194 silly currentTree ├── ws@4.1.0
+194 silly currentTree ├── xhr@2.5.0
+194 silly currentTree ├── xml-parse-from-string@1.0.1
+194 silly currentTree ├── xml2js@0.4.19
+194 silly currentTree ├── xmlbuilder@9.0.7
+194 silly currentTree ├── xtend@4.0.1
+194 silly currentTree └── yallist@3.0.3
+195 silly idealTree contextio-glitch@0.0.2
+195 silly idealTree ├── @babel/polyfill@7.2.5
+195 silly idealTree ├── @jimp/bmp@0.6.0
+195 silly idealTree ├── @jimp/core@0.6.0
+195 silly idealTree ├── @jimp/custom@0.6.0
+195 silly idealTree ├── @jimp/gif@0.6.0
+195 silly idealTree ├── @jimp/jpeg@0.6.0
+195 silly idealTree ├── @jimp/plugin-blit@0.6.0
+195 silly idealTree ├── @jimp/plugin-blur@0.6.0
+195 silly idealTree ├── @jimp/plugin-color@0.6.0
+195 silly idealTree ├── @jimp/plugin-contain@0.6.0
+195 silly idealTree ├── @jimp/plugin-cover@0.6.0
+195 silly idealTree ├── @jimp/plugin-crop@0.6.0
+195 silly idealTree ├── @jimp/plugin-displace@0.6.0
+195 silly idealTree ├── @jimp/plugin-dither@0.6.0
+195 silly idealTree ├── @jimp/plugin-flip@0.6.0
+195 silly idealTree ├── @jimp/plugin-gaussian@0.6.0
+195 silly idealTree ├── @jimp/plugin-invert@0.6.0
+195 silly idealTree ├── @jimp/plugin-mask@0.6.0
+195 silly idealTree ├── @jimp/plugin-normalize@0.6.0
+195 silly idealTree ├── @jimp/plugin-print@0.6.0
+195 silly idealTree ├── @jimp/plugin-resize@0.6.0
+195 silly idealTree ├── @jimp/plugin-rotate@0.6.0
+195 silly idealTree ├── @jimp/plugin-scale@0.6.0
+195 silly idealTree ├── @jimp/plugins@0.6.0
+195 silly idealTree ├── @jimp/png@0.6.0
+195 silly idealTree ├── @jimp/tiff@0.6.0
+195 silly idealTree ├── @jimp/types@0.6.0
+195 silly idealTree ├── @jimp/utils@0.6.0
+195 silly idealTree ├── abbrev@1.1.1
+195 silly idealTree ├── accepts@1.3.5
+195 silly idealTree ├── ansi-regex@2.1.1
+195 silly idealTree ├── any-base@1.1.0
+195 silly idealTree ├── aproba@1.2.0
+195 silly idealTree ├── are-we-there-yet@1.1.5
+195 silly idealTree ├── array-flatten@1.1.1
+195 silly idealTree ├── async-limiter@1.0.0
+195 silly idealTree ├── balanced-match@1.0.0
+195 silly idealTree ├── base64-js@1.3.0
+195 silly idealTree ├── bmp-js@0.1.0
+195 silly idealTree ├── body-parser@1.18.3
+195 silly idealTree ├── brace-expansion@1.1.11
+195 silly idealTree ├── buffer-equal@0.0.1
+195 silly idealTree ├── buffer@5.2.1
+195 silly idealTree ├── bytes@3.0.0
+195 silly idealTree ├── canvas@2.2.0
+195 silly idealTree ├── chownr@1.1.1
+195 silly idealTree ├── code-point-at@1.1.0
+195 silly idealTree ├── common-tags@1.8.0
+195 silly idealTree ├── concat-map@0.0.1
+195 silly idealTree ├── console-control-strings@1.1.0
+195 silly idealTree ├── content-disposition@0.5.2
+195 silly idealTree ├── content-type@1.0.4
+195 silly idealTree ├── cookie-signature@1.0.6
+195 silly idealTree ├── cookie@0.3.1
+195 silly idealTree ├── core-js@2.6.1
+195 silly idealTree ├── core-util-is@1.0.2
+195 silly idealTree ├── debug@2.6.9
+195 silly idealTree ├── deep-extend@0.6.0
+195 silly idealTree ├── delegates@1.0.0
+195 silly idealTree ├── depd@1.1.2
+195 silly idealTree ├── destroy@1.0.4
+195 silly idealTree ├── detect-libc@1.0.3
+195 silly idealTree ├── discord.js-commando@0.10.0
+195 silly idealTree ├── discord.js@11.4.2
+195 silly idealTree ├── dom-walk@0.1.1
+195 silly idealTree ├── ee-first@1.1.1
+195 silly idealTree ├── encodeurl@1.0.2
+195 silly idealTree ├── escape-html@1.0.3
+195 silly idealTree ├── escape-string-regexp@1.0.5
+195 silly idealTree ├── etag@1.8.1
+195 silly idealTree ├── exif-parser@0.1.12
+195 silly idealTree ├── express@4.16.4
+195 silly idealTree ├── file-type@9.0.0
+195 silly idealTree ├── finalhandler@1.1.1
+195 silly idealTree ├── for-each@0.3.3
+195 silly idealTree ├── forwarded@0.1.2
+195 silly idealTree ├── fresh@0.5.2
+195 silly idealTree ├── fs-minipass@1.2.5
+195 silly idealTree ├── fs.realpath@1.0.0
+195 silly idealTree ├── gauge@2.7.4
+195 silly idealTree ├── glob@7.1.3
+195 silly idealTree ├── global@4.3.2
+195 silly idealTree ├── has-unicode@2.0.1
+195 silly idealTree ├── http-errors@1.6.3
+195 silly idealTree ├── iconv-lite@0.4.23
+195 silly idealTree ├── ieee754@1.1.12
+195 silly idealTree ├── ignore-walk@3.0.1
+195 silly idealTree ├── inflight@1.0.6
+195 silly idealTree ├── inherits@2.0.3
+195 silly idealTree ├── ini@1.3.5
+195 silly idealTree ├── ipaddr.js@1.8.0
+195 silly idealTree ├── is-callable@1.1.4
+195 silly idealTree ├── is-fullwidth-code-point@1.0.0
+195 silly idealTree ├── is-function@1.0.1
+195 silly idealTree ├── isarray@1.0.0
+195 silly idealTree ├── jimp@0.6.0
+195 silly idealTree ├── jpeg-js@0.3.4
+195 silly idealTree ├─┬ load-bmfont@1.4.0
+195 silly idealTree │ └── mime@1.6.0
+195 silly idealTree ├── long@4.0.0
+195 silly idealTree ├── media-typer@0.3.0
+195 silly idealTree ├── merge-descriptors@1.0.1
+195 silly idealTree ├── methods@1.1.2
+195 silly idealTree ├── mime-db@1.37.0
+195 silly idealTree ├── mime-types@2.1.21
+195 silly idealTree ├── mime@2.4.0
+195 silly idealTree ├── min-document@2.19.0
+195 silly idealTree ├── minimatch@3.0.4
+195 silly idealTree ├── minimist@0.0.8
+195 silly idealTree ├── minipass@2.3.5
+195 silly idealTree ├── minizlib@1.2.1
+195 silly idealTree ├── mkdirp@0.5.1
+195 silly idealTree ├── ms@2.0.0
+195 silly idealTree ├── nan@2.12.1
+195 silly idealTree ├── needle@2.2.4
+195 silly idealTree ├── negotiator@0.6.1
+195 silly idealTree ├── node-bin-setup@1.0.6
+195 silly idealTree ├── node-pre-gyp@0.11.0
+195 silly idealTree ├── node@11.6.0
+195 silly idealTree ├── nopt@4.0.1
+195 silly idealTree ├── npm-bundled@1.0.5
+195 silly idealTree ├── npm-packlist@1.2.0
+195 silly idealTree ├── npmlog@4.1.2
+195 silly idealTree ├── number-is-nan@1.0.1
+195 silly idealTree ├── object-assign@4.1.1
+195 silly idealTree ├── omggif@1.0.9
+195 silly idealTree ├── on-finished@2.3.0
+195 silly idealTree ├── once@1.4.0
+195 silly idealTree ├── opusscript@0.0.6
+195 silly idealTree ├── os-homedir@1.0.2
+195 silly idealTree ├── os-tmpdir@1.0.2
+195 silly idealTree ├── osenv@0.1.5
+195 silly idealTree ├── pako@1.0.7
+195 silly idealTree ├── parse-bmfont-ascii@1.0.6
+195 silly idealTree ├── parse-bmfont-binary@1.0.6
+195 silly idealTree ├── parse-bmfont-xml@1.1.4
+195 silly idealTree ├── parse-headers@2.0.1
+195 silly idealTree ├── parseurl@1.3.2
+195 silly idealTree ├── path-is-absolute@1.0.1
+195 silly idealTree ├── path-to-regexp@0.1.7
+195 silly idealTree ├── phin@2.9.3
+195 silly idealTree ├── pixelmatch@4.0.2
+195 silly idealTree ├── pngjs@3.3.3
+195 silly idealTree ├── prism-media@0.0.3
+195 silly idealTree ├── process-nextick-args@2.0.0
+195 silly idealTree ├── process@0.5.2
+195 silly idealTree ├── proxy-addr@2.0.4
+195 silly idealTree ├── qs@6.5.2
+195 silly idealTree ├── range-parser@1.2.0
+195 silly idealTree ├── raw-body@2.3.3
+195 silly idealTree ├─┬ rc@1.2.8
+195 silly idealTree │ └── minimist@1.2.0
+195 silly idealTree ├── readable-stream@2.3.6
+195 silly idealTree ├── regenerator-runtime@0.12.1
+195 silly idealTree ├── require-all@2.2.0
+195 silly idealTree ├── rimraf@2.6.3
+195 silly idealTree ├── safe-buffer@5.1.2
+195 silly idealTree ├── safer-buffer@2.1.2
+195 silly idealTree ├── sax@1.2.4
+195 silly idealTree ├── semver@5.6.0
+195 silly idealTree ├─┬ send@0.16.2
+195 silly idealTree │ └── mime@1.4.1
+195 silly idealTree ├── serve-static@1.13.2
+195 silly idealTree ├── set-blocking@2.0.0
+195 silly idealTree ├── setprototypeof@1.1.0
+195 silly idealTree ├── signal-exit@3.0.2
+195 silly idealTree ├── snekfetch@3.6.4
+195 silly idealTree ├── statuses@1.4.0
+195 silly idealTree ├── string_decoder@1.1.1
+195 silly idealTree ├── string-width@1.0.2
+195 silly idealTree ├── strip-ansi@3.0.1
+195 silly idealTree ├── strip-json-comments@2.0.1
+195 silly idealTree ├── tar@4.4.8
+195 silly idealTree ├── timm@1.6.1
+195 silly idealTree ├── tinycolor2@1.4.1
+195 silly idealTree ├── trim@0.0.1
+195 silly idealTree ├── tweetnacl@1.0.0
+195 silly idealTree ├── type-is@1.6.16
+195 silly idealTree ├── unpipe@1.0.0
+195 silly idealTree ├── utif@2.0.1
+195 silly idealTree ├── util-deprecate@1.0.2
+195 silly idealTree ├── utils-merge@1.0.1
+195 silly idealTree ├── vary@1.1.2
+195 silly idealTree ├── wide-align@1.1.3
+195 silly idealTree ├── wrappy@1.0.2
+195 silly idealTree ├── ws@4.1.0
+195 silly idealTree ├── xhr@2.5.0
+195 silly idealTree ├── xml-parse-from-string@1.0.1
+195 silly idealTree ├── xml2js@0.4.19
+195 silly idealTree ├── xmlbuilder@9.0.7
+195 silly idealTree ├── xtend@4.0.1
+195 silly idealTree └── yallist@3.0.3
+196 silly install generateActionsToTake
+197 timing stage:generateActionsToTake Completed in 23ms
+198 silly diffTrees action count 3
+199 silly diffTrees update canvas@2.2.0
+200 silly diffTrees remove node-libcurl
+201 silly diffTrees remove node-pre-gyp
+202 silly decomposeActions action count 14
+203 silly decomposeActions unbuild canvas@2.0.1
+204 silly decomposeActions remove canvas@2.0.1
+205 silly decomposeActions fetch canvas@2.2.0
+206 silly decomposeActions extract canvas@2.2.0
+207 silly decomposeActions preinstall canvas@2.2.0
+208 silly decomposeActions build canvas@2.2.0
+209 silly decomposeActions install canvas@2.2.0
+210 silly decomposeActions postinstall canvas@2.2.0
+211 silly decomposeActions finalize canvas@2.2.0
+212 silly decomposeActions refresh-package-json canvas@2.2.0
+213 silly decomposeActions unbuild node-libcurl
+214 silly decomposeActions remove node-libcurl
+215 silly decomposeActions unbuild node-pre-gyp
+216 silly decomposeActions remove node-pre-gyp
+217 silly install executeActions
+218 silly doSerial global-install 14
+219 verbose correctMkdir /app/.npm/_locks correctMkdir not in flight; initializing
+220 verbose lock using /app/.npm/_locks/staging-bd3355550c5a469e.lock for /app/node_modules/.staging
+221 timing audit compress Completed in 4ms
+222 info audit Submitting payload of 13309bytes
+223 silly doParallel extract 1
+224 silly extract canvas@2.2.0
+225 silly tarball trying canvas@latest by hash: sha512-4blMi2I2DuHh9UZNrmvU0hyY4dZJFOjNuqaZpI/66pKCyX1HPstvK+f2fIdc+NaF8b6wiuhvwXEFNkm7jIKYSA==
+226 silly extract canvas@latest extracted to /app/node_modules/.staging/canvas-b6bc6df3 (40ms)
+227 timing action:extract Completed in 44ms
+228 silly doReverseSerial unbuild 14
+229 silly unbuild node-pre-gyp
+230 info lifecycle undefined~preuninstall: undefined
+231 info lifecycle undefined~uninstall: undefined
+232 silly unbuild node-libcurl
+233 info lifecycle undefined~preuninstall: undefined
+234 info lifecycle undefined~uninstall: undefined
+235 silly unbuild canvas@2.0.1
+236 info lifecycle canvas@2.0.1~preuninstall: canvas@2.0.1
+237 info lifecycle canvas@2.0.1~uninstall: canvas@2.0.1
+238 verbose unbuild rmStuff canvas@2.0.1 from /app/node_modules
+239 info lifecycle canvas@2.0.1~postuninstall: canvas@2.0.1
+240 timing action:unbuild Completed in 3ms
+241 silly doSerial remove 14
+242 silly remove /app/node_modules/canvas
+243 timing action:remove Completed in 32ms
+244 silly doSerial move 14
+245 silly doSerial finalize 14
+246 silly finalize /app/node_modules/canvas
+247 timing action:finalize Completed in 3ms
+248 silly doParallel refresh-package-json 1
+249 silly refresh-package-json /app/node_modules/canvas
+250 timing action:refresh-package-json Completed in 5ms
+251 silly doParallel preinstall 1
+252 silly preinstall canvas@2.2.0
+253 info lifecycle canvas@2.2.0~preinstall: canvas@2.2.0
+254 timing action:preinstall Completed in 1ms
+255 silly doSerial build 14
+256 silly build canvas@2.2.0
+257 info linkStuff canvas@2.2.0
+258 silly linkStuff canvas@2.2.0 has /app/node_modules as its parent node_modules
+259 timing action:build Completed in 1ms
+260 silly doSerial global-link 14
+261 silly doParallel update-linked 0
+262 silly doSerial install 14
+263 silly install canvas@2.2.0
+264 info lifecycle canvas@2.2.0~install: canvas@2.2.0
+265 verbose lifecycle canvas@2.2.0~install: unsafe-perm in lifecycle true
+266 verbose lifecycle canvas@2.2.0~install: PATH: /opt/nvm/versions/node/v8.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/app/node_modules/canvas/node_modules/.bin:/app/node_modules/.bin:/app/bin:/app/.local/bin:/app/node_modules/.bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvm/versions/node/v8/bin
+267 verbose lifecycle canvas@2.2.0~install: CWD: /app/node_modules/canvas
+268 silly lifecycle canvas@2.2.0~install: Args: [ '-c', 'node-pre-gyp install --fallback-to-build' ]
+269 timing audit submit Completed in 218ms
+270 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 217ms
+271 timing audit body Completed in 2ms
+272 silly lifecycle canvas@2.2.0~install: Returned: code: 6  signal: null
+273 info lifecycle canvas@2.2.0~install: Failed to exec install script
+274 timing action:install Completed in 2820ms
+275 verbose unlock done using /app/.npm/_locks/staging-bd3355550c5a469e.lock for /app/node_modules/.staging
+276 timing stage:rollbackFailedOptional Completed in 64ms
+277 timing stage:runTopLevelLifecycles Completed in 5741ms
+278 silly saveTree contextio-glitch@0.0.2
+278 silly saveTree ├─┬ canvas@2.2.0
+278 silly saveTree │ ├── nan@2.12.1
+278 silly saveTree │ └─┬ node-pre-gyp@0.11.0
+278 silly saveTree │   ├── detect-libc@1.0.3
+278 silly saveTree │   ├─┬ mkdirp@0.5.1
+278 silly saveTree │   │ └── minimist@0.0.8
+278 silly saveTree │   ├─┬ needle@2.2.4
+278 silly saveTree │   │ ├─┬ debug@2.6.9
+278 silly saveTree │   │ │ └── ms@2.0.0
+278 silly saveTree │   │ ├─┬ iconv-lite@0.4.23
+278 silly saveTree │   │ │ └── safer-buffer@2.1.2
+278 silly saveTree │   │ └── sax@1.2.4
+278 silly saveTree │   ├─┬ nopt@4.0.1
+278 silly saveTree │   │ ├── abbrev@1.1.1
+278 silly saveTree │   │ └─┬ osenv@0.1.5
+278 silly saveTree │   │   ├── os-homedir@1.0.2
+278 silly saveTree │   │   └── os-tmpdir@1.0.2
+278 silly saveTree │   ├─┬ npm-packlist@1.2.0
+278 silly saveTree │   │ ├─┬ ignore-walk@3.0.1
+278 silly saveTree │   │ │ └─┬ minimatch@3.0.4
+278 silly saveTree │   │ │   └─┬ brace-expansion@1.1.11
+278 silly saveTree │   │ │     ├── balanced-match@1.0.0
+278 silly saveTree │   │ │     └── concat-map@0.0.1
+278 silly saveTree │   │ └── npm-bundled@1.0.5
+278 silly saveTree │   ├─┬ npmlog@4.1.2
+278 silly saveTree │   │ ├─┬ are-we-there-yet@1.1.5
+278 silly saveTree │   │ │ ├── delegates@1.0.0
+278 silly saveTree │   │ │ └─┬ readable-stream@2.3.6
+278 silly saveTree │   │ │   ├── core-util-is@1.0.2
+278 silly saveTree │   │ │   ├── inherits@2.0.3
+278 silly saveTree │   │ │   ├── isarray@1.0.0
+278 silly saveTree │   │ │   ├── process-nextick-args@2.0.0
+278 silly saveTree │   │ │   ├── safe-buffer@5.1.2
+278 silly saveTree │   │ │   ├── string_decoder@1.1.1
+278 silly saveTree │   │ │   └── util-deprecate@1.0.2
+278 silly saveTree │   │ ├── console-control-strings@1.1.0
+278 silly saveTree │   │ ├─┬ gauge@2.7.4
+278 silly saveTree │   │ │ ├── aproba@1.2.0
+278 silly saveTree │   │ │ ├── has-unicode@2.0.1
+278 silly saveTree │   │ │ ├── object-assign@4.1.1
+278 silly saveTree │   │ │ ├── signal-exit@3.0.2
+278 silly saveTree │   │ │ ├─┬ string-width@1.0.2
+278 silly saveTree │   │ │ │ ├── code-point-at@1.1.0
+278 silly saveTree │   │ │ │ ├─┬ is-fullwidth-code-point@1.0.0
+278 silly saveTree │   │ │ │ │ └── number-is-nan@1.0.1
+278 silly saveTree │   │ │ │ └─┬ strip-ansi@3.0.1
+278 silly saveTree │   │ │ │   └── ansi-regex@2.1.1
+278 silly saveTree │   │ │ ├── strip-ansi@3.0.1
+278 silly saveTree │   │ │ └── wide-align@1.1.3
+278 silly saveTree │   │ └── set-blocking@2.0.0
+278 silly saveTree │   ├─┬ rc@1.2.8
+278 silly saveTree │   │ ├── deep-extend@0.6.0
+278 silly saveTree │   │ ├── ini@1.3.5
+278 silly saveTree │   │ ├── minimist@1.2.0
+278 silly saveTree │   │ └── strip-json-comments@2.0.1
+278 silly saveTree │   ├─┬ rimraf@2.6.3
+278 silly saveTree │   │ └─┬ glob@7.1.3
+278 silly saveTree │   │   ├── fs.realpath@1.0.0
+278 silly saveTree │   │   ├─┬ inflight@1.0.6
+278 silly saveTree │   │   │ ├─┬ once@1.4.0
+278 silly saveTree │   │   │ │ └── wrappy@1.0.2
+278 silly saveTree │   │   │ └── wrappy@1.0.2
+278 silly saveTree │   │   ├── once@1.4.0
+278 silly saveTree │   │   └── path-is-absolute@1.0.1
+278 silly saveTree │   ├── semver@5.6.0
+278 silly saveTree │   └─┬ tar@4.4.8
+278 silly saveTree │     ├── chownr@1.1.1
+278 silly saveTree │     ├─┬ fs-minipass@1.2.5
+278 silly saveTree │     │ └─┬ minipass@2.3.5
+278 silly saveTree │     │   └── yallist@3.0.3
+278 silly saveTree │     ├── minipass@2.3.5
+278 silly saveTree │     ├── minizlib@1.2.1
+278 silly saveTree │     └── yallist@3.0.3
+278 silly saveTree ├─┬ discord.js-commando@0.10.0
+278 silly saveTree │ ├── common-tags@1.8.0
+278 silly saveTree │ ├── escape-string-regexp@1.0.5
+278 silly saveTree │ └── require-all@2.2.0
+278 silly saveTree ├─┬ discord.js@11.4.2
+278 silly saveTree │ ├── long@4.0.0
+278 silly saveTree │ ├── prism-media@0.0.3
+278 silly saveTree │ ├── snekfetch@3.6.4
+278 silly saveTree │ ├── tweetnacl@1.0.0
+278 silly saveTree │ └─┬ ws@4.1.0
+278 silly saveTree │   └── async-limiter@1.0.0
+278 silly saveTree ├─┬ express@4.16.4
+278 silly saveTree │ ├─┬ accepts@1.3.5
+278 silly saveTree │ │ ├─┬ mime-types@2.1.21
+278 silly saveTree │ │ │ └── mime-db@1.37.0
+278 silly saveTree │ │ └── negotiator@0.6.1
+278 silly saveTree │ ├── array-flatten@1.1.1
+278 silly saveTree │ ├─┬ body-parser@1.18.3
+278 silly saveTree │ │ ├── bytes@3.0.0
+278 silly saveTree │ │ ├── content-type@1.0.4
+278 silly saveTree │ │ ├── depd@1.1.2
+278 silly saveTree │ │ ├─┬ http-errors@1.6.3
+278 silly saveTree │ │ │ ├── setprototypeof@1.1.0
+278 silly saveTree │ │ │ └── statuses@1.4.0
+278 silly saveTree │ │ ├─┬ on-finished@2.3.0
+278 silly saveTree │ │ │ └── ee-first@1.1.1
+278 silly saveTree │ │ ├── qs@6.5.2
+278 silly saveTree │ │ ├─┬ raw-body@2.3.3
+278 silly saveTree │ │ │ └── unpipe@1.0.0
+278 silly saveTree │ │ └─┬ type-is@1.6.16
+278 silly saveTree │ │   └── media-typer@0.3.0
+278 silly saveTree │ ├── content-disposition@0.5.2
+278 silly saveTree │ ├── content-type@1.0.4
+278 silly saveTree │ ├── cookie-signature@1.0.6
+278 silly saveTree │ ├── cookie@0.3.1
+278 silly saveTree │ ├── depd@1.1.2
+278 silly saveTree │ ├── encodeurl@1.0.2
+278 silly saveTree │ ├── escape-html@1.0.3
+278 silly saveTree │ ├── etag@1.8.1
+278 silly saveTree │ ├─┬ finalhandler@1.1.1
+278 silly saveTree │ │ └── parseurl@1.3.2
+278 silly saveTree │ ├── fresh@0.5.2
+278 silly saveTree │ ├── merge-descriptors@1.0.1
+278 silly saveTree │ ├── methods@1.1.2
+278 silly saveTree │ ├── on-finished@2.3.0
+278 silly saveTree │ ├── parseurl@1.3.2
+278 silly saveTree │ ├── path-to-regexp@0.1.7
+278 silly saveTree │ ├─┬ proxy-addr@2.0.4
+278 silly saveTree │ │ ├── forwarded@0.1.2
+278 silly saveTree │ │ └── ipaddr.js@1.8.0
+278 silly saveTree │ ├── qs@6.5.2
+278 silly saveTree │ ├── range-parser@1.2.0
+278 silly saveTree │ ├─┬ send@0.16.2
+278 silly saveTree │ │ ├── destroy@1.0.4
+278 silly saveTree │ │ └── mime@1.4.1
+278 silly saveTree │ ├── serve-static@1.13.2
+278 silly saveTree │ ├── setprototypeof@1.1.0
+278 silly saveTree │ ├── statuses@1.4.0
+278 silly saveTree │ ├── type-is@1.6.16
+278 silly saveTree │ ├── utils-merge@1.0.1
+278 silly saveTree │ └── vary@1.1.2
+278 silly saveTree ├─┬ jimp@0.6.0
+278 silly saveTree │ ├─┬ @babel/polyfill@7.2.5
+278 silly saveTree │ │ ├── core-js@2.6.1
+278 silly saveTree │ │ └── regenerator-runtime@0.12.1
+278 silly saveTree │ ├─┬ @jimp/custom@0.6.0
+278 silly saveTree │ │ └─┬ @jimp/core@0.6.0
+278 silly saveTree │ │   ├── @jimp/utils@0.6.0
+278 silly saveTree │ │   ├── any-base@1.1.0
+278 silly saveTree │ │   ├─┬ buffer@5.2.1
+278 silly saveTree │ │   │ ├── base64-js@1.3.0
+278 silly saveTree │ │   │ └── ieee754@1.1.12
+278 silly saveTree │ │   ├── exif-parser@0.1.12
+278 silly saveTree │ │   ├── file-type@9.0.0
+278 silly saveTree │ │   ├─┬ load-bmfont@1.4.0
+278 silly saveTree │ │   │ ├── buffer-equal@0.0.1
+278 silly saveTree │ │   │ ├── mime@1.6.0
+278 silly saveTree │ │   │ ├── parse-bmfont-ascii@1.0.6
+278 silly saveTree │ │   │ ├── parse-bmfont-binary@1.0.6
+278 silly saveTree │ │   │ ├─┬ parse-bmfont-xml@1.1.4
+278 silly saveTree │ │   │ │ ├── xml-parse-from-string@1.0.1
+278 silly saveTree │ │   │ │ └─┬ xml2js@0.4.19
+278 silly saveTree │ │   │ │   └── xmlbuilder@9.0.7
+278 silly saveTree │ │   │ ├── phin@2.9.3
+278 silly saveTree │ │   │ ├─┬ xhr@2.5.0
+278 silly saveTree │ │   │ │ ├─┬ global@4.3.2
+278 silly saveTree │ │   │ │ │ ├─┬ min-document@2.19.0
+278 silly saveTree │ │   │ │ │ │ └── dom-walk@0.1.1
+278 silly saveTree │ │   │ │ │ └── process@0.5.2
+278 silly saveTree │ │   │ │ ├── is-function@1.0.1
+278 silly saveTree │ │   │ │ ├─┬ parse-headers@2.0.1
+278 silly saveTree │ │   │ │ │ ├─┬ for-each@0.3.3
+278 silly saveTree │ │   │ │ │ │ └── is-callable@1.1.4
+278 silly saveTree │ │   │ │ │ └── trim@0.0.1
+278 silly saveTree │ │   │ │ └── xtend@4.0.1
+278 silly saveTree │ │   │ └── xtend@4.0.1
+278 silly saveTree │ │   ├── phin@2.9.3
+278 silly saveTree │ │   ├─┬ pixelmatch@4.0.2
+278 silly saveTree │ │   │ └── pngjs@3.3.3
+278 silly saveTree │ │   └── tinycolor2@1.4.1
+278 silly saveTree │ ├─┬ @jimp/plugins@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-blit@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-blur@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-color@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-contain@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-cover@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-crop@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-displace@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-dither@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-flip@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-gaussian@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-invert@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-mask@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-normalize@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-print@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-resize@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-rotate@0.6.0
+278 silly saveTree │ │ ├── @jimp/plugin-scale@0.6.0
+278 silly saveTree │ │ └── timm@1.6.1
+278 silly saveTree │ ├─┬ @jimp/types@0.6.0
+278 silly saveTree │ │ ├─┬ @jimp/bmp@0.6.0
+278 silly saveTree │ │ │ └── bmp-js@0.1.0
+278 silly saveTree │ │ ├─┬ @jimp/gif@0.6.0
+278 silly saveTree │ │ │ └── omggif@1.0.9
+278 silly saveTree │ │ ├─┬ @jimp/jpeg@0.6.0
+278 silly saveTree │ │ │ └── jpeg-js@0.3.4
+278 silly saveTree │ │ ├── @jimp/png@0.6.0
+278 silly saveTree │ │ └─┬ @jimp/tiff@0.6.0
+278 silly saveTree │ │   └─┬ utif@2.0.1
+278 silly saveTree │ │     └── pako@1.0.7
+278 silly saveTree │ └── core-js@2.6.1
+278 silly saveTree ├── mime@2.4.0
+278 silly saveTree ├─┬ node@11.6.0
+278 silly saveTree │ └── node-bin-setup@1.0.6
+278 silly saveTree └── opusscript@0.0.6
+279 warn discord.js@11.4.2 requires a peer of bufferutil@^3.0.3 but none is installed. You must install peer dependencies yourself.
+280 warn discord.js@11.4.2 requires a peer of erlpack@discordapp/erlpack but none is installed. You must install peer dependencies yourself.
+281 warn discord.js@11.4.2 requires a peer of node-opus@^0.2.7 but none is installed. You must install peer dependencies yourself.
+282 warn discord.js@11.4.2 requires a peer of sodium@^2.0.3 but none is installed. You must install peer dependencies yourself.
+283 warn discord.js@11.4.2 requires a peer of libsodium-wrappers@^0.7.3 but none is installed. You must install peer dependencies yourself.
+284 warn discord.js@11.4.2 requires a peer of uws@^9.14.0 but none is installed. You must install peer dependencies yourself.
+285 warn discord.js-commando@0.10.0 requires a peer of sqlite@^2.0.0 but none is installed. You must install peer dependencies yourself.
+286 verbose stack Error: canvas@2.2.0 install: `node-pre-gyp install --fallback-to-build`
+286 verbose stack Exit status 6
+286 verbose stack     at EventEmitter.<anonymous> (/opt/nvm/versions/node/v8.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:301:16)
+286 verbose stack     at EventEmitter.emit (events.js:188:13)
+286 verbose stack     at ChildProcess.<anonymous> (/opt/nvm/versions/node/v8.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+286 verbose stack     at ChildProcess.emit (events.js:188:13)
+286 verbose stack     at maybeClose (internal/child_process.js:978:16)
+286 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:265:5)
+287 verbose pkgid canvas@2.2.0
+288 verbose cwd /app
+289 verbose Linux 4.4.0-1066-aws
+290 verbose argv "/app/node_modules/node/bin/node" "/opt/nvm/versions/node/v8/bin/npm-real" "i" "canvas"
+291 verbose node v11.6.0
+292 verbose npm  v6.4.1
+293 error code ELIFECYCLE
+294 error errno 6
+295 error canvas@2.2.0 install: `node-pre-gyp install --fallback-to-build`
+295 error Exit status 6
+296 error Failed at the canvas@2.2.0 install script.
+296 error This is probably not a problem with npm. There is likely additional logging output above.
+297 verbose exit [ 6, true ]

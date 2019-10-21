@@ -1,0 +1,2576 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "contextio-glitch"
+      version: "0.0.2"
+      description: "A sample CIO app running on glitch"
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        discord.js: "^11.4.2"
+        discord.js-commando: "^0.10.0"
+        express: "^4.16.4"
+        jimp: "^0.6.0"
+        node: "^11.6.0"
+        opusscript: "^0.0.6"
+        pnpm: "^3.2.0"
+      engines: 
+        node: "8.x"
+      repository: 
+        url: "git+https://github.com/contextio/glitch.git"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+        - "contextio"
+        - "email"
+      readme: "Welcome to Glitch\n=================\n\nClick `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.\n\n**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.\n\nFind out more [about Glitch](https://glitch.com/about).\n\n\nYour Project\n------------\n\nOn the front-end,\n- edit `public/client.js`, `public/style.css` and `views/index.html`\n- drag in `assets`, like images or music, to add them to your project\n\nOn the back-end,\n- your app starts at `server.js`\n- add frameworks and packages in `package.json`\n- safely store app secrets in `.env` (nobody can see this but you and people you invite)\n\n\nMade by [Glitch](https://glitch.com/)\n-------------------\n\n\\ ゜o゜)ノ\n"
+      readmeFilename: "README.md"
+      gitHead: "05daedf72d55668b766b29f8d71707de459db866"
+      bugs: 
+        url: "https://github.com/contextio/glitch/issues"
+      homepage: "https://github.com/contextio/glitch#readme"
+      _id: "contextio-glitch@0.0.2"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js-commando/0.10.0"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/jimp/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.6"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/11.4.2"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/11.15.0"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pnpm/3.2.0"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.16.4"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js-commando/0.10.0"
+    requester: "/app"
+    status: "found_in_store"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/common-tags/1.8.0"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-string-regexp/1.0.5"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/jimp/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/11.4.2"
+    requester: "/app"
+    status: "found_in_store"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/11.15.0"
+    requester: "/app"
+    status: "found_in_store"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.16.4"
+    requester: "/app"
+    status: "found_in_store"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pnpm/3.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/common-tags/1.8.0"
+    requester: "/app"
+    status: "found_in_store"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-string-regexp/1.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/require-all/2.2.0"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/core-js/2.6.5"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@babel/polyfill/7.4.4"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/prism-media/0.0.3"
+    requester: "/app"
+    status: "resolved"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/long/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.7"
+    requester: "/app"
+    status: "resolved"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "resolved"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.5"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/custom/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/1.4.0"
+    requester: "/app"
+    status: "resolved"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/types/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugins/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  41 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.2"
+    requester: "/app"
+    status: "resolved"
+  42 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.3.1"
+    requester: "/app"
+    status: "resolved"
+  43 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  44 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "resolved"
+  45 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  46 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.1.2"
+    requester: "/app"
+    status: "resolved"
+  47 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.1.0"
+    requester: "/app"
+    status: "resolved"
+  48 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  49 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  50 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "resolved"
+  51 debug pnpm:deprecation: 
+    deprecated: "use node-fetch instead"
+    depth: 1
+    pkgId: "registry.npmjs.org/snekfetch/3.6.4"
+    pkgName: "snekfetch"
+    pkgVersion: "3.6.4"
+    prefix: "/app"
+  52 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/3.6.4"
+    requester: "/app"
+    status: "resolved"
+  53 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/require-all/2.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  54 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.13.2"
+    requester: "/app"
+    status: "resolved"
+  55 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  56 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "resolved"
+  57 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/4.1.0"
+    requester: "/app"
+    status: "resolved"
+  58 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.5.2"
+    requester: "/app"
+    status: "resolved"
+  59 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.16.2"
+    requester: "/app"
+    status: "resolved"
+  60 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.18.3"
+    requester: "/app"
+    status: "resolved"
+  61 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "resolved"
+  62 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  63 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.3.0"
+    requester: "/app"
+    status: "resolved"
+  64 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  65 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  66 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/core-js/2.6.5"
+    requester: "/app"
+    status: "found_in_store"
+  67 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@babel/polyfill/7.4.4"
+    requester: "/app"
+    status: "found_in_store"
+  68 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/prism-media/0.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  69 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/long/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  70 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.7"
+    requester: "/app"
+    status: "found_in_store"
+  71 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  72 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  73 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  74 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "found_in_store"
+  75 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.24"
+    requester: "/app"
+    status: "resolved"
+  76 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.2"
+    requester: "/app"
+    status: "resolved"
+  77 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  78 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  79 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/custom/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  80 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/1.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  81 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/types/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  82 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  83 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "found_in_store"
+  84 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugins/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  85 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  86 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  87 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.3.1"
+    requester: "/app"
+    status: "found_in_store"
+  88 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  89 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  90 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  91 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  92 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  93 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  94 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  95 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "found_in_store"
+  96 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/3.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  97 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.1.2"
+    requester: "/app"
+    status: "resolved"
+  98 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.0"
+    requester: "/app"
+    status: "resolved"
+  99 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/timm/1.6.1"
+    requester: "/app"
+    status: "resolved"
+  100 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "resolved"
+  101 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/regenerator-runtime/0.13.2"
+    requester: "/app"
+    status: "resolved"
+  102 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-normalize/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  103 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-print/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  104 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-resize/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  105 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-rotate/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  106 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-scale/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  107 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/png/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  108 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-cover/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  109 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-dither/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  110 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-blur/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  111 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/bmp/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  112 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-blit/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  113 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-color/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  114 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/jpeg/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  115 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-displace/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  116 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-flip/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  117 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-crop/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  118 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/core/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  119 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/tiff/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  120 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-contain/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  121 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/gif/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  122 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-gaussian/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  123 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-mask/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  124 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-invert/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  125 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.13.2"
+    requester: "/app"
+    status: "found_in_store"
+  126 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  127 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "found_in_store"
+  128 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/4.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  129 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  130 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.16.2"
+    requester: "/app"
+    status: "found_in_store"
+  131 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.18.3"
+    requester: "/app"
+    status: "found_in_store"
+  132 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "found_in_store"
+  133 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  134 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  135 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  136 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  137 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  138 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.24"
+    requester: "/app"
+    status: "found_in_store"
+  139 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.2"
+    requester: "/app"
+    status: "found_in_store"
+  140 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  141 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.0"
+    requester: "/app"
+    status: "found_in_store"
+  142 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  143 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  144 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/1.6.3"
+    requester: "/app"
+    status: "resolved"
+  145 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.4.1"
+    requester: "/app"
+    status: "resolved"
+  146 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  147 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  148 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.23"
+    requester: "/app"
+    status: "resolved"
+  149 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.3.3"
+    requester: "/app"
+    status: "resolved"
+  150 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  151 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/timm/1.6.1"
+    requester: "/app"
+    status: "found_in_store"
+  152 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  153 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/regenerator-runtime/0.13.2"
+    requester: "/app"
+    status: "found_in_store"
+  154 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-normalize/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  155 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-print/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  156 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-resize/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  157 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-rotate/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  158 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-scale/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  159 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.40.0"
+    requester: "/app"
+    status: "resolved"
+  160 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/png/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  161 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-cover/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  162 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-dither/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  163 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-blur/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  164 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/bmp/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  165 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-blit/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  166 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-color/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  167 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/jpeg/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  168 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-displace/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  169 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-flip/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  170 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-crop/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  171 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/core/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  172 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/tiff/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  173 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-contain/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  174 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/gif/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  175 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-gaussian/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  176 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-mask/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  177 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/plugin-invert/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  178 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/utils/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  179 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/load-bmfont/1.4.0"
+    requester: "/app"
+    status: "resolved"
+  180 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pngjs/3.4.0"
+    requester: "/app"
+    status: "resolved"
+  181 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bmp-js/0.1.0"
+    requester: "/app"
+    status: "resolved"
+  182 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tinycolor2/1.4.1"
+    requester: "/app"
+    status: "resolved"
+  183 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/jpeg-js/0.3.5"
+    requester: "/app"
+    status: "resolved"
+  184 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  185 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  186 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  187 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/any-base/1.1.0"
+    requester: "/app"
+    status: "resolved"
+  188 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/file-type/9.0.0"
+    requester: "/app"
+    status: "resolved"
+  189 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer/5.2.1"
+    requester: "/app"
+    status: "resolved"
+  190 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/phin/2.9.3"
+    requester: "/app"
+    status: "resolved"
+  191 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pixelmatch/4.0.2"
+    requester: "/app"
+    status: "resolved"
+  192 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/exif-parser/0.1.12"
+    requester: "/app"
+    status: "resolved"
+  193 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utif/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  194 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/omggif/1.0.9"
+    requester: "/app"
+    status: "resolved"
+  195 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mkdirp/0.5.1"
+    requester: "/app"
+    status: "resolved"
+  196 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/1.6.3"
+    requester: "/app"
+    status: "found_in_store"
+  197 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.4.1"
+    requester: "/app"
+    status: "found_in_store"
+  198 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  199 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  200 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.23"
+    requester: "/app"
+    status: "found_in_store"
+  201 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.3.3"
+    requester: "/app"
+    status: "found_in_store"
+  202 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  203 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.40.0"
+    requester: "/app"
+    status: "found_in_store"
+  204 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@jimp/utils/0.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  205 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/load-bmfont/1.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  206 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.3"
+    requester: "/app"
+    status: "resolved"
+  207 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/1.5.0"
+    requester: "/app"
+    status: "resolved"
+  208 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  209 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pngjs/3.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  210 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bmp-js/0.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  211 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer-equal/0.0.1"
+    requester: "/app"
+    status: "resolved"
+  212 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "resolved"
+  213 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-bmfont-ascii/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  214 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-bmfont-binary/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  215 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-bmfont-xml/1.1.4"
+    requester: "/app"
+    status: "resolved"
+  216 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xhr/2.5.0"
+    requester: "/app"
+    status: "resolved"
+  217 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xtend/4.0.1"
+    requester: "/app"
+    status: "resolved"
+  218 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tinycolor2/1.4.1"
+    requester: "/app"
+    status: "found_in_store"
+  219 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/jpeg-js/0.3.5"
+    requester: "/app"
+    status: "found_in_store"
+  220 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/any-base/1.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  221 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/file-type/9.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  222 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer/5.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  223 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/phin/2.9.3"
+    requester: "/app"
+    status: "found_in_store"
+  224 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pixelmatch/4.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  225 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/exif-parser/0.1.12"
+    requester: "/app"
+    status: "found_in_store"
+  226 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utif/2.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  227 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/omggif/1.0.9"
+    requester: "/app"
+    status: "found_in_store"
+  228 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mkdirp/0.5.1"
+    requester: "/app"
+    status: "found_in_store"
+  229 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  230 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/1.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  231 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/base64-js/1.3.0"
+    requester: "/app"
+    status: "resolved"
+  232 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ieee754/1.1.13"
+    requester: "/app"
+    status: "resolved"
+  233 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pako/1.0.10"
+    requester: "/app"
+    status: "resolved"
+  234 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minimist/0.0.8"
+    requester: "/app"
+    status: "resolved"
+  235 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  236 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer-equal/0.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  237 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  238 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-bmfont-ascii/1.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  239 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-bmfont-binary/1.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  240 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-bmfont-xml/1.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  241 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xhr/2.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  242 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xtend/4.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  243 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xml-parse-from-string/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  244 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xml2js/0.4.19"
+    requester: "/app"
+    status: "resolved"
+  245 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-function/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  246 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-headers/2.0.2"
+    requester: "/app"
+    status: "resolved"
+  247 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/base64-js/1.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  248 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ieee754/1.1.13"
+    requester: "/app"
+    status: "found_in_store"
+  249 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pako/1.0.10"
+    requester: "/app"
+    status: "found_in_store"
+  250 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/minimist/0.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  251 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xml-parse-from-string/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  252 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xml2js/0.4.19"
+    requester: "/app"
+    status: "found_in_store"
+  253 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-function/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  254 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-headers/2.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  255 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sax/1.2.4"
+    requester: "/app"
+    status: "resolved"
+  256 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/for-each/0.3.3"
+    requester: "/app"
+    status: "resolved"
+  257 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/string.prototype.trim/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  258 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xmlbuilder/9.0.7"
+    requester: "/app"
+    status: "resolved"
+  259 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sax/1.2.4"
+    requester: "/app"
+    status: "found_in_store"
+  260 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/for-each/0.3.3"
+    requester: "/app"
+    status: "found_in_store"
+  261 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/string.prototype.trim/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  262 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/xmlbuilder/9.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  263 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/define-properties/1.1.3"
+    requester: "/app"
+    status: "resolved"
+  264 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  265 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/es-abstract/1.13.0"
+    requester: "/app"
+    status: "resolved"
+  266 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-callable/1.1.4"
+    requester: "/app"
+    status: "resolved"
+  267 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/define-properties/1.1.3"
+    requester: "/app"
+    status: "found_in_store"
+  268 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  269 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-callable/1.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  270 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/es-abstract/1.13.0"
+    requester: "/app"
+    status: "found_in_store"
+  271 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  272 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/es-to-primitive/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  273 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-keys/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  274 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-regex/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  275 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/global/4.3.2"
+    requester: "/app"
+    status: "resolved"
+  276 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  277 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/es-to-primitive/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  278 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-keys/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  279 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-regex/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  280 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-date-object/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  281 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/global/4.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  282 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/process/0.5.2"
+    requester: "/app"
+    status: "resolved"
+  283 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-symbol/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  284 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/min-document/2.19.0"
+    requester: "/app"
+    status: "resolved"
+  285 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-date-object/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  286 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/process/0.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  287 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-symbol/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  288 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  289 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/min-document/2.19.0"
+    requester: "/app"
+    status: "found_in_store"
+  290 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dom-walk/0.1.1"
+    requester: "/app"
+    status: "resolved"
+  291 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_done"
+  292 debug pnpm:package-json: 
+    prefix: "/app"
+    updated: 
+      name: "contextio-glitch"
+      version: "0.0.2"
+      description: "A sample CIO app running on glitch"
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        discord.js: "^11.4.2"
+        discord.js-commando: "^0.10.0"
+        express: "^4.16.4"
+        jimp: "^0.6.0"
+        node: "^11.6.0"
+        opusscript: "^0.0.6"
+        pnpm: "^3.2.0"
+      engines: 
+        node: "8.x"
+      repository: 
+        url: "git+https://github.com/contextio/glitch.git"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+        - "contextio"
+        - "email"
+      readme: "Welcome to Glitch\n=================\n\nClick `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.\n\n**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.\n\nFind out more [about Glitch](https://glitch.com/about).\n\n\nYour Project\n------------\n\nOn the front-end,\n- edit `public/client.js`, `public/style.css` and `views/index.html`\n- drag in `assets`, like images or music, to add them to your project\n\nOn the back-end,\n- your app starts at `server.js`\n- add frameworks and packages in `package.json`\n- safely store app secrets in `.env` (nobody can see this but you and people you invite)\n\n\nMade by [Glitch](https://glitch.com/)\n-------------------\n\n\\ ゜o゜)ノ\n"
+      readmeFilename: "README.md"
+      gitHead: "05daedf72d55668b766b29f8d71707de459db866"
+      bugs: 
+        url: "https://github.com/contextio/glitch/issues"
+      homepage: "https://github.com/contextio/glitch#readme"
+      _id: "contextio-glitch@0.0.2"
+  293 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  294 warn pnpm: 
+    message: "discord.js@11.4.2 requires a peer of bufferutil@^3.0.3 but none was installed."
+    prefix: "/app"
+  295 warn pnpm: 
+    message: "discord.js@11.4.2 requires a peer of erlpack@discordapp/erlpack but none was installed."
+    prefix: "/app"
+  296 warn pnpm: 
+    message: "discord.js@11.4.2 requires a peer of node-opus@^0.2.7 but none was installed."
+    prefix: "/app"
+  297 warn pnpm: 
+    message: "discord.js@11.4.2 requires a peer of sodium@^2.0.3 but none was installed."
+    prefix: "/app"
+  298 warn pnpm: 
+    message: "discord.js@11.4.2 requires a peer of libsodium-wrappers@^0.7.3 but none was installed."
+    prefix: "/app"
+  299 warn pnpm: 
+    message: "discord.js@11.4.2 requires a peer of uws@^9.14.0 but none was installed."
+    prefix: "/app"
+  300 warn pnpm: 
+    message: "discord.js-commando@0.10.0 requires a peer of sqlite@^2.0.0 but none was installed."
+    prefix: "/app"
+  301 debug pnpm:stats: 
+    prefix: "/app"
+    removed: 0
+  302 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dom-walk/0.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  303 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_started"
+  304 debug pnpm:stats: 
+    added: 144
+    prefix: "/app"
+  305 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/long/4.0.0/node_modules/long"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js/11.4.2/node_modules/long"
+  306 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/prism-media/0.0.3/node_modules/prism-media"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js/11.4.2/node_modules/prism-media"
+  307 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/snekfetch/3.6.4/node_modules/snekfetch"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js/11.4.2/node_modules/snekfetch"
+  308 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/tweetnacl/1.0.1/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js/11.4.2/node_modules/tweetnacl"
+  309 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ws/4.1.0/node_modules/ws"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js/11.4.2/node_modules/ws"
+  310 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/async-limiter/1.0.0/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ws/4.1.0/node_modules/async-limiter"
+  311 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/safe-buffer/5.1.2/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ws/4.1.0/node_modules/safe-buffer"
+  312 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/common-tags/1.8.0/node_modules/common-tags"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js-commando/0.10.0/node_modules/common-tags"
+  313 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/escape-string-regexp/1.0.5/node_modules/escape-string-regexp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js-commando/0.10.0/node_modules/escape-string-regexp"
+  314 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/require-all/2.2.0/node_modules/require-all"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js-commando/0.10.0/node_modules/require-all"
+  315 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/accepts"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/accepts"
+  316 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/array-flatten"
+  317 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/body-parser"
+  318 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/content-disposition/0.5.2/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/content-disposition"
+  319 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/content-type/1.0.4/node_modules/content-type"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/content-type"
+  320 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/cookie/0.3.1/node_modules/cookie"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/cookie"
+  321 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/cookie-signature"
+  322 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/debug"
+  323 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/depd"
+  324 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/encodeurl"
+  325 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/escape-html"
+  326 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/etag"
+  327 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/finalhandler"
+  328 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/fresh"
+  329 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/merge-descriptors"
+  330 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/methods"
+  331 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/on-finished"
+  332 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/parseurl"
+  333 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/path-to-regexp"
+  334 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/proxy-addr"
+  335 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/qs/6.5.2/node_modules/qs"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/qs"
+  336 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/range-parser/1.2.0/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/range-parser"
+  337 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/safe-buffer/5.1.2/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/safe-buffer"
+  338 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/send"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/send"
+  339 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/serve-static/1.13.2/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/serve-static"
+  340 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/setprototypeof/1.1.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/setprototypeof"
+  341 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/statuses/1.4.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/statuses"
+  342 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/type-is"
+  343 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/utils-merge"
+  344 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/vary"
+  345 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime-types/2.1.24/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/mime-types"
+  346 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/negotiator/0.6.2/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/negotiator"
+  347 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime-db/1.40.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime-types/2.1.24/node_modules/mime-db"
+  348 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/bytes/3.0.0/node_modules/bytes"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/bytes"
+  349 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/content-type/1.0.4/node_modules/content-type"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/content-type"
+  350 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/debug"
+  351 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/depd"
+  352 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/http-errors"
+  353 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/iconv-lite/0.4.23/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/iconv-lite"
+  354 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/on-finished"
+  355 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/qs/6.5.2/node_modules/qs"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/qs"
+  356 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/raw-body/2.3.3/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/raw-body"
+  357 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/type-is"
+  358 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/ms"
+  359 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/depd"
+  360 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/inherits/2.0.3/node_modules/inherits"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/inherits"
+  361 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/setprototypeof/1.1.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/setprototypeof"
+  362 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/statuses/1.5.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/statuses"
+  363 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/iconv-lite/0.4.23/node_modules/safer-buffer"
+  364 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/ee-first"
+  365 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/bytes/3.0.0/node_modules/bytes"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/raw-body/2.3.3/node_modules/bytes"
+  366 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/raw-body/2.3.3/node_modules/http-errors"
+  367 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/iconv-lite/0.4.23/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/raw-body/2.3.3/node_modules/iconv-lite"
+  368 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/raw-body/2.3.3/node_modules/unpipe"
+  369 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/media-typer"
+  370 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime-types/2.1.24/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/mime-types"
+  371 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/debug"
+  372 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/encodeurl"
+  373 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/escape-html"
+  374 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/on-finished"
+  375 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/parseurl"
+  376 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/statuses/1.4.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/statuses"
+  377 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/unpipe"
+  378 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/forwarded/0.1.2/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/forwarded"
+  379 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ipaddr.js/1.9.0/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/ipaddr.js"
+  380 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/debug"
+  381 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/depd"
+  382 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/destroy/1.0.4/node_modules/destroy"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/destroy"
+  383 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/encodeurl"
+  384 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/escape-html"
+  385 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/etag"
+  386 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/fresh"
+  387 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/http-errors"
+  388 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime/1.4.1/node_modules/mime"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/mime"
+  389 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/ms"
+  390 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/on-finished"
+  391 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/range-parser/1.2.0/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/range-parser"
+  392 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/statuses/1.4.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/statuses"
+  393 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/serve-static/1.13.2/node_modules/encodeurl"
+  394 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/serve-static/1.13.2/node_modules/escape-html"
+  395 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/serve-static/1.13.2/node_modules/parseurl"
+  396 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/send"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/serve-static/1.13.2/node_modules/send"
+  397 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@babel/polyfill/7.4.4/node_modules/@babel/polyfill"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jimp/0.6.4/node_modules/@babel/polyfill"
+  398 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jimp/0.6.4/node_modules/@jimp/custom"
+  399 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugins"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jimp/0.6.4/node_modules/@jimp/plugins"
+  400 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/types"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jimp/0.6.4/node_modules/@jimp/types"
+  401 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jimp/0.6.4/node_modules/core-js"
+  402 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@babel/polyfill/7.4.4/node_modules/core-js"
+  403 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/regenerator-runtime/0.13.2/node_modules/regenerator-runtime"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@babel/polyfill/7.4.4/node_modules/regenerator-runtime"
+  404 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/@jimp/core"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/core"
+  405 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/core-js"
+  406 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/@jimp/utils"
+  407 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/any-base/1.1.0/node_modules/any-base"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/any-base"
+  408 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/buffer/5.2.1/node_modules/buffer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/buffer"
+  409 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/core-js"
+  410 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/exif-parser/0.1.12/node_modules/exif-parser"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/exif-parser"
+  411 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/file-type/9.0.0/node_modules/file-type"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/file-type"
+  412 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/load-bmfont"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/load-bmfont"
+  413 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mkdirp/0.5.1/node_modules/mkdirp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/mkdirp"
+  414 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/phin/2.9.3/node_modules/phin"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/phin"
+  415 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pixelmatch/4.0.2/node_modules/pixelmatch"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/pixelmatch"
+  416 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/tinycolor2/1.4.1/node_modules/tinycolor2"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/tinycolor2"
+  417 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/core-js"
+  418 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/base64-js/1.3.0/node_modules/base64-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/buffer/5.2.1/node_modules/base64-js"
+  419 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ieee754/1.1.13/node_modules/ieee754"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/buffer/5.2.1/node_modules/ieee754"
+  420 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/buffer-equal/0.0.1/node_modules/buffer-equal"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/buffer-equal"
+  421 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime/1.6.0/node_modules/mime"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/mime"
+  422 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-ascii/1.0.6/node_modules/parse-bmfont-ascii"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/parse-bmfont-ascii"
+  423 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-binary/1.0.6/node_modules/parse-bmfont-binary"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/parse-bmfont-binary"
+  424 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-xml/1.1.4/node_modules/parse-bmfont-xml"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/parse-bmfont-xml"
+  425 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/phin/2.9.3/node_modules/phin"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/phin"
+  426 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xhr/2.5.0/node_modules/xhr"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/xhr"
+  427 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xtend/4.0.1/node_modules/xtend"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/xtend"
+  428 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xml-parse-from-string/1.0.1/node_modules/xml-parse-from-string"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-xml/1.1.4/node_modules/xml-parse-from-string"
+  429 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xml2js/0.4.19/node_modules/xml2js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-xml/1.1.4/node_modules/xml2js"
+  430 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/sax/1.2.4/node_modules/sax"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xml2js/0.4.19/node_modules/sax"
+  431 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xmlbuilder/9.0.7/node_modules/xmlbuilder"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xml2js/0.4.19/node_modules/xmlbuilder"
+  432 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/global/4.3.2/node_modules/global"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xhr/2.5.0/node_modules/global"
+  433 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-function/1.0.1/node_modules/is-function"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xhr/2.5.0/node_modules/is-function"
+  434 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-headers/2.0.2/node_modules/parse-headers"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xhr/2.5.0/node_modules/parse-headers"
+  435 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xtend/4.0.1/node_modules/xtend"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xhr/2.5.0/node_modules/xtend"
+  436 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/min-document/2.19.0/node_modules/min-document"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/global/4.3.2/node_modules/min-document"
+  437 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/process/0.5.2/node_modules/process"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/global/4.3.2/node_modules/process"
+  438 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/dom-walk/0.1.1/node_modules/dom-walk"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/min-document/2.19.0/node_modules/dom-walk"
+  439 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/for-each/0.3.3/node_modules/for-each"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-headers/2.0.2/node_modules/for-each"
+  440 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/string.prototype.trim/1.1.2/node_modules/string.prototype.trim"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-headers/2.0.2/node_modules/string.prototype.trim"
+  441 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-callable/1.1.4/node_modules/is-callable"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/for-each/0.3.3/node_modules/is-callable"
+  442 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/define-properties/1.1.3/node_modules/define-properties"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/string.prototype.trim/1.1.2/node_modules/define-properties"
+  443 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/es-abstract"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/string.prototype.trim/1.1.2/node_modules/es-abstract"
+  444 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/string.prototype.trim/1.1.2/node_modules/function-bind"
+  445 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/object-keys/1.1.1/node_modules/object-keys"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/define-properties/1.1.3/node_modules/object-keys"
+  446 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-to-primitive/1.2.0/node_modules/es-to-primitive"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/es-to-primitive"
+  447 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/function-bind"
+  448 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/has"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/has"
+  449 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-callable/1.1.4/node_modules/is-callable"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/is-callable"
+  450 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-regex/1.0.4/node_modules/is-regex"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/is-regex"
+  451 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/object-keys/1.1.1/node_modules/object-keys"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/object-keys"
+  452 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-callable/1.1.4/node_modules/is-callable"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-to-primitive/1.2.0/node_modules/is-callable"
+  453 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-date-object/1.0.1/node_modules/is-date-object"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-to-primitive/1.2.0/node_modules/is-date-object"
+  454 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-symbol/1.0.2/node_modules/is-symbol"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-to-primitive/1.2.0/node_modules/is-symbol"
+  455 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/has-symbols/1.0.0/node_modules/has-symbols"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-symbol/1.0.2/node_modules/has-symbols"
+  456 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/function-bind"
+  457 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/has"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-regex/1.0.4/node_modules/has"
+  458 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/minimist/0.0.8/node_modules/minimist"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mkdirp/0.5.1/node_modules/minimist"
+  459 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pngjs/3.4.0/node_modules/pngjs"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pixelmatch/4.0.2/node_modules/pngjs"
+  460 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blit"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blit"
+  461 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blur/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blur"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blur"
+  462 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-color/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-color"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-color"
+  463 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/@jimp/plugin-contain"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-contain"
+  464 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/@jimp/plugin-cover"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-cover"
+  465 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-crop/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-crop"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-crop"
+  466 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-displace/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-displace"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-displace"
+  467 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-dither/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-dither"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-dither"
+  468 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-flip/0.6.4/dc06e72b74b830b88da333312756b437/node_modules/@jimp/plugin-flip"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-flip"
+  469 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-gaussian/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-gaussian"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-gaussian"
+  470 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-invert/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-invert"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-invert"
+  471 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-mask/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-mask"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-mask"
+  472 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-normalize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-normalize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-normalize"
+  473 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-print/0.6.4/3a12058f57000e90b26e6a7a0cf9f8f0/node_modules/@jimp/plugin-print"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-print"
+  474 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-resize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-resize"
+  475 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/plugin-rotate"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-rotate"
+  476 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/@jimp/plugin-scale"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-scale"
+  477 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  478 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/timm/1.6.1/node_modules/timm"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/timm"
+  479 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  480 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  481 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  482 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  483 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blur/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  484 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blur/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  485 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blur/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  486 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-color/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  487 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-color/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  488 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/tinycolor2/1.4.1/node_modules/tinycolor2"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-color/0.6.4/@jimp!custom@0.6.4/node_modules/tinycolor2"
+  489 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-color/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  490 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/@jimp/utils"
+  491 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/core-js"
+  492 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/@jimp/custom"
+  493 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blit"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/@jimp/plugin-blit"
+  494 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-resize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/@jimp/plugin-resize"
+  495 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/@jimp/plugin-scale"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/@jimp/plugin-scale"
+  496 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  497 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  498 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  499 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/@jimp/utils"
+  500 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/core-js"
+  501 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/@jimp/custom"
+  502 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-resize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/@jimp/plugin-resize"
+  503 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/@jimp/utils"
+  504 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/core-js"
+  505 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/@jimp/custom"
+  506 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-crop/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-crop"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/@jimp/plugin-crop"
+  507 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-resize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/@jimp/plugin-resize"
+  508 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/@jimp/plugin-scale"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/@jimp/plugin-scale"
+  509 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-crop/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  510 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-crop/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  511 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-crop/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  512 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-displace/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  513 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-displace/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  514 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-displace/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  515 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-dither/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  516 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-dither/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  517 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-dither/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  518 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-flip/0.6.4/dc06e72b74b830b88da333312756b437/node_modules/@jimp/utils"
+  519 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-flip/0.6.4/dc06e72b74b830b88da333312756b437/node_modules/core-js"
+  520 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-flip/0.6.4/dc06e72b74b830b88da333312756b437/node_modules/@jimp/custom"
+  521 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/plugin-rotate"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-flip/0.6.4/dc06e72b74b830b88da333312756b437/node_modules/@jimp/plugin-rotate"
+  522 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/utils"
+  523 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/core-js"
+  524 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/custom"
+  525 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blit"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/plugin-blit"
+  526 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-crop/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-crop"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/plugin-crop"
+  527 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-resize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/plugin-resize"
+  528 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-gaussian/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  529 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-gaussian/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  530 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-gaussian/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  531 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-invert/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  532 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-invert/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  533 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-invert/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  534 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-mask/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  535 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-mask/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  536 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-mask/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  537 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-normalize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  538 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-normalize/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  539 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-normalize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  540 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-print/0.6.4/3a12058f57000e90b26e6a7a0cf9f8f0/node_modules/@jimp/utils"
+  541 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-print/0.6.4/3a12058f57000e90b26e6a7a0cf9f8f0/node_modules/core-js"
+  542 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/load-bmfont"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-print/0.6.4/3a12058f57000e90b26e6a7a0cf9f8f0/node_modules/load-bmfont"
+  543 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-print/0.6.4/3a12058f57000e90b26e6a7a0cf9f8f0/node_modules/@jimp/custom"
+  544 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blit"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-print/0.6.4/3a12058f57000e90b26e6a7a0cf9f8f0/node_modules/@jimp/plugin-blit"
+  545 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/bmp/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/bmp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/bmp"
+  546 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/gif/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/gif"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/gif"
+  547 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/jpeg/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/jpeg"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/jpeg"
+  548 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/png/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/png"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/png"
+  549 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/tiff/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/tiff"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/tiff"
+  550 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  551 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/timm/1.6.1/node_modules/timm"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/timm"
+  552 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  553 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/bmp/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  554 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/bmp-js/0.1.0/node_modules/bmp-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/bmp/0.6.4/@jimp!custom@0.6.4/node_modules/bmp-js"
+  555 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/bmp/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  556 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/bmp/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  557 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/gif/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  558 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/gif/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  559 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/omggif/1.0.9/node_modules/omggif"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/gif/0.6.4/@jimp!custom@0.6.4/node_modules/omggif"
+  560 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/gif/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  561 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/jpeg/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  562 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/jpeg/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  563 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jpeg-js/0.3.5/node_modules/jpeg-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/jpeg/0.6.4/@jimp!custom@0.6.4/node_modules/jpeg-js"
+  564 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/jpeg/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  565 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/png/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/utils"
+  566 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/png/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  567 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pngjs/3.4.0/node_modules/pngjs"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/png/0.6.4/@jimp!custom@0.6.4/node_modules/pngjs"
+  568 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/png/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  569 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/tiff/0.6.4/@jimp!custom@0.6.4/node_modules/core-js"
+  570 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/utif/2.0.1/node_modules/utif"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/tiff/0.6.4/@jimp!custom@0.6.4/node_modules/utif"
+  571 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/tiff/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/custom"
+  572 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pako/1.0.10/node_modules/pako"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/utif/2.0.1/node_modules/pako"
+  573 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/node-bin-setup/1.0.6/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/node/11.15.0/node_modules/node-bin-setup"
+  574 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_done"
+  575 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js/11.4.2/node_modules/discord.js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/discord.js"
+  576 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/discord.js-commando/0.10.0/node_modules/discord.js-commando"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/discord.js-commando"
+  577 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/express/4.16.4/node_modules/express"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/express"
+  578 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jimp/0.6.4/node_modules/jimp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/jimp"
+  579 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/node/11.15.0/node_modules/node"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/node"
+  580 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/opusscript/0.0.6/node_modules/opusscript"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/opusscript"
+  581 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pnpm/3.2.0/node_modules/pnpm"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/pnpm"
+  582 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/discord.js/11.4.2"
+      name: "discord.js"
+      realName: "discord.js"
+      version: "11.4.2"
+    prefix: "/app"
+  583 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/discord.js-commando/0.10.0"
+      name: "discord.js-commando"
+      realName: "discord.js-commando"
+      version: "0.10.0"
+    prefix: "/app"
+  584 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/express/4.16.4"
+      name: "express"
+      realName: "express"
+      version: "4.16.4"
+    prefix: "/app"
+  585 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/jimp/0.6.4"
+      name: "jimp"
+      realName: "jimp"
+      version: "0.6.4"
+    prefix: "/app"
+  586 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/node/11.15.0"
+      latest: "12.1.0"
+      name: "node"
+      realName: "node"
+      version: "11.15.0"
+    prefix: "/app"
+  587 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/opusscript/0.0.6"
+      name: "opusscript"
+      realName: "opusscript"
+      version: "0.0.6"
+    prefix: "/app"
+  588 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/pnpm/3.2.0"
+      name: "pnpm"
+      realName: "pnpm"
+      version: "3.2.0"
+    prefix: "/app"
+  589 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@babel/polyfill/7.4.4/node_modules/@babel/polyfill"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@babel/polyfill"
+  590 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/custom/0.6.4/node_modules/@jimp/custom"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/custom"
+  591 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugins/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugins"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugins"
+  592 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/types/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/types"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/types"
+  593 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/accepts/1.3.7/node_modules/accepts"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/accepts"
+  594 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/array-flatten"
+  595 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/body-parser/1.18.3/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/body-parser"
+  596 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/common-tags/1.8.0/node_modules/common-tags"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/common-tags"
+  597 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/content-disposition/0.5.2/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/content-disposition"
+  598 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/content-type/1.0.4/node_modules/content-type"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/content-type"
+  599 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/cookie/0.3.1/node_modules/cookie"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/cookie"
+  600 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/cookie-signature"
+  601 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/core-js/2.6.5/node_modules/core-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/core-js"
+  602 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/debug"
+  603 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/depd/1.1.2/node_modules/depd"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/depd"
+  604 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/encodeurl"
+  605 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/escape-html"
+  606 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/escape-string-regexp/1.0.5/node_modules/escape-string-regexp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/escape-string-regexp"
+  607 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/etag"
+  608 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/finalhandler/1.1.1/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/finalhandler"
+  609 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/fresh"
+  610 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/long/4.0.0/node_modules/long"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/long"
+  611 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/merge-descriptors"
+  612 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/methods"
+  613 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/node-bin-setup/1.0.6/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/node-bin-setup"
+  614 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/on-finished/2.3.0/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/on-finished"
+  615 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/parseurl"
+  616 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/path-to-regexp"
+  617 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/prism-media/0.0.3/node_modules/prism-media"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/prism-media"
+  618 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/proxy-addr/2.0.5/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/proxy-addr"
+  619 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/qs/6.5.2/node_modules/qs"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/qs"
+  620 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/range-parser/1.2.0/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/range-parser"
+  621 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/require-all/2.2.0/node_modules/require-all"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/require-all"
+  622 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/safe-buffer/5.1.2/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/safe-buffer"
+  623 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/send/0.16.2/node_modules/send"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/send"
+  624 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/serve-static/1.13.2/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/serve-static"
+  625 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/setprototypeof/1.1.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/setprototypeof"
+  626 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/snekfetch/3.6.4/node_modules/snekfetch"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/snekfetch"
+  627 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/statuses/1.4.0/node_modules/statuses"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/statuses"
+  628 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/tweetnacl/1.0.1/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/tweetnacl"
+  629 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/type-is"
+  630 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/utils-merge"
+  631 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/vary"
+  632 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ws/4.1.0/node_modules/ws"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/ws"
+  633 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/bmp/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/bmp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/bmp"
+  634 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/core/0.6.4/node_modules/@jimp/core"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/core"
+  635 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/gif/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/gif"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/gif"
+  636 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/jpeg/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/jpeg"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/jpeg"
+  637 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blit/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blit"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-blit"
+  638 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-blur/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-blur"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-blur"
+  639 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-color/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-color"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-color"
+  640 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-contain/0.6.4/7464fecfe51f1d0cf0d76666d2a1b84c/node_modules/@jimp/plugin-contain"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-contain"
+  641 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-cover/0.6.4/464821539c50a5a5199491b277bc73f6/node_modules/@jimp/plugin-cover"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-cover"
+  642 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-crop/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-crop"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-crop"
+  643 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-displace/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-displace"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-displace"
+  644 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-dither/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-dither"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-dither"
+  645 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-flip/0.6.4/dc06e72b74b830b88da333312756b437/node_modules/@jimp/plugin-flip"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-flip"
+  646 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-gaussian/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-gaussian"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-gaussian"
+  647 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-invert/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-invert"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-invert"
+  648 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-mask/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-mask"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-mask"
+  649 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-normalize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-normalize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-normalize"
+  650 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-print/0.6.4/3a12058f57000e90b26e6a7a0cf9f8f0/node_modules/@jimp/plugin-print"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-print"
+  651 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-resize/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/plugin-resize"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-resize"
+  652 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-rotate/0.6.4/0a1d71298d84519720c145d1e4410399/node_modules/@jimp/plugin-rotate"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-rotate"
+  653 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/plugin-scale/0.6.4/88919924c697959d071b7865863cf222/node_modules/@jimp/plugin-scale"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/plugin-scale"
+  654 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/png/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/png"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/png"
+  655 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/tiff/0.6.4/@jimp!custom@0.6.4/node_modules/@jimp/tiff"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/tiff"
+  656 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/async-limiter/1.0.0/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/async-limiter"
+  657 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/bytes/3.0.0/node_modules/bytes"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/bytes"
+  658 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/destroy/1.0.4/node_modules/destroy"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/destroy"
+  659 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/ee-first"
+  660 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/forwarded/0.1.2/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/forwarded"
+  661 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/http-errors/1.6.3/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/http-errors"
+  662 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/iconv-lite/0.4.23/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/iconv-lite"
+  663 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ipaddr.js/1.9.0/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/ipaddr.js"
+  664 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/media-typer"
+  665 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime/1.4.1/node_modules/mime"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/mime"
+  666 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime-types/2.1.24/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/mime-types"
+  667 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/ms"
+  668 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/negotiator/0.6.2/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/negotiator"
+  669 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/raw-body/2.3.3/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/raw-body"
+  670 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/regenerator-runtime/0.13.2/node_modules/regenerator-runtime"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/regenerator-runtime"
+  671 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/timm/1.6.1/node_modules/timm"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/timm"
+  672 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/unpipe"
+  673 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/@jimp/utils/0.6.4/node_modules/@jimp/utils"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/@jimp/utils"
+  674 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/any-base/1.1.0/node_modules/any-base"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/any-base"
+  675 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/bmp-js/0.1.0/node_modules/bmp-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/bmp-js"
+  676 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/buffer/5.2.1/node_modules/buffer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/buffer"
+  677 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/exif-parser/0.1.12/node_modules/exif-parser"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/exif-parser"
+  678 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/file-type/9.0.0/node_modules/file-type"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/file-type"
+  679 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/inherits/2.0.3/node_modules/inherits"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/inherits"
+  680 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/jpeg-js/0.3.5/node_modules/jpeg-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/jpeg-js"
+  681 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/load-bmfont/1.4.0/node_modules/load-bmfont"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/load-bmfont"
+  682 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mime-db/1.40.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/mime-db"
+  683 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/mkdirp/0.5.1/node_modules/mkdirp"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/mkdirp"
+  684 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/omggif/1.0.9/node_modules/omggif"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/omggif"
+  685 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/phin/2.9.3/node_modules/phin"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/phin"
+  686 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pixelmatch/4.0.2/node_modules/pixelmatch"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/pixelmatch"
+  687 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pngjs/3.4.0/node_modules/pngjs"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/pngjs"
+  688 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/safer-buffer"
+  689 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/tinycolor2/1.4.1/node_modules/tinycolor2"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/tinycolor2"
+  690 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/utif/2.0.1/node_modules/utif"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/utif"
+  691 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/base64-js/1.3.0/node_modules/base64-js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/base64-js"
+  692 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/buffer-equal/0.0.1/node_modules/buffer-equal"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/buffer-equal"
+  693 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/ieee754/1.1.13/node_modules/ieee754"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/ieee754"
+  694 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/minimist/0.0.8/node_modules/minimist"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/minimist"
+  695 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/pako/1.0.10/node_modules/pako"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/pako"
+  696 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-ascii/1.0.6/node_modules/parse-bmfont-ascii"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/parse-bmfont-ascii"
+  697 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-binary/1.0.6/node_modules/parse-bmfont-binary"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/parse-bmfont-binary"
+  698 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-bmfont-xml/1.1.4/node_modules/parse-bmfont-xml"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/parse-bmfont-xml"
+  699 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xhr/2.5.0/node_modules/xhr"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/xhr"
+  700 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xtend/4.0.1/node_modules/xtend"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/xtend"
+  701 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/global/4.3.2/node_modules/global"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/global"
+  702 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-function/1.0.1/node_modules/is-function"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/is-function"
+  703 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/parse-headers/2.0.2/node_modules/parse-headers"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/parse-headers"
+  704 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xml-parse-from-string/1.0.1/node_modules/xml-parse-from-string"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/xml-parse-from-string"
+  705 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xml2js/0.4.19/node_modules/xml2js"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/xml2js"
+  706 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/for-each/0.3.3/node_modules/for-each"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/for-each"
+  707 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/min-document/2.19.0/node_modules/min-document"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/min-document"
+  708 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/process/0.5.2/node_modules/process"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/process"
+  709 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/sax/1.2.4/node_modules/sax"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/sax"
+  710 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/string.prototype.trim/1.1.2/node_modules/string.prototype.trim"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/string.prototype.trim"
+  711 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/xmlbuilder/9.0.7/node_modules/xmlbuilder"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/xmlbuilder"
+  712 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/define-properties/1.1.3/node_modules/define-properties"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/define-properties"
+  713 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/dom-walk/0.1.1/node_modules/dom-walk"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/dom-walk"
+  714 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-abstract/1.13.0/node_modules/es-abstract"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/es-abstract"
+  715 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/function-bind"
+  716 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-callable/1.1.4/node_modules/is-callable"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/is-callable"
+  717 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/es-to-primitive/1.2.0/node_modules/es-to-primitive"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/es-to-primitive"
+  718 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/has"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/has"
+  719 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-regex/1.0.4/node_modules/is-regex"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/is-regex"
+  720 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/object-keys/1.1.1/node_modules/object-keys"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/object-keys"
+  721 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-date-object/1.0.1/node_modules/is-date-object"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/is-date-object"
+  722 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/is-symbol/1.0.2/node_modules/is-symbol"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/is-symbol"
+  723 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/.registry.npmjs.org/has-symbols/1.0.0/node_modules/has-symbols"
+    link: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/has-symbols"
+  724 error pnpm: 
+    message: 
+      errno: -2
+      code: "ENOENT"
+      syscall: "chmod"
+      path: "/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/node/bin/node"
+    err: 
+      name: "Error"
+      message: "ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/node/bin/node'"
+      code: "ENOENT"
+      stack: "Error: ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/bcdb7061-46f9-49fd-8790-16c88e44518b/node_modules/node/bin/node'"

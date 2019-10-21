@@ -1,0 +1,33 @@
+{
+  "name": "contextio-glitch",
+  "version": "0.0.2",
+  "description": "A sample CIO app running on glitch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "express": "^4.16.4",
+    "jimp": "^0.6.4",
+    "node": "^11.6.0",
+    "opusscript": "^0.0.6",
+    "pnpm": "^3.2.0",
+    "color": "^3.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/contextio/glitch"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "contextio",
+    "email"
+  ]
+}

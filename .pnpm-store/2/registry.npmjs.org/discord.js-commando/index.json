@@ -1,0 +1,571 @@
+{
+	"versions": {
+		"0.1.0": {
+			"name": "discord.js-commando",
+			"version": "0.1.0",
+			"dependencies": {
+				"discord.js": "github:hydrabolt/discord.js#indev",
+				"common-tags": "^1.3.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.7.0",
+				"jsdoc": "^3.4.0",
+				"minami": "^1.1.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "6aa12bed9a009f51906c2ce57fc8951ef95564f5",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.1.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.2.0": {
+			"name": "discord.js-commando",
+			"version": "0.2.0",
+			"dependencies": {
+				"discord.js": "github:hydrabolt/discord.js#indev",
+				"common-tags": "^1.3.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.7.0",
+				"jsdoc": "^3.4.0",
+				"minami": "^1.1.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "f9ad1a3ecacd745b02bd4391e3f445f9165a97b4",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.2.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.3.0": {
+			"name": "discord.js-commando",
+			"version": "0.3.0",
+			"dependencies": {
+				"discord.js": "^10.0.0",
+				"common-tags": "^1.3.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.7.0",
+				"jsdoc": "^3.4.0",
+				"minami": "^1.1.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "a6891e20f1b7f3510f3a314144c075eb07678204",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.3.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.4.0": {
+			"name": "discord.js-commando",
+			"version": "0.4.0",
+			"dependencies": {
+				"discord.js": "^10.0.0",
+				"common-tags": "^1.3.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.7.0",
+				"jsdoc": "^3.4.0",
+				"minami": "^1.1.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "5713185ec6454724e869dd31ebea899b59bac337",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.4.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.4.1": {
+			"name": "discord.js-commando",
+			"version": "0.4.1",
+			"dependencies": {
+				"discord.js": "^10.0.0",
+				"common-tags": "^1.3.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.7.0",
+				"jsdoc": "^3.4.0",
+				"minami": "^1.1.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "c21f5031eec1076dd69c50611502646bde808581",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.4.1.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.5.0": {
+			"name": "discord.js-commando",
+			"version": "0.5.0",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "446695d6ff42717451e402f9e771af813f0dbfb3",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.5.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.6.0": {
+			"name": "discord.js-commando",
+			"version": "0.6.0",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "41bf7cb804034445ab01cc82c6768d31432121ba",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.6.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.6.1": {
+			"name": "discord.js-commando",
+			"version": "0.6.1",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "ebb9e7b5b7ae3eeb1f643e41d3990823dee6ff2e",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.6.1.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.6.2": {
+			"name": "discord.js-commando",
+			"version": "0.6.2",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "c5ba37122799102a5a6d91f785c00b2876e39084",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.6.2.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.6.3": {
+			"name": "discord.js-commando",
+			"version": "0.6.3",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "33a8ed35b927a13fc21c677163e59e5c0cce8fc9",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.6.3.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.7.0": {
+			"name": "discord.js-commando",
+			"version": "0.7.0",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "1b13b7c6af673d30cfaaa0a1f7b48befa2a42612",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.7.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.7.1": {
+			"name": "discord.js-commando",
+			"version": "0.7.1",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "fecce105341a45a62a480bfc163e7838c2f27332",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.7.1.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.7.2": {
+			"name": "discord.js-commando",
+			"version": "0.7.2",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "6109467de5955ff1d92d15545acbfc30f68dcf6b",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.7.2.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.8.0": {
+			"name": "discord.js-commando",
+			"version": "0.8.0",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "0c118a416a5af874f704e1950ba49d9de93d44d1",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.8.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.8.1": {
+			"name": "discord.js-commando",
+			"version": "0.8.1",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0 || ^11.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "9ee8f1010a48376fb77e78abad3827e2458680d9",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.8.1.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.8.2": {
+			"name": "discord.js-commando",
+			"version": "0.8.2",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0 || ^11.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "5cfee3f37f8f85ba7fa5e70ec94be6b84808944a",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.8.2.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.8.3": {
+			"name": "discord.js-commando",
+			"version": "0.8.3",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0 || ^11.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "02cef57b4bdfdd29973d14a0e03bc16fed850162",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.8.3.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.8.4": {
+			"name": "discord.js-commando",
+			"version": "0.8.4",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0 || ^11.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "35f04cd94eb3441cf8e09bb0049fffc3d729f3ec",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.8.4.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.8.5": {
+			"name": "discord.js-commando",
+			"version": "0.8.5",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0 || ^11.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "616d585d787dd8a95a3d0151af6a9a0a5d319a65",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.8.5.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.9.0": {
+			"name": "discord.js-commando",
+			"version": "0.9.0",
+			"dependencies": {
+				"common-tags": "^1.4.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"discord.js-docgen": "github:hydrabolt/discord.js-docgen",
+				"eslint": "^3.11.0",
+				"jsdoc-strip-async-await": "^0.1.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^10.0.0 || ^11.0.0",
+				"sqlite": "^2.2.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "f9dcfeb6b8cab8cc585cd5cc7ca6c1c4a99a2e94",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.9.0.tgz"
+			},
+			"engines": {
+				"node": ">=7.0.0"
+			}
+		},
+		"0.10.0": {
+			"name": "discord.js-commando",
+			"version": "0.10.0",
+			"dependencies": {
+				"common-tags": "^1.0.0",
+				"escape-string-regexp": "^1.0.0",
+				"require-all": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/node": "^9.0.0",
+				"discord.js-docgen": "discordjs/docgen",
+				"eslint": "^4.0.0",
+				"typescript": "^2.0.0"
+			},
+			"peerDependencies": {
+				"discord.js": "^11.2.0",
+				"sqlite": "^2.0.0"
+			},
+			"_hasShrinkwrap": false,
+			"directories": {},
+			"dist": {
+				"shasum": "bfa98bf3310870376f3c7a0d7b736a6a3e5d0a0f",
+				"tarball": "https://registry.npmjs.org/discord.js-commando/-/discord.js-commando-0.10.0.tgz",
+				"fileCount": 58,
+				"unpackedSize": 200271,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa5hD+CRA9TVsSAnZWagAAlz0QAIvgvJM9nnCz5kInw/jV\nOSVgIZmSUWvTIaxu86duSW+rD3LDkgd6nSkjceRribmMeGj4vh8YBDakfCbn\nDQlj0JbqrYqHl/jcV0nZquKxdUOHmcEDvKKZVzM9rOptFdm4/8xWgSF8fbrG\nS3vOQw/EnGpFF1a3SNgYK6Cv787nCSNvdmJ5VktZX3dHV8Y0hXEaVvCGzzlR\nfvRjP9U7yqNAbbBHBhg5qyPa6zPdsFJevjvJ0jcHLHHmT8r9qy0r6IlUi4NU\nh3I8mBuP4UNcb7RwD91vmoprWQwr7vo9RY5YgCVLOGmJsWLKyEyFhLTebvq9\nP4395jDPi45DmWVsyFfqXi4HAnytheElFCE54t5JOwDUGeV9nbMYwk3xLWEp\n0L1QEuHe0JToucONdfVFJZoUwsXX6qsAfNMCpaRBJQ+Y92H+VLbBoNnxg+Vv\nHxZwWjCRZA32dNBDt66unApedAoAgYNAAVTjPzBtKZZvDAms5DNtmzjAO4nX\nw0B+Neidmdaz1qaidM8IdRs5Xg9tBLgYD3AlcaoJ5o5pk8fLhvh8rmrOYMa6\nd0VmfEzau9jr0BX8fuZhy5zRvUa6t4Jm3kuBI46wD+v0xsbi4EuaeKkXJ+ua\nW10qMjBhQxXUgiPktoJe2A1lwXAsS1E/qDu0XuqxNyBbQRWTi79IOwh6hgVc\n6Oyj\r\n=jo/b\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"engines": {
+				"node": ">=7.6.0"
+			}
+		}
+	},
+	"name": "discord.js-commando",
+	"dist-tags": {
+		"latest": "0.10.0"
+	},
+	"modified": "2018-04-29T18:37:53.680Z",
+	"cachedAt": 1556862598265
+}

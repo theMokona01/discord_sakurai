@@ -1,0 +1,2410 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/app/node_modules/node/bin/node',
+1 verbose cli   '/opt/nvm/versions/node/v8/bin/npm-real',
+1 verbose cli   'install' ]
+2 info using npm@6.4.1
+3 info using node@v11.5.0
+4 verbose config Skipping project config: /app/.npmrc. (matches userconfig)
+5 verbose npm-session 10874991a1b47c67
+6 silly install runPreinstallTopLevelLifecycles
+7 silly preinstall contextio-glitch@0.0.2
+8 info lifecycle contextio-glitch@0.0.2~preinstall: contextio-glitch@0.0.2
+9 silly install loadCurrentTree
+10 silly install readLocalPackageData
+11 timing stage:loadCurrentTree Completed in 765ms
+12 silly install loadIdealTree
+13 silly install cloneCurrentTreeToIdealTree
+14 timing stage:loadIdealTree:cloneCurrentTree Completed in 19ms
+15 silly install loadShrinkwrap
+16 timing stage:loadIdealTree:loadShrinkwrap Completed in 528ms
+17 silly install loadAllDepsIntoIdealTree
+18 http fetch GET 200 https://registry.npmjs.org/jimp 53ms (from cache)
+19 http fetch GET 200 https://registry.npmjs.org/canvas 59ms (from cache)
+20 silly pacote range manifest for canvas@^2.2.0 fetched in 63ms
+21 silly pacote range manifest for jimp@^0.6.0 fetched in 92ms
+22 http fetch GET 200 https://registry.npmjs.org/@jimp%2fcustom 45ms (from cache)
+23 http fetch GET 200 https://registry.npmjs.org/@jimp%2ftypes 45ms (from cache)
+24 http fetch GET 200 https://registry.npmjs.org/nan 59ms (from cache)
+25 http fetch GET 200 https://registry.npmjs.org/@babel%2fpolyfill 58ms (from cache)
+26 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugins 49ms (from cache)
+27 silly pacote range manifest for @jimp/custom@^0.6.0 fetched in 52ms
+28 silly pacote range manifest for @jimp/types@^0.6.0 fetched in 60ms
+29 http fetch GET 200 https://registry.npmjs.org/node-pre-gyp 74ms (from cache)
+30 silly pacote range manifest for nan@^2.11.1 fetched in 76ms
+31 silly pacote range manifest for @babel/polyfill@^7.0.0 fetched in 73ms
+32 silly pacote range manifest for @jimp/plugins@^0.6.0 fetched in 64ms
+33 http fetch GET 200 https://registry.npmjs.org/core-js 95ms (from cache)
+34 silly pacote range manifest for node-pre-gyp@^0.11.0 fetched in 115ms
+35 silly pacote range manifest for core-js@^2.5.7 fetched in 134ms
+36 http fetch GET 200 https://registry.npmjs.org/@jimp%2fgif 49ms (from cache)
+37 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 48ms (from cache)
+38 http fetch GET 200 https://registry.npmjs.org/@jimp%2fcore 82ms (from cache)
+39 http fetch GET 200 https://registry.npmjs.org/@jimp%2fbmp 62ms (from cache)
+40 http fetch GET 200 https://registry.npmjs.org/@jimp%2fjpeg 53ms (from cache)
+41 http fetch GET 200 https://registry.npmjs.org/@jimp%2fpng 52ms (from cache)
+42 http fetch GET 200 https://registry.npmjs.org/@jimp%2ftiff 53ms (from cache)
+43 http fetch GET 200 https://registry.npmjs.org/timm 56ms (from cache)
+44 silly pacote range manifest for @jimp/gif@^0.6.0 fetched in 61ms
+45 silly pacote range manifest for regenerator-runtime@^0.12.0 fetched in 60ms
+46 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-blit 53ms (from cache)
+47 silly pacote range manifest for @jimp/core@^0.6.0 fetched in 99ms
+48 silly pacote range manifest for @jimp/bmp@^0.6.0 fetched in 77ms
+49 silly pacote range manifest for @jimp/jpeg@^0.6.0 fetched in 69ms
+50 silly pacote range manifest for @jimp/png@^0.6.0 fetched in 68ms
+51 silly pacote range manifest for @jimp/tiff@^0.6.0 fetched in 69ms
+52 silly pacote range manifest for timm@^1.6.1 fetched in 79ms
+53 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-blur 36ms (from cache)
+54 silly pacote range manifest for @jimp/plugin-blit@^0.6.0 fetched in 72ms
+55 silly pacote range manifest for @jimp/plugin-blur@^0.6.0 fetched in 123ms
+56 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-color 121ms (from cache)
+57 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-contain 120ms (from cache)
+58 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-displace 110ms (from cache)
+59 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-dither 110ms (from cache)
+60 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-flip 141ms (from cache)
+61 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-cover 150ms (from cache)
+62 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-crop 149ms (from cache)
+63 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-gaussian 143ms (from cache)
+64 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-invert 140ms (from cache)
+65 silly pacote range manifest for @jimp/plugin-color@^0.6.0 fetched in 167ms
+66 silly pacote range manifest for @jimp/plugin-contain@^0.6.0 fetched in 166ms
+67 silly pacote range manifest for @jimp/plugin-displace@^0.6.0 fetched in 156ms
+68 silly pacote range manifest for @jimp/plugin-dither@^0.6.0 fetched in 162ms
+69 silly pacote range manifest for @jimp/plugin-flip@^0.6.0 fetched in 161ms
+70 silly pacote range manifest for @jimp/plugin-cover@^0.6.0 fetched in 166ms
+71 silly pacote range manifest for @jimp/plugin-crop@^0.6.0 fetched in 165ms
+72 silly pacote range manifest for @jimp/plugin-gaussian@^0.6.0 fetched in 159ms
+73 silly pacote range manifest for @jimp/plugin-invert@^0.6.0 fetched in 155ms
+74 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-mask 74ms (from cache)
+75 silly pacote range manifest for timm@^1.6.1 fetched in 7ms
+76 silly pacote range manifest for @jimp/plugin-mask@^0.6.0 fetched in 100ms
+77 http fetch GET 200 https://registry.npmjs.org/mkdirp 35ms (from cache)
+78 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-normalize 47ms (from cache)
+79 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-print 47ms (from cache)
+80 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-resize 47ms (from cache)
+81 http fetch GET 200 https://registry.npmjs.org/detect-libc 40ms (from cache)
+82 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-scale 43ms (from cache)
+83 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-rotate 46ms (from cache)
+84 silly pacote range manifest for mkdirp@^0.5.1 fetched in 47ms
+85 http fetch GET 200 https://registry.npmjs.org/nopt 37ms (from cache)
+86 silly pacote range manifest for @jimp/plugin-normalize@^0.6.0 fetched in 61ms
+87 silly pacote range manifest for @jimp/plugin-print@^0.6.0 fetched in 59ms
+88 silly pacote range manifest for @jimp/plugin-resize@^0.6.0 fetched in 60ms
+89 silly pacote range manifest for detect-libc@^1.0.2 fetched in 53ms
+90 silly pacote range manifest for @jimp/plugin-scale@^0.6.0 fetched in 58ms
+91 silly pacote range manifest for @jimp/plugin-rotate@^0.6.0 fetched in 60ms
+92 http fetch GET 200 https://registry.npmjs.org/needle 57ms (from cache)
+93 http fetch GET 200 https://registry.npmjs.org/npm-packlist 34ms (from cache)
+94 silly pacote range manifest for nopt@^4.0.1 fetched in 52ms
+95 silly pacote range manifest for needle@^2.2.1 fetched in 111ms
+96 silly pacote range manifest for npm-packlist@^1.1.6 fetched in 87ms
+97 http fetch GET 200 https://registry.npmjs.org/npmlog 81ms (from cache)
+98 http fetch GET 200 https://registry.npmjs.org/rimraf 77ms (from cache)
+99 http fetch GET 200 https://registry.npmjs.org/rc 79ms (from cache)
+100 http fetch GET 200 https://registry.npmjs.org/semver 79ms (from cache)
+101 http fetch GET 200 https://registry.npmjs.org/@jimp%2futils 79ms (from cache)
+102 http fetch GET 200 https://registry.npmjs.org/omggif 78ms (from cache)
+103 http fetch GET 200 https://registry.npmjs.org/any-base 77ms (from cache)
+104 silly pacote range manifest for npmlog@^4.0.2 fetched in 94ms
+105 http fetch GET 200 https://registry.npmjs.org/tar 93ms (from cache)
+106 silly pacote range manifest for rimraf@^2.6.1 fetched in 97ms
+107 silly pacote range manifest for rc@^1.2.7 fetched in 99ms
+108 silly pacote range manifest for semver@^5.3.0 fetched in 99ms
+109 silly pacote range manifest for @jimp/utils@^0.6.0 fetched in 97ms
+110 silly pacote range manifest for omggif@^1.0.9 fetched in 95ms
+111 http fetch GET 200 https://registry.npmjs.org/exif-parser 42ms (from cache)
+112 silly pacote range manifest for any-base@^1.1.0 fetched in 95ms
+113 silly pacote range manifest for tar@^4 fetched in 107ms
+114 silly pacote version manifest for mkdirp@0.5.1 fetched in 16ms
+115 http fetch GET 200 https://registry.npmjs.org/buffer 58ms (from cache)
+116 silly pacote range manifest for exif-parser@^0.1.12 fetched in 73ms
+117 silly pacote range manifest for buffer@^5.2.0 fetched in 83ms
+118 http fetch GET 200 https://registry.npmjs.org/load-bmfont 55ms (from cache)
+119 http fetch GET 200 https://registry.npmjs.org/pixelmatch 51ms (from cache)
+120 http fetch GET 200 https://registry.npmjs.org/tinycolor2 51ms (from cache)
+121 http fetch GET 200 https://registry.npmjs.org/file-type 69ms (from cache)
+122 http fetch GET 200 https://registry.npmjs.org/phin 60ms (from cache)
+123 http fetch GET 200 https://registry.npmjs.org/bmp-js 55ms (from cache)
+124 http fetch GET 200 https://registry.npmjs.org/jpeg-js 56ms (from cache)
+125 silly pacote range manifest for load-bmfont@^1.3.1 fetched in 70ms
+126 silly pacote range manifest for pixelmatch@^4.0.2 fetched in 71ms
+127 silly pacote range manifest for tinycolor2@^1.4.1 fetched in 71ms
+128 http fetch GET 200 https://registry.npmjs.org/pngjs 60ms (from cache)
+129 http fetch GET 200 https://registry.npmjs.org/utif 43ms (from cache)
+130 silly pacote range manifest for file-type@^9.0.0 fetched in 90ms
+131 silly pacote range manifest for phin@^2.9.1 fetched in 78ms
+132 silly pacote range manifest for bmp-js@^0.1.0 fetched in 73ms
+133 silly pacote range manifest for jpeg-js@^0.3.4 fetched in 79ms
+134 silly pacote range manifest for load-bmfont@^1.4.0 fetched in 22ms
+135 http fetch GET 200 https://registry.npmjs.org/minimist 49ms (from cache)
+136 silly pacote range manifest for pngjs@^3.3.3 fetched in 76ms
+137 silly pacote range manifest for utif@^2.0.1 fetched in 63ms
+138 silly pacote version manifest for minimist@0.0.8 fetched in 70ms
+139 http fetch GET 200 https://registry.npmjs.org/abbrev 44ms (from cache)
+140 http fetch GET 200 https://registry.npmjs.org/osenv 44ms (from cache)
+141 http fetch GET 200 https://registry.npmjs.org/sax 44ms (from cache)
+142 http fetch GET 200 https://registry.npmjs.org/ignore-walk 45ms (from cache)
+143 http fetch GET 200 https://registry.npmjs.org/npm-bundled 44ms (from cache)
+144 http fetch GET 200 https://registry.npmjs.org/are-we-there-yet 37ms (from cache)
+145 http fetch GET 200 https://registry.npmjs.org/console-control-strings 37ms (from cache)
+146 silly pacote range manifest for abbrev@1 fetched in 56ms
+147 silly pacote range manifest for osenv@^0.1.4 fetched in 57ms
+148 http fetch GET 200 https://registry.npmjs.org/gauge 42ms (from cache)
+149 http fetch GET 200 https://registry.npmjs.org/set-blocking 37ms (from cache)
+150 silly pacote range manifest for sax@^1.2.4 fetched in 56ms
+151 silly pacote range manifest for ignore-walk@^3.0.1 fetched in 56ms
+152 silly pacote range manifest for npm-bundled@^1.0.1 fetched in 64ms
+153 silly pacote range manifest for are-we-there-yet@~1.1.2 fetched in 58ms
+154 silly pacote range manifest for console-control-strings@~1.1.0 fetched in 59ms
+155 silly pacote range manifest for gauge@~2.7.3 fetched in 63ms
+156 silly pacote range manifest for set-blocking@~2.0.0 fetched in 60ms
+157 silly pacote range manifest for minimist@^1.2.0 fetched in 11ms
+158 http fetch GET 200 https://registry.npmjs.org/glob 54ms (from cache)
+159 silly pacote range manifest for mkdirp@^0.5.0 fetched in 27ms
+160 http fetch GET 200 https://registry.npmjs.org/ini 58ms (from cache)
+161 http fetch GET 200 https://registry.npmjs.org/deep-extend 66ms (from cache)
+162 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 87ms (from cache)
+163 http fetch GET 200 https://registry.npmjs.org/chownr 86ms (from cache)
+164 silly pacote range manifest for glob@^7.0.5 fetched in 121ms
+165 http fetch GET 200 https://registry.npmjs.org/fs-minipass 91ms (from cache)
+166 silly pacote range manifest for ini@~1.3.0 fetched in 120ms
+167 http fetch GET 200 https://registry.npmjs.org/minipass 104ms (from cache)
+168 silly pacote range manifest for deep-extend@^0.6.0 fetched in 128ms
+169 http fetch GET 200 https://registry.npmjs.org/minizlib 108ms (from cache)
+170 http fetch GET 200 https://registry.npmjs.org/yallist 107ms (from cache)
+171 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 123ms
+172 silly pacote range manifest for chownr@^1.1.1 fetched in 124ms
+173 silly pacote range manifest for fs-minipass@^1.2.5 fetched in 136ms
+174 silly pacote range manifest for minipass@^2.3.4 fetched in 154ms
+175 http fetch GET 200 https://registry.npmjs.org/base64-js 129ms (from cache)
+176 silly pacote range manifest for minizlib@^1.1.1 fetched in 159ms
+177 silly pacote range manifest for yallist@^3.0.2 fetched in 159ms
+178 http fetch GET 200 https://registry.npmjs.org/ieee754 97ms (from cache)
+179 silly pacote range manifest for base64-js@^1.0.2 fetched in 150ms
+180 silly pacote range manifest for pngjs@^3.0.0 fetched in 20ms
+181 http fetch GET 200 https://registry.npmjs.org/buffer-equal 89ms (from cache)
+182 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-ascii 83ms (from cache)
+183 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-binary 72ms (from cache)
+184 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-xml 72ms (from cache)
+185 silly pacote range manifest for ieee754@^1.1.4 fetched in 114ms
+186 silly pacote version manifest for buffer-equal@0.0.1 fetched in 101ms
+187 http fetch GET 200 https://registry.npmjs.org/xhr 70ms (from cache)
+188 silly pacote range manifest for parse-bmfont-ascii@^1.0.3 fetched in 99ms
+189 http fetch GET 200 https://registry.npmjs.org/xtend 51ms (from cache)
+190 silly pacote range manifest for parse-bmfont-binary@^1.0.5 fetched in 88ms
+191 silly pacote range manifest for parse-bmfont-xml@^1.1.4 fetched in 88ms
+192 http fetch GET 200 https://registry.npmjs.org/pako 51ms (from cache)
+193 silly pacote range manifest for xhr@^2.0.1 fetched in 93ms
+194 http fetch GET 200 https://registry.npmjs.org/os-homedir 39ms (from cache)
+195 silly pacote range manifest for xtend@^4.0.0 fetched in 66ms
+196 silly pacote range manifest for console-control-strings@^1.0.0 fetched in 13ms
+197 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 47ms (from cache)
+198 silly pacote range manifest for pako@^1.0.5 fetched in 70ms
+199 silly pacote range manifest for os-homedir@^1.0.0 fetched in 59ms
+200 http fetch GET 200 https://registry.npmjs.org/minimatch 52ms (from cache)
+201 silly pacote range manifest for os-tmpdir@^1.0.0 fetched in 64ms
+202 http fetch GET 200 https://registry.npmjs.org/delegates 57ms (from cache)
+203 http fetch GET 200 https://registry.npmjs.org/aproba 47ms (from cache)
+204 silly pacote range manifest for minimatch@^3.0.4 fetched in 100ms
+205 http fetch GET 200 https://registry.npmjs.org/has-unicode 91ms (from cache)
+206 http fetch GET 200 https://registry.npmjs.org/object-assign 91ms (from cache)
+207 http fetch GET 200 https://registry.npmjs.org/signal-exit 91ms (from cache)
+208 silly pacote range manifest for delegates@^1.0.0 fetched in 121ms
+209 silly pacote range manifest for aproba@^1.0.3 fetched in 109ms
+210 http fetch GET 200 https://registry.npmjs.org/readable-stream 127ms (from cache)
+211 http fetch GET 200 https://registry.npmjs.org/string-width 101ms (from cache)
+212 silly pacote range manifest for has-unicode@^2.0.0 fetched in 118ms
+213 silly pacote range manifest for object-assign@^4.1.0 fetched in 133ms
+214 silly pacote range manifest for signal-exit@^3.0.0 fetched in 133ms
+215 http fetch GET 200 https://registry.npmjs.org/strip-ansi 123ms (from cache)
+216 http fetch GET 200 https://registry.npmjs.org/wide-align 117ms (from cache)
+217 silly pacote range manifest for readable-stream@^2.0.6 fetched in 176ms
+218 silly pacote range manifest for string-width@^1.0.1 fetched in 149ms
+219 silly pacote range manifest for minipass@^2.2.1 fetched in 28ms
+220 silly pacote range manifest for yallist@^3.0.0 fetched in 29ms
+221 http fetch GET 200 https://registry.npmjs.org/fs.realpath 103ms (from cache)
+222 silly pacote range manifest for strip-ansi@^3.0.1 fetched in 158ms
+223 silly pacote range manifest for wide-align@^1.1.0 fetched in 152ms
+224 http fetch GET 200 https://registry.npmjs.org/inflight 88ms (from cache)
+225 http fetch GET 200 https://registry.npmjs.org/once 95ms (from cache)
+226 silly pacote range manifest for fs.realpath@^1.0.0 fetched in 135ms
+227 silly pacote range manifest for inflight@^1.0.4 fetched in 129ms
+228 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 131ms (from cache)
+229 silly pacote range manifest for once@^1.3.0 fetched in 171ms
+230 http fetch GET 200 https://registry.npmjs.org/xml-parse-from-string 127ms (from cache)
+231 http fetch GET 200 https://registry.npmjs.org/global 121ms (from cache)
+232 http fetch GET 200 https://registry.npmjs.org/is-function 116ms (from cache)
+233 http fetch GET 200 https://registry.npmjs.org/xml2js 127ms (from cache)
+234 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 162ms
+235 http fetch GET 200 https://registry.npmjs.org/parse-headers 123ms (from cache)
+236 http fetch GET 200 https://registry.npmjs.org/brace-expansion 134ms (from cache)
+237 silly pacote range manifest for xml-parse-from-string@^1.0.0 fetched in 159ms
+238 silly pacote range manifest for global@~4.3.0 fetched in 152ms
+239 silly pacote range manifest for is-function@^1.0.1 fetched in 148ms
+240 silly pacote range manifest for xml2js@^0.4.5 fetched in 157ms
+241 http fetch GET 200 https://registry.npmjs.org/core-util-is 103ms (from cache)
+242 silly pacote range manifest for parse-headers@^2.0.0 fetched in 147ms
+243 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 145ms
+244 http fetch GET 200 https://registry.npmjs.org/isarray 96ms (from cache)
+245 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 51ms (from cache)
+246 silly pacote range manifest for core-util-is@~1.0.0 fetched in 113ms
+247 silly pacote range manifest for strip-ansi@^3.0.0 fetched in 9ms
+248 silly pacote range manifest for string-width@^1.0.2 || 2 fetched in 16ms
+249 silly pacote range manifest for isarray@~1.0.0 fetched in 114ms
+250 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 67ms
+251 http fetch GET 200 https://registry.npmjs.org/string_decoder 47ms (from cache)
+252 http fetch GET 200 https://registry.npmjs.org/util-deprecate 32ms (from cache)
+253 http fetch GET 200 https://registry.npmjs.org/code-point-at 33ms (from cache)
+254 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 34ms (from cache)
+255 silly pacote range manifest for sax@>=0.6.0 fetched in 16ms
+256 http fetch GET 200 https://registry.npmjs.org/ansi-regex 37ms (from cache)
+257 silly pacote range manifest for string_decoder@~1.1.1 fetched in 67ms
+258 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 53ms
+259 silly pacote range manifest for code-point-at@^1.0.0 fetched in 51ms
+260 http fetch GET 200 https://registry.npmjs.org/wrappy 36ms (from cache)
+261 silly pacote range manifest for is-fullwidth-code-point@^1.0.0 fetched in 54ms
+262 http fetch GET 200 https://registry.npmjs.org/min-document 41ms (from cache)
+263 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 57ms
+264 http fetch GET 200 https://registry.npmjs.org/process 42ms (from cache)
+265 silly pacote range manifest for wrappy@1 fetched in 51ms
+266 silly pacote range manifest for min-document@^2.19.0 fetched in 55ms
+267 silly pacote range manifest for is-fullwidth-code-point@^2.0.0 fetched in 10ms
+268 silly pacote range manifest for strip-ansi@^4.0.0 fetched in 21ms
+269 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 69ms (from cache)
+270 silly pacote range manifest for process@~0.5.1 fetched in 78ms
+271 http fetch GET 200 https://registry.npmjs.org/for-each 59ms (from cache)
+272 http fetch GET 200 https://registry.npmjs.org/trim 54ms (from cache)
+273 silly pacote range manifest for ansi-regex@^3.0.0 fetched in 11ms
+274 http fetch GET 200 https://registry.npmjs.org/balanced-match 54ms (from cache)
+275 http fetch GET 200 https://registry.npmjs.org/concat-map 51ms (from cache)
+276 silly pacote range manifest for xmlbuilder@~9.0.1 fetched in 80ms
+277 silly pacote range manifest for for-each@^0.3.2 fetched in 70ms
+278 silly pacote version manifest for trim@0.0.1 fetched in 66ms
+279 silly pacote range manifest for balanced-match@^1.0.0 fetched in 63ms
+280 silly pacote version manifest for concat-map@0.0.1 fetched in 63ms
+281 http fetch GET 200 https://registry.npmjs.org/number-is-nan 51ms (from cache)
+282 http fetch GET 200 https://registry.npmjs.org/dom-walk 47ms (from cache)
+283 silly pacote range manifest for number-is-nan@^1.0.0 fetched in 62ms
+284 silly pacote range manifest for dom-walk@^0.1.0 fetched in 60ms
+285 http fetch GET 200 https://registry.npmjs.org/is-callable 19ms (from cache)
+286 silly pacote range manifest for is-callable@^1.1.3 fetched in 20ms
+287 silly pacote range manifest for jimp@^0.6.0 fetched in 5ms
+288 silly resolveWithNewModule jimp@0.6.0 checking installable status
+289 silly pacote range manifest for canvas@^2.2.0 fetched in 7ms
+290 silly resolveWithNewModule canvas@2.2.0 checking installable status
+291 silly pacote range manifest for nan@^2.11.1 fetched in 3ms
+292 silly resolveWithNewModule nan@2.12.1 checking installable status
+293 silly pacote range manifest for node-pre-gyp@^0.11.0 fetched in 4ms
+294 silly resolveWithNewModule node-pre-gyp@0.11.0 checking installable status
+295 silly pacote range manifest for detect-libc@^1.0.2 fetched in 7ms
+296 silly resolveWithNewModule detect-libc@1.0.3 checking installable status
+297 silly pacote range manifest for mkdirp@^0.5.1 fetched in 7ms
+298 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+299 silly pacote range manifest for needle@^2.2.1 fetched in 9ms
+300 silly resolveWithNewModule needle@2.2.4 checking installable status
+301 silly pacote range manifest for nopt@^4.0.1 fetched in 9ms
+302 silly resolveWithNewModule nopt@4.0.1 checking installable status
+303 silly pacote range manifest for npm-packlist@^1.1.6 fetched in 10ms
+304 silly resolveWithNewModule npm-packlist@1.1.12 checking installable status
+305 silly pacote range manifest for npmlog@^4.0.2 fetched in 11ms
+306 silly resolveWithNewModule npmlog@4.1.2 checking installable status
+307 silly pacote range manifest for rc@^1.2.7 fetched in 12ms
+308 silly resolveWithNewModule rc@1.2.8 checking installable status
+309 silly pacote range manifest for rimraf@^2.6.1 fetched in 13ms
+310 silly resolveWithNewModule rimraf@2.6.2 checking installable status
+311 silly pacote range manifest for semver@^5.3.0 fetched in 13ms
+312 silly resolveWithNewModule semver@5.6.0 checking installable status
+313 silly pacote range manifest for tar@^4 fetched in 14ms
+314 silly resolveWithNewModule tar@4.4.8 checking installable status
+315 silly pacote version manifest for minimist@0.0.8 fetched in 1ms
+316 silly resolveWithNewModule minimist@0.0.8 checking installable status
+317 silly pacote range manifest for sax@^1.2.4 fetched in 1ms
+318 silly resolveWithNewModule sax@1.2.4 checking installable status
+319 silly pacote range manifest for abbrev@1 fetched in 1ms
+320 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+321 silly pacote range manifest for osenv@^0.1.4 fetched in 2ms
+322 silly resolveWithNewModule osenv@0.1.5 checking installable status
+323 silly pacote range manifest for os-homedir@^1.0.0 fetched in 7ms
+324 silly resolveWithNewModule os-homedir@1.0.2 checking installable status
+325 silly pacote range manifest for os-tmpdir@^1.0.0 fetched in 11ms
+326 silly resolveWithNewModule os-tmpdir@1.0.2 checking installable status
+327 silly pacote range manifest for ignore-walk@^3.0.1 fetched in 3ms
+328 silly resolveWithNewModule ignore-walk@3.0.1 checking installable status
+329 silly pacote range manifest for npm-bundled@^1.0.1 fetched in 14ms
+330 silly resolveWithNewModule npm-bundled@1.0.5 checking installable status
+331 silly pacote range manifest for minimatch@^3.0.4 fetched in 10ms
+332 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+333 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 2ms
+334 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+335 silly pacote range manifest for balanced-match@^1.0.0 fetched in 12ms
+336 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+337 silly pacote version manifest for concat-map@0.0.1 fetched in 13ms
+338 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+339 silly pacote range manifest for are-we-there-yet@~1.1.2 fetched in 5ms
+340 silly resolveWithNewModule are-we-there-yet@1.1.5 checking installable status
+341 silly pacote range manifest for console-control-strings@~1.1.0 fetched in 6ms
+342 silly resolveWithNewModule console-control-strings@1.1.0 checking installable status
+343 silly pacote range manifest for gauge@~2.7.3 fetched in 19ms
+344 silly resolveWithNewModule gauge@2.7.4 checking installable status
+345 silly pacote range manifest for set-blocking@~2.0.0 fetched in 23ms
+346 silly resolveWithNewModule set-blocking@2.0.0 checking installable status
+347 silly pacote range manifest for delegates@^1.0.0 fetched in 24ms
+348 silly resolveWithNewModule delegates@1.0.0 checking installable status
+349 silly pacote range manifest for readable-stream@^2.0.6 fetched in 25ms
+350 silly resolveWithNewModule readable-stream@2.3.6 checking installable status
+351 silly pacote range manifest for core-util-is@~1.0.0 fetched in 10ms
+352 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+353 silly pacote range manifest for isarray@~1.0.0 fetched in 11ms
+354 silly resolveWithNewModule isarray@1.0.0 checking installable status
+355 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 11ms
+356 silly resolveWithNewModule process-nextick-args@2.0.0 checking installable status
+357 silly pacote range manifest for string_decoder@~1.1.1 fetched in 12ms
+358 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+359 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 13ms
+360 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+361 silly pacote range manifest for aproba@^1.0.3 fetched in 33ms
+362 silly resolveWithNewModule aproba@1.2.0 checking installable status
+363 silly pacote range manifest for has-unicode@^2.0.0 fetched in 33ms
+364 silly resolveWithNewModule has-unicode@2.0.1 checking installable status
+365 silly pacote range manifest for object-assign@^4.1.0 fetched in 34ms
+366 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+367 silly pacote range manifest for signal-exit@^3.0.0 fetched in 40ms
+368 silly resolveWithNewModule signal-exit@3.0.2 checking installable status
+369 silly pacote range manifest for string-width@^1.0.1 fetched in 70ms
+370 silly resolveWithNewModule string-width@1.0.2 checking installable status
+371 silly pacote range manifest for strip-ansi@^3.0.1 fetched in 71ms
+372 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+373 silly pacote range manifest for wide-align@^1.1.0 fetched in 71ms
+374 silly resolveWithNewModule wide-align@1.1.3 checking installable status
+375 silly pacote range manifest for code-point-at@^1.0.0 fetched in 1ms
+376 silly resolveWithNewModule code-point-at@1.1.0 checking installable status
+377 silly pacote range manifest for is-fullwidth-code-point@^1.0.0 fetched in 2ms
+378 silly resolveWithNewModule is-fullwidth-code-point@1.0.0 checking installable status
+379 silly pacote range manifest for number-is-nan@^1.0.0 fetched in 0ms
+380 silly resolveWithNewModule number-is-nan@1.0.1 checking installable status
+381 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 0ms
+382 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+383 silly pacote range manifest for deep-extend@^0.6.0 fetched in 4ms
+384 silly resolveWithNewModule deep-extend@0.6.0 checking installable status
+385 silly pacote range manifest for ini@~1.3.0 fetched in 4ms
+386 silly resolveWithNewModule ini@1.3.5 checking installable status
+387 silly pacote range manifest for minimist@^1.2.0 fetched in 5ms
+388 silly resolveWithNewModule minimist@1.2.0 checking installable status
+389 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 6ms
+390 silly resolveWithNewModule strip-json-comments@2.0.1 checking installable status
+391 silly pacote range manifest for glob@^7.0.5 fetched in 1ms
+392 silly resolveWithNewModule glob@7.1.3 checking installable status
+393 silly pacote range manifest for fs.realpath@^1.0.0 fetched in 2ms
+394 silly resolveWithNewModule fs.realpath@1.0.0 checking installable status
+395 silly pacote range manifest for inflight@^1.0.4 fetched in 3ms
+396 silly resolveWithNewModule inflight@1.0.6 checking installable status
+397 silly pacote range manifest for once@^1.3.0 fetched in 4ms
+398 silly resolveWithNewModule once@1.4.0 checking installable status
+399 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 4ms
+400 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+401 silly pacote range manifest for wrappy@1 fetched in 5ms
+402 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+403 silly pacote range manifest for chownr@^1.1.1 fetched in 3ms
+404 silly resolveWithNewModule chownr@1.1.1 checking installable status
+405 silly pacote range manifest for fs-minipass@^1.2.5 fetched in 3ms
+406 silly resolveWithNewModule fs-minipass@1.2.5 checking installable status
+407 silly pacote range manifest for minipass@^2.3.4 fetched in 4ms
+408 silly resolveWithNewModule minipass@2.3.5 checking installable status
+409 silly pacote range manifest for minizlib@^1.1.1 fetched in 5ms
+410 silly resolveWithNewModule minizlib@1.2.1 checking installable status
+411 silly pacote range manifest for yallist@^3.0.2 fetched in 5ms
+412 silly resolveWithNewModule yallist@3.0.3 checking installable status
+413 silly pacote range manifest for @babel/polyfill@^7.0.0 fetched in 2ms
+414 silly resolveWithNewModule @babel/polyfill@7.2.5 checking installable status
+415 silly pacote range manifest for @jimp/custom@^0.6.0 fetched in 3ms
+416 silly resolveWithNewModule @jimp/custom@0.6.0 checking installable status
+417 silly pacote range manifest for @jimp/plugins@^0.6.0 fetched in 2ms
+418 silly resolveWithNewModule @jimp/plugins@0.6.0 checking installable status
+419 silly pacote range manifest for @jimp/types@^0.6.0 fetched in 3ms
+420 silly resolveWithNewModule @jimp/types@0.6.0 checking installable status
+421 silly pacote range manifest for core-js@^2.5.7 fetched in 3ms
+422 silly resolveWithNewModule core-js@2.6.1 checking installable status
+423 silly pacote range manifest for regenerator-runtime@^0.12.0 fetched in 1ms
+424 silly resolveWithNewModule regenerator-runtime@0.12.1 checking installable status
+425 silly pacote range manifest for @jimp/core@^0.6.0 fetched in 1ms
+426 silly resolveWithNewModule @jimp/core@0.6.0 checking installable status
+427 silly pacote range manifest for @jimp/utils@^0.6.0 fetched in 11ms
+428 silly resolveWithNewModule @jimp/utils@0.6.0 checking installable status
+429 silly pacote range manifest for any-base@^1.1.0 fetched in 11ms
+430 silly resolveWithNewModule any-base@1.1.0 checking installable status
+431 silly pacote range manifest for buffer@^5.2.0 fetched in 38ms
+432 silly resolveWithNewModule buffer@5.2.1 checking installable status
+433 silly pacote range manifest for exif-parser@^0.1.12 fetched in 38ms
+434 silly resolveWithNewModule exif-parser@0.1.12 checking installable status
+435 silly pacote range manifest for file-type@^9.0.0 fetched in 41ms
+436 silly resolveWithNewModule file-type@9.0.0 checking installable status
+437 silly pacote range manifest for load-bmfont@^1.3.1 fetched in 41ms
+438 silly resolveWithNewModule load-bmfont@1.4.0 checking installable status
+439 silly pacote range manifest for phin@^2.9.1 fetched in 42ms
+440 silly resolveWithNewModule phin@2.9.3 checking installable status
+441 silly pacote range manifest for pixelmatch@^4.0.2 fetched in 43ms
+442 silly resolveWithNewModule pixelmatch@4.0.2 checking installable status
+443 silly pacote range manifest for tinycolor2@^1.4.1 fetched in 45ms
+444 silly resolveWithNewModule tinycolor2@1.4.1 checking installable status
+445 silly pacote range manifest for base64-js@^1.0.2 fetched in 7ms
+446 silly resolveWithNewModule base64-js@1.3.0 checking installable status
+447 silly pacote range manifest for ieee754@^1.1.4 fetched in 13ms
+448 silly resolveWithNewModule ieee754@1.1.12 checking installable status
+449 silly pacote version manifest for buffer-equal@0.0.1 fetched in 9ms
+450 silly resolveWithNewModule buffer-equal@0.0.1 checking installable status
+451 silly pacote range manifest for parse-bmfont-ascii@^1.0.3 fetched in 9ms
+452 silly resolveWithNewModule parse-bmfont-ascii@1.0.6 checking installable status
+453 silly pacote range manifest for parse-bmfont-binary@^1.0.5 fetched in 53ms
+454 silly resolveWithNewModule parse-bmfont-binary@1.0.6 checking installable status
+455 silly pacote range manifest for parse-bmfont-xml@^1.1.4 fetched in 60ms
+456 silly resolveWithNewModule parse-bmfont-xml@1.1.4 checking installable status
+457 silly pacote range manifest for xhr@^2.0.1 fetched in 60ms
+458 silly resolveWithNewModule xhr@2.5.0 checking installable status
+459 silly pacote range manifest for xtend@^4.0.0 fetched in 69ms
+460 silly resolveWithNewModule xtend@4.0.1 checking installable status
+461 silly pacote range manifest for xml-parse-from-string@^1.0.0 fetched in 25ms
+462 silly resolveWithNewModule xml-parse-from-string@1.0.1 checking installable status
+463 silly pacote range manifest for xml2js@^0.4.5 fetched in 27ms
+464 silly resolveWithNewModule xml2js@0.4.19 checking installable status
+465 silly pacote range manifest for xmlbuilder@~9.0.1 fetched in 10ms
+466 silly resolveWithNewModule xmlbuilder@9.0.7 checking installable status
+467 silly pacote range manifest for global@~4.3.0 fetched in 16ms
+468 silly resolveWithNewModule global@4.3.2 checking installable status
+469 silly pacote range manifest for is-function@^1.0.1 fetched in 17ms
+470 silly resolveWithNewModule is-function@1.0.1 checking installable status
+471 silly pacote range manifest for parse-headers@^2.0.0 fetched in 17ms
+472 silly resolveWithNewModule parse-headers@2.0.1 checking installable status
+473 silly pacote range manifest for min-document@^2.19.0 fetched in 10ms
+474 silly resolveWithNewModule min-document@2.19.0 checking installable status
+475 silly pacote range manifest for process@~0.5.1 fetched in 11ms
+476 silly resolveWithNewModule process@0.5.2 checking installable status
+477 silly pacote range manifest for dom-walk@^0.1.0 fetched in 13ms
+478 silly resolveWithNewModule dom-walk@0.1.1 checking installable status
+479 silly pacote range manifest for for-each@^0.3.2 fetched in 8ms
+480 silly resolveWithNewModule for-each@0.3.3 checking installable status
+481 silly pacote version manifest for trim@0.0.1 fetched in 8ms
+482 silly resolveWithNewModule trim@0.0.1 checking installable status
+483 silly pacote range manifest for is-callable@^1.1.3 fetched in 8ms
+484 silly resolveWithNewModule is-callable@1.1.4 checking installable status
+485 silly pacote range manifest for pngjs@^3.0.0 fetched in 12ms
+486 silly resolveWithNewModule pngjs@3.3.3 checking installable status
+487 silly pacote range manifest for @jimp/plugin-blit@^0.6.0 fetched in 16ms
+488 silly resolveWithNewModule @jimp/plugin-blit@0.6.0 checking installable status
+489 silly pacote range manifest for @jimp/plugin-blur@^0.6.0 fetched in 17ms
+490 silly resolveWithNewModule @jimp/plugin-blur@0.6.0 checking installable status
+491 silly pacote range manifest for @jimp/plugin-color@^0.6.0 fetched in 17ms
+492 silly resolveWithNewModule @jimp/plugin-color@0.6.0 checking installable status
+493 silly pacote range manifest for @jimp/plugin-contain@^0.6.0 fetched in 18ms
+494 silly resolveWithNewModule @jimp/plugin-contain@0.6.0 checking installable status
+495 silly pacote range manifest for @jimp/plugin-cover@^0.6.0 fetched in 6ms
+496 silly resolveWithNewModule @jimp/plugin-cover@0.6.0 checking installable status
+497 silly pacote range manifest for @jimp/plugin-crop@^0.6.0 fetched in 7ms
+498 silly resolveWithNewModule @jimp/plugin-crop@0.6.0 checking installable status
+499 silly pacote range manifest for @jimp/plugin-displace@^0.6.0 fetched in 8ms
+500 silly resolveWithNewModule @jimp/plugin-displace@0.6.0 checking installable status
+501 silly pacote range manifest for @jimp/plugin-dither@^0.6.0 fetched in 9ms
+502 silly resolveWithNewModule @jimp/plugin-dither@0.6.0 checking installable status
+503 silly pacote range manifest for @jimp/plugin-flip@^0.6.0 fetched in 10ms
+504 silly resolveWithNewModule @jimp/plugin-flip@0.6.0 checking installable status
+505 silly pacote range manifest for @jimp/plugin-gaussian@^0.6.0 fetched in 13ms
+506 silly resolveWithNewModule @jimp/plugin-gaussian@0.6.0 checking installable status
+507 silly pacote range manifest for @jimp/plugin-invert@^0.6.0 fetched in 4ms
+508 silly resolveWithNewModule @jimp/plugin-invert@0.6.0 checking installable status
+509 silly pacote range manifest for @jimp/plugin-mask@^0.6.0 fetched in 5ms
+510 silly resolveWithNewModule @jimp/plugin-mask@0.6.0 checking installable status
+511 silly pacote range manifest for @jimp/plugin-normalize@^0.6.0 fetched in 6ms
+512 silly resolveWithNewModule @jimp/plugin-normalize@0.6.0 checking installable status
+513 silly pacote range manifest for @jimp/plugin-print@^0.6.0 fetched in 6ms
+514 silly resolveWithNewModule @jimp/plugin-print@0.6.0 checking installable status
+515 silly pacote range manifest for @jimp/plugin-resize@^0.6.0 fetched in 7ms
+516 silly resolveWithNewModule @jimp/plugin-resize@0.6.0 checking installable status
+517 silly pacote range manifest for @jimp/plugin-rotate@^0.6.0 fetched in 7ms
+518 silly resolveWithNewModule @jimp/plugin-rotate@0.6.0 checking installable status
+519 silly pacote range manifest for @jimp/plugin-scale@^0.6.0 fetched in 7ms
+520 silly resolveWithNewModule @jimp/plugin-scale@0.6.0 checking installable status
+521 silly pacote range manifest for timm@^1.6.1 fetched in 8ms
+522 silly resolveWithNewModule timm@1.6.1 checking installable status
+523 silly pacote range manifest for @jimp/bmp@^0.6.0 fetched in 2ms
+524 silly resolveWithNewModule @jimp/bmp@0.6.0 checking installable status
+525 silly pacote range manifest for @jimp/gif@^0.6.0 fetched in 3ms
+526 silly resolveWithNewModule @jimp/gif@0.6.0 checking installable status
+527 silly pacote range manifest for @jimp/jpeg@^0.6.0 fetched in 3ms
+528 silly resolveWithNewModule @jimp/jpeg@0.6.0 checking installable status
+529 silly pacote range manifest for @jimp/png@^0.6.0 fetched in 4ms
+530 silly resolveWithNewModule @jimp/png@0.6.0 checking installable status
+531 silly pacote range manifest for @jimp/tiff@^0.6.0 fetched in 5ms
+532 silly resolveWithNewModule @jimp/tiff@0.6.0 checking installable status
+533 silly pacote range manifest for bmp-js@^0.1.0 fetched in 0ms
+534 silly resolveWithNewModule bmp-js@0.1.0 checking installable status
+535 silly pacote range manifest for omggif@^1.0.9 fetched in 1ms
+536 silly resolveWithNewModule omggif@1.0.9 checking installable status
+537 silly pacote range manifest for jpeg-js@^0.3.4 fetched in 1ms
+538 silly resolveWithNewModule jpeg-js@0.3.4 checking installable status
+539 silly pacote range manifest for utif@^2.0.1 fetched in 1ms
+540 silly resolveWithNewModule utif@2.0.1 checking installable status
+541 silly pacote range manifest for pako@^1.0.5 fetched in 1ms
+542 silly resolveWithNewModule pako@1.0.7 checking installable status
+543 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 2764ms
+544 timing stage:loadIdealTree Completed in 3508ms
+545 silly currentTree contextio-glitch@0.0.2
+545 silly currentTree ├── @babel/polyfill@7.2.5
+545 silly currentTree ├── @jimp/bmp@0.6.0
+545 silly currentTree ├── @jimp/core@0.6.0
+545 silly currentTree ├── @jimp/custom@0.6.0
+545 silly currentTree ├── @jimp/gif@0.6.0
+545 silly currentTree ├── @jimp/jpeg@0.6.0
+545 silly currentTree ├── @jimp/plugin-blit@0.6.0
+545 silly currentTree ├── @jimp/plugin-blur@0.6.0
+545 silly currentTree ├── @jimp/plugin-color@0.6.0
+545 silly currentTree ├── @jimp/plugin-contain@0.6.0
+545 silly currentTree ├── @jimp/plugin-cover@0.6.0
+545 silly currentTree ├── @jimp/plugin-crop@0.6.0
+545 silly currentTree ├── @jimp/plugin-displace@0.6.0
+545 silly currentTree ├── @jimp/plugin-dither@0.6.0
+545 silly currentTree ├── @jimp/plugin-flip@0.6.0
+545 silly currentTree ├── @jimp/plugin-gaussian@0.6.0
+545 silly currentTree ├── @jimp/plugin-invert@0.6.0
+545 silly currentTree ├── @jimp/plugin-mask@0.6.0
+545 silly currentTree ├── @jimp/plugin-normalize@0.6.0
+545 silly currentTree ├── @jimp/plugin-print@0.6.0
+545 silly currentTree ├── @jimp/plugin-resize@0.6.0
+545 silly currentTree ├── @jimp/plugin-rotate@0.6.0
+545 silly currentTree ├── @jimp/plugin-scale@0.6.0
+545 silly currentTree ├── @jimp/plugins@0.6.0
+545 silly currentTree ├── @jimp/png@0.6.0
+545 silly currentTree ├── @jimp/tiff@0.6.0
+545 silly currentTree ├── @jimp/types@0.6.0
+545 silly currentTree ├── @jimp/utils@0.6.0
+545 silly currentTree ├── accepts@1.3.5
+545 silly currentTree ├── any-base@1.1.0
+545 silly currentTree ├── array-flatten@1.1.1
+545 silly currentTree ├── async-limiter@1.0.0
+545 silly currentTree ├── base64-js@1.3.0
+545 silly currentTree ├── bmp-js@0.1.0
+545 silly currentTree ├── body-parser@1.18.3
+545 silly currentTree ├── buffer-equal@0.0.1
+545 silly currentTree ├── buffer@5.2.1
+545 silly currentTree ├── bytes@3.0.0
+545 silly currentTree ├── common-tags@1.8.0
+545 silly currentTree ├── content-disposition@0.5.2
+545 silly currentTree ├── content-type@1.0.4
+545 silly currentTree ├── cookie-signature@1.0.6
+545 silly currentTree ├── cookie@0.3.1
+545 silly currentTree ├── core-js@2.6.1
+545 silly currentTree ├── debug@2.6.9
+545 silly currentTree ├── depd@1.1.2
+545 silly currentTree ├── destroy@1.0.4
+545 silly currentTree ├── discord.js-commando@0.10.0
+545 silly currentTree ├── discord.js@11.4.2
+545 silly currentTree ├── dom-walk@0.1.1
+545 silly currentTree ├── ee-first@1.1.1
+545 silly currentTree ├── encodeurl@1.0.2
+545 silly currentTree ├── escape-html@1.0.3
+545 silly currentTree ├── escape-string-regexp@1.0.5
+545 silly currentTree ├── etag@1.8.1
+545 silly currentTree ├── exif-parser@0.1.12
+545 silly currentTree ├── express@4.16.4
+545 silly currentTree ├── file-type@9.0.0
+545 silly currentTree ├── finalhandler@1.1.1
+545 silly currentTree ├── for-each@0.3.3
+545 silly currentTree ├── forwarded@0.1.2
+545 silly currentTree ├── fresh@0.5.2
+545 silly currentTree ├── global@4.3.2
+545 silly currentTree ├── http-errors@1.6.3
+545 silly currentTree ├── iconv-lite@0.4.23
+545 silly currentTree ├── ieee754@1.1.12
+545 silly currentTree ├── inherits@2.0.3
+545 silly currentTree ├── ipaddr.js@1.8.0
+545 silly currentTree ├── is-callable@1.1.4
+545 silly currentTree ├── is-function@1.0.1
+545 silly currentTree ├── jimp@0.6.0
+545 silly currentTree ├── jpeg-js@0.3.4
+545 silly currentTree ├── load-bmfont@1.4.0
+545 silly currentTree ├── long@4.0.0
+545 silly currentTree ├── media-typer@0.3.0
+545 silly currentTree ├── merge-descriptors@1.0.1
+545 silly currentTree ├── methods@1.1.2
+545 silly currentTree ├── mime-db@1.37.0
+545 silly currentTree ├── mime-types@2.1.21
+545 silly currentTree ├── mime@1.4.1
+545 silly currentTree ├── min-document@2.19.0
+545 silly currentTree ├── minimist@0.0.8
+545 silly currentTree ├── mkdirp@0.5.1
+545 silly currentTree ├── ms@2.0.0
+545 silly currentTree ├── negotiator@0.6.1
+545 silly currentTree ├── node-bin-setup@1.0.6
+545 silly currentTree ├─┬ node-libcurl
+545 silly currentTree │ └── node-pre-gyp
+545 silly currentTree ├── node@11.5.0
+545 silly currentTree ├── omggif@1.0.9
+545 silly currentTree ├── on-finished@2.3.0
+545 silly currentTree ├── opusscript@0.0.6
+545 silly currentTree ├── pako@1.0.7
+545 silly currentTree ├── parse-bmfont-ascii@1.0.6
+545 silly currentTree ├── parse-bmfont-binary@1.0.6
+545 silly currentTree ├── parse-bmfont-xml@1.1.4
+545 silly currentTree ├── parse-headers@2.0.1
+545 silly currentTree ├── parseurl@1.3.2
+545 silly currentTree ├── path-to-regexp@0.1.7
+545 silly currentTree ├── phin@2.9.3
+545 silly currentTree ├── pixelmatch@4.0.2
+545 silly currentTree ├── pngjs@3.3.3
+545 silly currentTree ├── prism-media@0.0.3
+545 silly currentTree ├── process@0.5.2
+545 silly currentTree ├── proxy-addr@2.0.4
+545 silly currentTree ├── qs@6.5.2
+545 silly currentTree ├── range-parser@1.2.0
+545 silly currentTree ├── raw-body@2.3.3
+545 silly currentTree ├── regenerator-runtime@0.12.1
+545 silly currentTree ├── require-all@2.2.0
+545 silly currentTree ├── safe-buffer@5.1.2
+545 silly currentTree ├── safer-buffer@2.1.2
+545 silly currentTree ├── sax@1.2.4
+545 silly currentTree ├── send@0.16.2
+545 silly currentTree ├── serve-static@1.13.2
+545 silly currentTree ├── setprototypeof@1.1.0
+545 silly currentTree ├── snekfetch@3.6.4
+545 silly currentTree ├── statuses@1.4.0
+545 silly currentTree ├── timm@1.6.1
+545 silly currentTree ├── tinycolor2@1.4.1
+545 silly currentTree ├── trim@0.0.1
+545 silly currentTree ├── tweetnacl@1.0.0
+545 silly currentTree ├── type-is@1.6.16
+545 silly currentTree ├── unpipe@1.0.0
+545 silly currentTree ├── utif@2.0.1
+545 silly currentTree ├── utils-merge@1.0.1
+545 silly currentTree ├── vary@1.1.2
+545 silly currentTree ├── ws@4.1.0
+545 silly currentTree ├── xhr@2.5.0
+545 silly currentTree ├── xml-parse-from-string@1.0.1
+545 silly currentTree ├── xml2js@0.4.19
+545 silly currentTree ├── xmlbuilder@9.0.7
+545 silly currentTree └── xtend@4.0.1
+546 silly idealTree contextio-glitch@0.0.2
+546 silly idealTree ├── @babel/polyfill@7.2.5
+546 silly idealTree ├── @jimp/bmp@0.6.0
+546 silly idealTree ├── @jimp/core@0.6.0
+546 silly idealTree ├── @jimp/custom@0.6.0
+546 silly idealTree ├── @jimp/gif@0.6.0
+546 silly idealTree ├── @jimp/jpeg@0.6.0
+546 silly idealTree ├── @jimp/plugin-blit@0.6.0
+546 silly idealTree ├── @jimp/plugin-blur@0.6.0
+546 silly idealTree ├── @jimp/plugin-color@0.6.0
+546 silly idealTree ├── @jimp/plugin-contain@0.6.0
+546 silly idealTree ├── @jimp/plugin-cover@0.6.0
+546 silly idealTree ├── @jimp/plugin-crop@0.6.0
+546 silly idealTree ├── @jimp/plugin-displace@0.6.0
+546 silly idealTree ├── @jimp/plugin-dither@0.6.0
+546 silly idealTree ├── @jimp/plugin-flip@0.6.0
+546 silly idealTree ├── @jimp/plugin-gaussian@0.6.0
+546 silly idealTree ├── @jimp/plugin-invert@0.6.0
+546 silly idealTree ├── @jimp/plugin-mask@0.6.0
+546 silly idealTree ├── @jimp/plugin-normalize@0.6.0
+546 silly idealTree ├── @jimp/plugin-print@0.6.0
+546 silly idealTree ├── @jimp/plugin-resize@0.6.0
+546 silly idealTree ├── @jimp/plugin-rotate@0.6.0
+546 silly idealTree ├── @jimp/plugin-scale@0.6.0
+546 silly idealTree ├── @jimp/plugins@0.6.0
+546 silly idealTree ├── @jimp/png@0.6.0
+546 silly idealTree ├── @jimp/tiff@0.6.0
+546 silly idealTree ├── @jimp/types@0.6.0
+546 silly idealTree ├── @jimp/utils@0.6.0
+546 silly idealTree ├── abbrev@1.1.1
+546 silly idealTree ├── accepts@1.3.5
+546 silly idealTree ├── ansi-regex@2.1.1
+546 silly idealTree ├── any-base@1.1.0
+546 silly idealTree ├── aproba@1.2.0
+546 silly idealTree ├── are-we-there-yet@1.1.5
+546 silly idealTree ├── array-flatten@1.1.1
+546 silly idealTree ├── async-limiter@1.0.0
+546 silly idealTree ├── balanced-match@1.0.0
+546 silly idealTree ├── base64-js@1.3.0
+546 silly idealTree ├── bmp-js@0.1.0
+546 silly idealTree ├── body-parser@1.18.3
+546 silly idealTree ├── brace-expansion@1.1.11
+546 silly idealTree ├── buffer-equal@0.0.1
+546 silly idealTree ├── buffer@5.2.1
+546 silly idealTree ├── bytes@3.0.0
+546 silly idealTree ├── canvas@2.2.0
+546 silly idealTree ├── chownr@1.1.1
+546 silly idealTree ├── code-point-at@1.1.0
+546 silly idealTree ├── common-tags@1.8.0
+546 silly idealTree ├── concat-map@0.0.1
+546 silly idealTree ├── console-control-strings@1.1.0
+546 silly idealTree ├── content-disposition@0.5.2
+546 silly idealTree ├── content-type@1.0.4
+546 silly idealTree ├── cookie-signature@1.0.6
+546 silly idealTree ├── cookie@0.3.1
+546 silly idealTree ├── core-js@2.6.1
+546 silly idealTree ├── core-util-is@1.0.2
+546 silly idealTree ├── debug@2.6.9
+546 silly idealTree ├── deep-extend@0.6.0
+546 silly idealTree ├── delegates@1.0.0
+546 silly idealTree ├── depd@1.1.2
+546 silly idealTree ├── destroy@1.0.4
+546 silly idealTree ├── detect-libc@1.0.3
+546 silly idealTree ├── discord.js-commando@0.10.0
+546 silly idealTree ├── discord.js@11.4.2
+546 silly idealTree ├── dom-walk@0.1.1
+546 silly idealTree ├── ee-first@1.1.1
+546 silly idealTree ├── encodeurl@1.0.2
+546 silly idealTree ├── escape-html@1.0.3
+546 silly idealTree ├── escape-string-regexp@1.0.5
+546 silly idealTree ├── etag@1.8.1
+546 silly idealTree ├── exif-parser@0.1.12
+546 silly idealTree ├── express@4.16.4
+546 silly idealTree ├── file-type@9.0.0
+546 silly idealTree ├── finalhandler@1.1.1
+546 silly idealTree ├── for-each@0.3.3
+546 silly idealTree ├── forwarded@0.1.2
+546 silly idealTree ├── fresh@0.5.2
+546 silly idealTree ├── fs-minipass@1.2.5
+546 silly idealTree ├── fs.realpath@1.0.0
+546 silly idealTree ├── gauge@2.7.4
+546 silly idealTree ├── glob@7.1.3
+546 silly idealTree ├── global@4.3.2
+546 silly idealTree ├── has-unicode@2.0.1
+546 silly idealTree ├── http-errors@1.6.3
+546 silly idealTree ├── iconv-lite@0.4.23
+546 silly idealTree ├── ieee754@1.1.12
+546 silly idealTree ├── ignore-walk@3.0.1
+546 silly idealTree ├── inflight@1.0.6
+546 silly idealTree ├── inherits@2.0.3
+546 silly idealTree ├── ini@1.3.5
+546 silly idealTree ├── ipaddr.js@1.8.0
+546 silly idealTree ├── is-callable@1.1.4
+546 silly idealTree ├── is-fullwidth-code-point@1.0.0
+546 silly idealTree ├── is-function@1.0.1
+546 silly idealTree ├── isarray@1.0.0
+546 silly idealTree ├── jimp@0.6.0
+546 silly idealTree ├── jpeg-js@0.3.4
+546 silly idealTree ├── load-bmfont@1.4.0
+546 silly idealTree ├── long@4.0.0
+546 silly idealTree ├── media-typer@0.3.0
+546 silly idealTree ├── merge-descriptors@1.0.1
+546 silly idealTree ├── methods@1.1.2
+546 silly idealTree ├── mime-db@1.37.0
+546 silly idealTree ├── mime-types@2.1.21
+546 silly idealTree ├── mime@1.4.1
+546 silly idealTree ├── min-document@2.19.0
+546 silly idealTree ├── minimatch@3.0.4
+546 silly idealTree ├── minimist@0.0.8
+546 silly idealTree ├── minipass@2.3.5
+546 silly idealTree ├── minizlib@1.2.1
+546 silly idealTree ├── mkdirp@0.5.1
+546 silly idealTree ├── ms@2.0.0
+546 silly idealTree ├── nan@2.12.1
+546 silly idealTree ├── needle@2.2.4
+546 silly idealTree ├── negotiator@0.6.1
+546 silly idealTree ├── node-bin-setup@1.0.6
+546 silly idealTree ├── node-pre-gyp@0.11.0
+546 silly idealTree ├── node@11.5.0
+546 silly idealTree ├── nopt@4.0.1
+546 silly idealTree ├── npm-bundled@1.0.5
+546 silly idealTree ├── npm-packlist@1.1.12
+546 silly idealTree ├── npmlog@4.1.2
+546 silly idealTree ├── number-is-nan@1.0.1
+546 silly idealTree ├── object-assign@4.1.1
+546 silly idealTree ├── omggif@1.0.9
+546 silly idealTree ├── on-finished@2.3.0
+546 silly idealTree ├── once@1.4.0
+546 silly idealTree ├── opusscript@0.0.6
+546 silly idealTree ├── os-homedir@1.0.2
+546 silly idealTree ├── os-tmpdir@1.0.2
+546 silly idealTree ├── osenv@0.1.5
+546 silly idealTree ├── pako@1.0.7
+546 silly idealTree ├── parse-bmfont-ascii@1.0.6
+546 silly idealTree ├── parse-bmfont-binary@1.0.6
+546 silly idealTree ├── parse-bmfont-xml@1.1.4
+546 silly idealTree ├── parse-headers@2.0.1
+546 silly idealTree ├── parseurl@1.3.2
+546 silly idealTree ├── path-is-absolute@1.0.1
+546 silly idealTree ├── path-to-regexp@0.1.7
+546 silly idealTree ├── phin@2.9.3
+546 silly idealTree ├── pixelmatch@4.0.2
+546 silly idealTree ├── pngjs@3.3.3
+546 silly idealTree ├── prism-media@0.0.3
+546 silly idealTree ├── process-nextick-args@2.0.0
+546 silly idealTree ├── process@0.5.2
+546 silly idealTree ├── proxy-addr@2.0.4
+546 silly idealTree ├── qs@6.5.2
+546 silly idealTree ├── range-parser@1.2.0
+546 silly idealTree ├── raw-body@2.3.3
+546 silly idealTree ├─┬ rc@1.2.8
+546 silly idealTree │ └── minimist@1.2.0
+546 silly idealTree ├── readable-stream@2.3.6
+546 silly idealTree ├── regenerator-runtime@0.12.1
+546 silly idealTree ├── require-all@2.2.0
+546 silly idealTree ├── rimraf@2.6.2
+546 silly idealTree ├── safe-buffer@5.1.2
+546 silly idealTree ├── safer-buffer@2.1.2
+546 silly idealTree ├── sax@1.2.4
+546 silly idealTree ├── semver@5.6.0
+546 silly idealTree ├── send@0.16.2
+546 silly idealTree ├── serve-static@1.13.2
+546 silly idealTree ├── set-blocking@2.0.0
+546 silly idealTree ├── setprototypeof@1.1.0
+546 silly idealTree ├── signal-exit@3.0.2
+546 silly idealTree ├── snekfetch@3.6.4
+546 silly idealTree ├── statuses@1.4.0
+546 silly idealTree ├── string_decoder@1.1.1
+546 silly idealTree ├── string-width@1.0.2
+546 silly idealTree ├── strip-ansi@3.0.1
+546 silly idealTree ├── strip-json-comments@2.0.1
+546 silly idealTree ├── tar@4.4.8
+546 silly idealTree ├── timm@1.6.1
+546 silly idealTree ├── tinycolor2@1.4.1
+546 silly idealTree ├── trim@0.0.1
+546 silly idealTree ├── tweetnacl@1.0.0
+546 silly idealTree ├── type-is@1.6.16
+546 silly idealTree ├── unpipe@1.0.0
+546 silly idealTree ├── utif@2.0.1
+546 silly idealTree ├── util-deprecate@1.0.2
+546 silly idealTree ├── utils-merge@1.0.1
+546 silly idealTree ├── vary@1.1.2
+546 silly idealTree ├── wide-align@1.1.3
+546 silly idealTree ├── wrappy@1.0.2
+546 silly idealTree ├── ws@4.1.0
+546 silly idealTree ├── xhr@2.5.0
+546 silly idealTree ├── xml-parse-from-string@1.0.1
+546 silly idealTree ├── xml2js@0.4.19
+546 silly idealTree ├── xmlbuilder@9.0.7
+546 silly idealTree ├── xtend@4.0.1
+546 silly idealTree └── yallist@3.0.3
+547 silly install generateActionsToTake
+548 timing stage:generateActionsToTake Completed in 50ms
+549 silly diffTrees action count 61
+550 silly diffTrees add abbrev@1.1.1
+551 silly diffTrees add ansi-regex@2.1.1
+552 silly diffTrees add aproba@1.2.0
+553 silly diffTrees add balanced-match@1.0.0
+554 silly diffTrees add chownr@1.1.1
+555 silly diffTrees add code-point-at@1.1.0
+556 silly diffTrees add concat-map@0.0.1
+557 silly diffTrees add brace-expansion@1.1.11
+558 silly diffTrees add console-control-strings@1.1.0
+559 silly diffTrees add core-util-is@1.0.2
+560 silly diffTrees add deep-extend@0.6.0
+561 silly diffTrees add delegates@1.0.0
+562 silly diffTrees add detect-libc@1.0.3
+563 silly diffTrees add fs.realpath@1.0.0
+564 silly diffTrees add has-unicode@2.0.1
+565 silly diffTrees add ini@1.3.5
+566 silly diffTrees add isarray@1.0.0
+567 silly diffTrees add minimatch@3.0.4
+568 silly diffTrees add ignore-walk@3.0.1
+569 silly diffTrees add nan@2.12.1
+570 silly diffTrees add needle@2.2.4
+571 silly diffTrees add npm-bundled@1.0.5
+572 silly diffTrees add npm-packlist@1.1.12
+573 silly diffTrees add number-is-nan@1.0.1
+574 silly diffTrees add is-fullwidth-code-point@1.0.0
+575 silly diffTrees add object-assign@4.1.1
+576 silly diffTrees add os-homedir@1.0.2
+577 silly diffTrees add os-tmpdir@1.0.2
+578 silly diffTrees add osenv@0.1.5
+579 silly diffTrees add nopt@4.0.1
+580 silly diffTrees add path-is-absolute@1.0.1
+581 silly diffTrees add process-nextick-args@2.0.0
+582 silly diffTrees add minimist@1.2.0
+583 silly diffTrees add semver@5.6.0
+584 silly diffTrees add set-blocking@2.0.0
+585 silly diffTrees add signal-exit@3.0.2
+586 silly diffTrees add string_decoder@1.1.1
+587 silly diffTrees add strip-ansi@3.0.1
+588 silly diffTrees add string-width@1.0.2
+589 silly diffTrees add strip-json-comments@2.0.1
+590 silly diffTrees add rc@1.2.8
+591 silly diffTrees add util-deprecate@1.0.2
+592 silly diffTrees add readable-stream@2.3.6
+593 silly diffTrees add are-we-there-yet@1.1.5
+594 silly diffTrees add wide-align@1.1.3
+595 silly diffTrees add gauge@2.7.4
+596 silly diffTrees add npmlog@4.1.2
+597 silly diffTrees add wrappy@1.0.2
+598 silly diffTrees add once@1.4.0
+599 silly diffTrees add inflight@1.0.6
+600 silly diffTrees add glob@7.1.3
+601 silly diffTrees add rimraf@2.6.2
+602 silly diffTrees add yallist@3.0.3
+603 silly diffTrees add minipass@2.3.5
+604 silly diffTrees add fs-minipass@1.2.5
+605 silly diffTrees add minizlib@1.2.1
+606 silly diffTrees add tar@4.4.8
+607 silly diffTrees add node-pre-gyp@0.11.0
+608 silly diffTrees add canvas@2.2.0
+609 silly diffTrees remove node-libcurl
+610 silly diffTrees remove node-pre-gyp
+611 silly decomposeActions action count 476
+612 silly decomposeActions fetch abbrev@1.1.1
+613 silly decomposeActions extract abbrev@1.1.1
+614 silly decomposeActions preinstall abbrev@1.1.1
+615 silly decomposeActions build abbrev@1.1.1
+616 silly decomposeActions install abbrev@1.1.1
+617 silly decomposeActions postinstall abbrev@1.1.1
+618 silly decomposeActions finalize abbrev@1.1.1
+619 silly decomposeActions refresh-package-json abbrev@1.1.1
+620 silly decomposeActions fetch ansi-regex@2.1.1
+621 silly decomposeActions extract ansi-regex@2.1.1
+622 silly decomposeActions preinstall ansi-regex@2.1.1
+623 silly decomposeActions build ansi-regex@2.1.1
+624 silly decomposeActions install ansi-regex@2.1.1
+625 silly decomposeActions postinstall ansi-regex@2.1.1
+626 silly decomposeActions finalize ansi-regex@2.1.1
+627 silly decomposeActions refresh-package-json ansi-regex@2.1.1
+628 silly decomposeActions fetch aproba@1.2.0
+629 silly decomposeActions extract aproba@1.2.0
+630 silly decomposeActions preinstall aproba@1.2.0
+631 silly decomposeActions build aproba@1.2.0
+632 silly decomposeActions install aproba@1.2.0
+633 silly decomposeActions postinstall aproba@1.2.0
+634 silly decomposeActions finalize aproba@1.2.0
+635 silly decomposeActions refresh-package-json aproba@1.2.0
+636 silly decomposeActions fetch balanced-match@1.0.0
+637 silly decomposeActions extract balanced-match@1.0.0
+638 silly decomposeActions preinstall balanced-match@1.0.0
+639 silly decomposeActions build balanced-match@1.0.0
+640 silly decomposeActions install balanced-match@1.0.0
+641 silly decomposeActions postinstall balanced-match@1.0.0
+642 silly decomposeActions finalize balanced-match@1.0.0
+643 silly decomposeActions refresh-package-json balanced-match@1.0.0
+644 silly decomposeActions fetch chownr@1.1.1
+645 silly decomposeActions extract chownr@1.1.1
+646 silly decomposeActions preinstall chownr@1.1.1
+647 silly decomposeActions build chownr@1.1.1
+648 silly decomposeActions install chownr@1.1.1
+649 silly decomposeActions postinstall chownr@1.1.1
+650 silly decomposeActions finalize chownr@1.1.1
+651 silly decomposeActions refresh-package-json chownr@1.1.1
+652 silly decomposeActions fetch code-point-at@1.1.0
+653 silly decomposeActions extract code-point-at@1.1.0
+654 silly decomposeActions preinstall code-point-at@1.1.0
+655 silly decomposeActions build code-point-at@1.1.0
+656 silly decomposeActions install code-point-at@1.1.0
+657 silly decomposeActions postinstall code-point-at@1.1.0
+658 silly decomposeActions finalize code-point-at@1.1.0
+659 silly decomposeActions refresh-package-json code-point-at@1.1.0
+660 silly decomposeActions fetch concat-map@0.0.1
+661 silly decomposeActions extract concat-map@0.0.1
+662 silly decomposeActions preinstall concat-map@0.0.1
+663 silly decomposeActions build concat-map@0.0.1
+664 silly decomposeActions install concat-map@0.0.1
+665 silly decomposeActions postinstall concat-map@0.0.1
+666 silly decomposeActions finalize concat-map@0.0.1
+667 silly decomposeActions refresh-package-json concat-map@0.0.1
+668 silly decomposeActions fetch brace-expansion@1.1.11
+669 silly decomposeActions extract brace-expansion@1.1.11
+670 silly decomposeActions preinstall brace-expansion@1.1.11
+671 silly decomposeActions build brace-expansion@1.1.11
+672 silly decomposeActions install brace-expansion@1.1.11
+673 silly decomposeActions postinstall brace-expansion@1.1.11
+674 silly decomposeActions finalize brace-expansion@1.1.11
+675 silly decomposeActions refresh-package-json brace-expansion@1.1.11
+676 silly decomposeActions fetch console-control-strings@1.1.0
+677 silly decomposeActions extract console-control-strings@1.1.0
+678 silly decomposeActions preinstall console-control-strings@1.1.0
+679 silly decomposeActions build console-control-strings@1.1.0
+680 silly decomposeActions install console-control-strings@1.1.0
+681 silly decomposeActions postinstall console-control-strings@1.1.0
+682 silly decomposeActions finalize console-control-strings@1.1.0
+683 silly decomposeActions refresh-package-json console-control-strings@1.1.0
+684 silly decomposeActions fetch core-util-is@1.0.2
+685 silly decomposeActions extract core-util-is@1.0.2
+686 silly decomposeActions preinstall core-util-is@1.0.2
+687 silly decomposeActions build core-util-is@1.0.2
+688 silly decomposeActions install core-util-is@1.0.2
+689 silly decomposeActions postinstall core-util-is@1.0.2
+690 silly decomposeActions finalize core-util-is@1.0.2
+691 silly decomposeActions refresh-package-json core-util-is@1.0.2
+692 silly decomposeActions fetch deep-extend@0.6.0
+693 silly decomposeActions extract deep-extend@0.6.0
+694 silly decomposeActions preinstall deep-extend@0.6.0
+695 silly decomposeActions build deep-extend@0.6.0
+696 silly decomposeActions install deep-extend@0.6.0
+697 silly decomposeActions postinstall deep-extend@0.6.0
+698 silly decomposeActions finalize deep-extend@0.6.0
+699 silly decomposeActions refresh-package-json deep-extend@0.6.0
+700 silly decomposeActions fetch delegates@1.0.0
+701 silly decomposeActions extract delegates@1.0.0
+702 silly decomposeActions preinstall delegates@1.0.0
+703 silly decomposeActions build delegates@1.0.0
+704 silly decomposeActions install delegates@1.0.0
+705 silly decomposeActions postinstall delegates@1.0.0
+706 silly decomposeActions finalize delegates@1.0.0
+707 silly decomposeActions refresh-package-json delegates@1.0.0
+708 silly decomposeActions fetch detect-libc@1.0.3
+709 silly decomposeActions extract detect-libc@1.0.3
+710 silly decomposeActions preinstall detect-libc@1.0.3
+711 silly decomposeActions build detect-libc@1.0.3
+712 silly decomposeActions install detect-libc@1.0.3
+713 silly decomposeActions postinstall detect-libc@1.0.3
+714 silly decomposeActions finalize detect-libc@1.0.3
+715 silly decomposeActions refresh-package-json detect-libc@1.0.3
+716 silly decomposeActions fetch fs.realpath@1.0.0
+717 silly decomposeActions extract fs.realpath@1.0.0
+718 silly decomposeActions preinstall fs.realpath@1.0.0
+719 silly decomposeActions build fs.realpath@1.0.0
+720 silly decomposeActions install fs.realpath@1.0.0
+721 silly decomposeActions postinstall fs.realpath@1.0.0
+722 silly decomposeActions finalize fs.realpath@1.0.0
+723 silly decomposeActions refresh-package-json fs.realpath@1.0.0
+724 silly decomposeActions fetch has-unicode@2.0.1
+725 silly decomposeActions extract has-unicode@2.0.1
+726 silly decomposeActions preinstall has-unicode@2.0.1
+727 silly decomposeActions build has-unicode@2.0.1
+728 silly decomposeActions install has-unicode@2.0.1
+729 silly decomposeActions postinstall has-unicode@2.0.1
+730 silly decomposeActions finalize has-unicode@2.0.1
+731 silly decomposeActions refresh-package-json has-unicode@2.0.1
+732 silly decomposeActions fetch ini@1.3.5
+733 silly decomposeActions extract ini@1.3.5
+734 silly decomposeActions preinstall ini@1.3.5
+735 silly decomposeActions build ini@1.3.5
+736 silly decomposeActions install ini@1.3.5
+737 silly decomposeActions postinstall ini@1.3.5
+738 silly decomposeActions finalize ini@1.3.5
+739 silly decomposeActions refresh-package-json ini@1.3.5
+740 silly decomposeActions fetch isarray@1.0.0
+741 silly decomposeActions extract isarray@1.0.0
+742 silly decomposeActions preinstall isarray@1.0.0
+743 silly decomposeActions build isarray@1.0.0
+744 silly decomposeActions install isarray@1.0.0
+745 silly decomposeActions postinstall isarray@1.0.0
+746 silly decomposeActions finalize isarray@1.0.0
+747 silly decomposeActions refresh-package-json isarray@1.0.0
+748 silly decomposeActions fetch minimatch@3.0.4
+749 silly decomposeActions extract minimatch@3.0.4
+750 silly decomposeActions preinstall minimatch@3.0.4
+751 silly decomposeActions build minimatch@3.0.4
+752 silly decomposeActions install minimatch@3.0.4
+753 silly decomposeActions postinstall minimatch@3.0.4
+754 silly decomposeActions finalize minimatch@3.0.4
+755 silly decomposeActions refresh-package-json minimatch@3.0.4
+756 silly decomposeActions fetch ignore-walk@3.0.1
+757 silly decomposeActions extract ignore-walk@3.0.1
+758 silly decomposeActions preinstall ignore-walk@3.0.1
+759 silly decomposeActions build ignore-walk@3.0.1
+760 silly decomposeActions install ignore-walk@3.0.1
+761 silly decomposeActions postinstall ignore-walk@3.0.1
+762 silly decomposeActions finalize ignore-walk@3.0.1
+763 silly decomposeActions refresh-package-json ignore-walk@3.0.1
+764 silly decomposeActions fetch nan@2.12.1
+765 silly decomposeActions extract nan@2.12.1
+766 silly decomposeActions preinstall nan@2.12.1
+767 silly decomposeActions build nan@2.12.1
+768 silly decomposeActions install nan@2.12.1
+769 silly decomposeActions postinstall nan@2.12.1
+770 silly decomposeActions finalize nan@2.12.1
+771 silly decomposeActions refresh-package-json nan@2.12.1
+772 silly decomposeActions fetch needle@2.2.4
+773 silly decomposeActions extract needle@2.2.4
+774 silly decomposeActions preinstall needle@2.2.4
+775 silly decomposeActions build needle@2.2.4
+776 silly decomposeActions install needle@2.2.4
+777 silly decomposeActions postinstall needle@2.2.4
+778 silly decomposeActions finalize needle@2.2.4
+779 silly decomposeActions refresh-package-json needle@2.2.4
+780 silly decomposeActions fetch npm-bundled@1.0.5
+781 silly decomposeActions extract npm-bundled@1.0.5
+782 silly decomposeActions preinstall npm-bundled@1.0.5
+783 silly decomposeActions build npm-bundled@1.0.5
+784 silly decomposeActions install npm-bundled@1.0.5
+785 silly decomposeActions postinstall npm-bundled@1.0.5
+786 silly decomposeActions finalize npm-bundled@1.0.5
+787 silly decomposeActions refresh-package-json npm-bundled@1.0.5
+788 silly decomposeActions fetch npm-packlist@1.1.12
+789 silly decomposeActions extract npm-packlist@1.1.12
+790 silly decomposeActions preinstall npm-packlist@1.1.12
+791 silly decomposeActions build npm-packlist@1.1.12
+792 silly decomposeActions install npm-packlist@1.1.12
+793 silly decomposeActions postinstall npm-packlist@1.1.12
+794 silly decomposeActions finalize npm-packlist@1.1.12
+795 silly decomposeActions refresh-package-json npm-packlist@1.1.12
+796 silly decomposeActions fetch number-is-nan@1.0.1
+797 silly decomposeActions extract number-is-nan@1.0.1
+798 silly decomposeActions preinstall number-is-nan@1.0.1
+799 silly decomposeActions build number-is-nan@1.0.1
+800 silly decomposeActions install number-is-nan@1.0.1
+801 silly decomposeActions postinstall number-is-nan@1.0.1
+802 silly decomposeActions finalize number-is-nan@1.0.1
+803 silly decomposeActions refresh-package-json number-is-nan@1.0.1
+804 silly decomposeActions fetch is-fullwidth-code-point@1.0.0
+805 silly decomposeActions extract is-fullwidth-code-point@1.0.0
+806 silly decomposeActions preinstall is-fullwidth-code-point@1.0.0
+807 silly decomposeActions build is-fullwidth-code-point@1.0.0
+808 silly decomposeActions install is-fullwidth-code-point@1.0.0
+809 silly decomposeActions postinstall is-fullwidth-code-point@1.0.0
+810 silly decomposeActions finalize is-fullwidth-code-point@1.0.0
+811 silly decomposeActions refresh-package-json is-fullwidth-code-point@1.0.0
+812 silly decomposeActions fetch object-assign@4.1.1
+813 silly decomposeActions extract object-assign@4.1.1
+814 silly decomposeActions preinstall object-assign@4.1.1
+815 silly decomposeActions build object-assign@4.1.1
+816 silly decomposeActions install object-assign@4.1.1
+817 silly decomposeActions postinstall object-assign@4.1.1
+818 silly decomposeActions finalize object-assign@4.1.1
+819 silly decomposeActions refresh-package-json object-assign@4.1.1
+820 silly decomposeActions fetch os-homedir@1.0.2
+821 silly decomposeActions extract os-homedir@1.0.2
+822 silly decomposeActions preinstall os-homedir@1.0.2
+823 silly decomposeActions build os-homedir@1.0.2
+824 silly decomposeActions install os-homedir@1.0.2
+825 silly decomposeActions postinstall os-homedir@1.0.2
+826 silly decomposeActions finalize os-homedir@1.0.2
+827 silly decomposeActions refresh-package-json os-homedir@1.0.2
+828 silly decomposeActions fetch os-tmpdir@1.0.2
+829 silly decomposeActions extract os-tmpdir@1.0.2
+830 silly decomposeActions preinstall os-tmpdir@1.0.2
+831 silly decomposeActions build os-tmpdir@1.0.2
+832 silly decomposeActions install os-tmpdir@1.0.2
+833 silly decomposeActions postinstall os-tmpdir@1.0.2
+834 silly decomposeActions finalize os-tmpdir@1.0.2
+835 silly decomposeActions refresh-package-json os-tmpdir@1.0.2
+836 silly decomposeActions fetch osenv@0.1.5
+837 silly decomposeActions extract osenv@0.1.5
+838 silly decomposeActions preinstall osenv@0.1.5
+839 silly decomposeActions build osenv@0.1.5
+840 silly decomposeActions install osenv@0.1.5
+841 silly decomposeActions postinstall osenv@0.1.5
+842 silly decomposeActions finalize osenv@0.1.5
+843 silly decomposeActions refresh-package-json osenv@0.1.5
+844 silly decomposeActions fetch nopt@4.0.1
+845 silly decomposeActions extract nopt@4.0.1
+846 silly decomposeActions preinstall nopt@4.0.1
+847 silly decomposeActions build nopt@4.0.1
+848 silly decomposeActions install nopt@4.0.1
+849 silly decomposeActions postinstall nopt@4.0.1
+850 silly decomposeActions finalize nopt@4.0.1
+851 silly decomposeActions refresh-package-json nopt@4.0.1
+852 silly decomposeActions fetch path-is-absolute@1.0.1
+853 silly decomposeActions extract path-is-absolute@1.0.1
+854 silly decomposeActions preinstall path-is-absolute@1.0.1
+855 silly decomposeActions build path-is-absolute@1.0.1
+856 silly decomposeActions install path-is-absolute@1.0.1
+857 silly decomposeActions postinstall path-is-absolute@1.0.1
+858 silly decomposeActions finalize path-is-absolute@1.0.1
+859 silly decomposeActions refresh-package-json path-is-absolute@1.0.1
+860 silly decomposeActions fetch process-nextick-args@2.0.0
+861 silly decomposeActions extract process-nextick-args@2.0.0
+862 silly decomposeActions preinstall process-nextick-args@2.0.0
+863 silly decomposeActions build process-nextick-args@2.0.0
+864 silly decomposeActions install process-nextick-args@2.0.0
+865 silly decomposeActions postinstall process-nextick-args@2.0.0
+866 silly decomposeActions finalize process-nextick-args@2.0.0
+867 silly decomposeActions refresh-package-json process-nextick-args@2.0.0
+868 silly decomposeActions fetch minimist@1.2.0
+869 silly decomposeActions extract minimist@1.2.0
+870 silly decomposeActions preinstall minimist@1.2.0
+871 silly decomposeActions build minimist@1.2.0
+872 silly decomposeActions install minimist@1.2.0
+873 silly decomposeActions postinstall minimist@1.2.0
+874 silly decomposeActions finalize minimist@1.2.0
+875 silly decomposeActions refresh-package-json minimist@1.2.0
+876 silly decomposeActions fetch semver@5.6.0
+877 silly decomposeActions extract semver@5.6.0
+878 silly decomposeActions preinstall semver@5.6.0
+879 silly decomposeActions build semver@5.6.0
+880 silly decomposeActions install semver@5.6.0
+881 silly decomposeActions postinstall semver@5.6.0
+882 silly decomposeActions finalize semver@5.6.0
+883 silly decomposeActions refresh-package-json semver@5.6.0
+884 silly decomposeActions fetch set-blocking@2.0.0
+885 silly decomposeActions extract set-blocking@2.0.0
+886 silly decomposeActions preinstall set-blocking@2.0.0
+887 silly decomposeActions build set-blocking@2.0.0
+888 silly decomposeActions install set-blocking@2.0.0
+889 silly decomposeActions postinstall set-blocking@2.0.0
+890 silly decomposeActions finalize set-blocking@2.0.0
+891 silly decomposeActions refresh-package-json set-blocking@2.0.0
+892 silly decomposeActions fetch signal-exit@3.0.2
+893 silly decomposeActions extract signal-exit@3.0.2
+894 silly decomposeActions preinstall signal-exit@3.0.2
+895 silly decomposeActions build signal-exit@3.0.2
+896 silly decomposeActions install signal-exit@3.0.2
+897 silly decomposeActions postinstall signal-exit@3.0.2
+898 silly decomposeActions finalize signal-exit@3.0.2
+899 silly decomposeActions refresh-package-json signal-exit@3.0.2
+900 silly decomposeActions fetch string_decoder@1.1.1
+901 silly decomposeActions extract string_decoder@1.1.1
+902 silly decomposeActions preinstall string_decoder@1.1.1
+903 silly decomposeActions build string_decoder@1.1.1
+904 silly decomposeActions install string_decoder@1.1.1
+905 silly decomposeActions postinstall string_decoder@1.1.1
+906 silly decomposeActions finalize string_decoder@1.1.1
+907 silly decomposeActions refresh-package-json string_decoder@1.1.1
+908 silly decomposeActions fetch strip-ansi@3.0.1
+909 silly decomposeActions extract strip-ansi@3.0.1
+910 silly decomposeActions preinstall strip-ansi@3.0.1
+911 silly decomposeActions build strip-ansi@3.0.1
+912 silly decomposeActions install strip-ansi@3.0.1
+913 silly decomposeActions postinstall strip-ansi@3.0.1
+914 silly decomposeActions finalize strip-ansi@3.0.1
+915 silly decomposeActions refresh-package-json strip-ansi@3.0.1
+916 silly decomposeActions fetch string-width@1.0.2
+917 silly decomposeActions extract string-width@1.0.2
+918 silly decomposeActions preinstall string-width@1.0.2
+919 silly decomposeActions build string-width@1.0.2
+920 silly decomposeActions install string-width@1.0.2
+921 silly decomposeActions postinstall string-width@1.0.2
+922 silly decomposeActions finalize string-width@1.0.2
+923 silly decomposeActions refresh-package-json string-width@1.0.2
+924 silly decomposeActions fetch strip-json-comments@2.0.1
+925 silly decomposeActions extract strip-json-comments@2.0.1
+926 silly decomposeActions preinstall strip-json-comments@2.0.1
+927 silly decomposeActions build strip-json-comments@2.0.1
+928 silly decomposeActions install strip-json-comments@2.0.1
+929 silly decomposeActions postinstall strip-json-comments@2.0.1
+930 silly decomposeActions finalize strip-json-comments@2.0.1
+931 silly decomposeActions refresh-package-json strip-json-comments@2.0.1
+932 silly decomposeActions fetch rc@1.2.8
+933 silly decomposeActions extract rc@1.2.8
+934 silly decomposeActions preinstall rc@1.2.8
+935 silly decomposeActions build rc@1.2.8
+936 silly decomposeActions install rc@1.2.8
+937 silly decomposeActions postinstall rc@1.2.8
+938 silly decomposeActions finalize rc@1.2.8
+939 silly decomposeActions refresh-package-json rc@1.2.8
+940 silly decomposeActions fetch util-deprecate@1.0.2
+941 silly decomposeActions extract util-deprecate@1.0.2
+942 silly decomposeActions preinstall util-deprecate@1.0.2
+943 silly decomposeActions build util-deprecate@1.0.2
+944 silly decomposeActions install util-deprecate@1.0.2
+945 silly decomposeActions postinstall util-deprecate@1.0.2
+946 silly decomposeActions finalize util-deprecate@1.0.2
+947 silly decomposeActions refresh-package-json util-deprecate@1.0.2
+948 silly decomposeActions fetch readable-stream@2.3.6
+949 silly decomposeActions extract readable-stream@2.3.6
+950 silly decomposeActions preinstall readable-stream@2.3.6
+951 silly decomposeActions build readable-stream@2.3.6
+952 silly decomposeActions install readable-stream@2.3.6
+953 silly decomposeActions postinstall readable-stream@2.3.6
+954 silly decomposeActions finalize readable-stream@2.3.6
+955 silly decomposeActions refresh-package-json readable-stream@2.3.6
+956 silly decomposeActions fetch are-we-there-yet@1.1.5
+957 silly decomposeActions extract are-we-there-yet@1.1.5
+958 silly decomposeActions preinstall are-we-there-yet@1.1.5
+959 silly decomposeActions build are-we-there-yet@1.1.5
+960 silly decomposeActions install are-we-there-yet@1.1.5
+961 silly decomposeActions postinstall are-we-there-yet@1.1.5
+962 silly decomposeActions finalize are-we-there-yet@1.1.5
+963 silly decomposeActions refresh-package-json are-we-there-yet@1.1.5
+964 silly decomposeActions fetch wide-align@1.1.3
+965 silly decomposeActions extract wide-align@1.1.3
+966 silly decomposeActions preinstall wide-align@1.1.3
+967 silly decomposeActions build wide-align@1.1.3
+968 silly decomposeActions install wide-align@1.1.3
+969 silly decomposeActions postinstall wide-align@1.1.3
+970 silly decomposeActions finalize wide-align@1.1.3
+971 silly decomposeActions refresh-package-json wide-align@1.1.3
+972 silly decomposeActions fetch gauge@2.7.4
+973 silly decomposeActions extract gauge@2.7.4
+974 silly decomposeActions preinstall gauge@2.7.4
+975 silly decomposeActions build gauge@2.7.4
+976 silly decomposeActions install gauge@2.7.4
+977 silly decomposeActions postinstall gauge@2.7.4
+978 silly decomposeActions finalize gauge@2.7.4
+979 silly decomposeActions refresh-package-json gauge@2.7.4
+980 silly decomposeActions fetch npmlog@4.1.2
+981 silly decomposeActions extract npmlog@4.1.2
+982 silly decomposeActions preinstall npmlog@4.1.2
+983 silly decomposeActions build npmlog@4.1.2
+984 silly decomposeActions install npmlog@4.1.2
+985 silly decomposeActions postinstall npmlog@4.1.2
+986 silly decomposeActions finalize npmlog@4.1.2
+987 silly decomposeActions refresh-package-json npmlog@4.1.2
+988 silly decomposeActions fetch wrappy@1.0.2
+989 silly decomposeActions extract wrappy@1.0.2
+990 silly decomposeActions preinstall wrappy@1.0.2
+991 silly decomposeActions build wrappy@1.0.2
+992 silly decomposeActions install wrappy@1.0.2
+993 silly decomposeActions postinstall wrappy@1.0.2
+994 silly decomposeActions finalize wrappy@1.0.2
+995 silly decomposeActions refresh-package-json wrappy@1.0.2
+996 silly decomposeActions fetch once@1.4.0
+997 silly decomposeActions extract once@1.4.0
+998 silly decomposeActions preinstall once@1.4.0
+999 silly decomposeActions build once@1.4.0
+1000 silly decomposeActions install once@1.4.0
+1001 silly decomposeActions postinstall once@1.4.0
+1002 silly decomposeActions finalize once@1.4.0
+1003 silly decomposeActions refresh-package-json once@1.4.0
+1004 silly decomposeActions fetch inflight@1.0.6
+1005 silly decomposeActions extract inflight@1.0.6
+1006 silly decomposeActions preinstall inflight@1.0.6
+1007 silly decomposeActions build inflight@1.0.6
+1008 silly decomposeActions install inflight@1.0.6
+1009 silly decomposeActions postinstall inflight@1.0.6
+1010 silly decomposeActions finalize inflight@1.0.6
+1011 silly decomposeActions refresh-package-json inflight@1.0.6
+1012 silly decomposeActions fetch glob@7.1.3
+1013 silly decomposeActions extract glob@7.1.3
+1014 silly decomposeActions preinstall glob@7.1.3
+1015 silly decomposeActions build glob@7.1.3
+1016 silly decomposeActions install glob@7.1.3
+1017 silly decomposeActions postinstall glob@7.1.3
+1018 silly decomposeActions finalize glob@7.1.3
+1019 silly decomposeActions refresh-package-json glob@7.1.3
+1020 silly decomposeActions fetch rimraf@2.6.2
+1021 silly decomposeActions extract rimraf@2.6.2
+1022 silly decomposeActions preinstall rimraf@2.6.2
+1023 silly decomposeActions build rimraf@2.6.2
+1024 silly decomposeActions install rimraf@2.6.2
+1025 silly decomposeActions postinstall rimraf@2.6.2
+1026 silly decomposeActions finalize rimraf@2.6.2
+1027 silly decomposeActions refresh-package-json rimraf@2.6.2
+1028 silly decomposeActions fetch yallist@3.0.3
+1029 silly decomposeActions extract yallist@3.0.3
+1030 silly decomposeActions preinstall yallist@3.0.3
+1031 silly decomposeActions build yallist@3.0.3
+1032 silly decomposeActions install yallist@3.0.3
+1033 silly decomposeActions postinstall yallist@3.0.3
+1034 silly decomposeActions finalize yallist@3.0.3
+1035 silly decomposeActions refresh-package-json yallist@3.0.3
+1036 silly decomposeActions fetch minipass@2.3.5
+1037 silly decomposeActions extract minipass@2.3.5
+1038 silly decomposeActions preinstall minipass@2.3.5
+1039 silly decomposeActions build minipass@2.3.5
+1040 silly decomposeActions install minipass@2.3.5
+1041 silly decomposeActions postinstall minipass@2.3.5
+1042 silly decomposeActions finalize minipass@2.3.5
+1043 silly decomposeActions refresh-package-json minipass@2.3.5
+1044 silly decomposeActions fetch fs-minipass@1.2.5
+1045 silly decomposeActions extract fs-minipass@1.2.5
+1046 silly decomposeActions preinstall fs-minipass@1.2.5
+1047 silly decomposeActions build fs-minipass@1.2.5
+1048 silly decomposeActions install fs-minipass@1.2.5
+1049 silly decomposeActions postinstall fs-minipass@1.2.5
+1050 silly decomposeActions finalize fs-minipass@1.2.5
+1051 silly decomposeActions refresh-package-json fs-minipass@1.2.5
+1052 silly decomposeActions fetch minizlib@1.2.1
+1053 silly decomposeActions extract minizlib@1.2.1
+1054 silly decomposeActions preinstall minizlib@1.2.1
+1055 silly decomposeActions build minizlib@1.2.1
+1056 silly decomposeActions install minizlib@1.2.1
+1057 silly decomposeActions postinstall minizlib@1.2.1
+1058 silly decomposeActions finalize minizlib@1.2.1
+1059 silly decomposeActions refresh-package-json minizlib@1.2.1
+1060 silly decomposeActions fetch tar@4.4.8
+1061 silly decomposeActions extract tar@4.4.8
+1062 silly decomposeActions preinstall tar@4.4.8
+1063 silly decomposeActions build tar@4.4.8
+1064 silly decomposeActions install tar@4.4.8
+1065 silly decomposeActions postinstall tar@4.4.8
+1066 silly decomposeActions finalize tar@4.4.8
+1067 silly decomposeActions refresh-package-json tar@4.4.8
+1068 silly decomposeActions fetch node-pre-gyp@0.11.0
+1069 silly decomposeActions extract node-pre-gyp@0.11.0
+1070 silly decomposeActions preinstall node-pre-gyp@0.11.0
+1071 silly decomposeActions build node-pre-gyp@0.11.0
+1072 silly decomposeActions install node-pre-gyp@0.11.0
+1073 silly decomposeActions postinstall node-pre-gyp@0.11.0
+1074 silly decomposeActions finalize node-pre-gyp@0.11.0
+1075 silly decomposeActions refresh-package-json node-pre-gyp@0.11.0
+1076 silly decomposeActions fetch canvas@2.2.0
+1077 silly decomposeActions extract canvas@2.2.0
+1078 silly decomposeActions preinstall canvas@2.2.0
+1079 silly decomposeActions build canvas@2.2.0
+1080 silly decomposeActions install canvas@2.2.0
+1081 silly decomposeActions postinstall canvas@2.2.0
+1082 silly decomposeActions finalize canvas@2.2.0
+1083 silly decomposeActions refresh-package-json canvas@2.2.0
+1084 silly decomposeActions unbuild node-libcurl
+1085 silly decomposeActions remove node-libcurl
+1086 silly decomposeActions unbuild node-pre-gyp
+1087 silly decomposeActions remove node-pre-gyp
+1088 silly install executeActions
+1089 silly doSerial global-install 476
+1090 verbose correctMkdir /app/.npm/_locks correctMkdir not in flight; initializing
+1091 verbose lock using /app/.npm/_locks/staging-bd3355550c5a469e.lock for /app/node_modules/.staging
+1092 timing audit compress Completed in 10ms
+1093 info audit Submitting payload of 13137bytes
+1094 silly doParallel extract 59
+1095 silly extract abbrev@1.1.1
+1096 silly extract ansi-regex@2.1.1
+1097 silly extract aproba@1.2.0
+1098 silly extract balanced-match@1.0.0
+1099 silly extract chownr@1.1.1
+1100 silly extract code-point-at@1.1.0
+1101 silly extract concat-map@0.0.1
+1102 silly extract brace-expansion@1.1.11
+1103 silly extract console-control-strings@1.1.0
+1104 silly extract core-util-is@1.0.2
+1105 silly extract deep-extend@0.6.0
+1106 silly extract delegates@1.0.0
+1107 silly extract detect-libc@1.0.3
+1108 silly extract fs.realpath@1.0.0
+1109 silly extract has-unicode@2.0.1
+1110 silly extract ini@1.3.5
+1111 silly extract isarray@1.0.0
+1112 silly extract minimatch@3.0.4
+1113 silly extract ignore-walk@3.0.1
+1114 silly extract nan@2.12.1
+1115 silly extract needle@2.2.4
+1116 silly extract npm-bundled@1.0.5
+1117 silly extract npm-packlist@1.1.12
+1118 silly extract number-is-nan@1.0.1
+1119 silly extract is-fullwidth-code-point@1.0.0
+1120 silly extract object-assign@4.1.1
+1121 silly extract os-homedir@1.0.2
+1122 silly extract os-tmpdir@1.0.2
+1123 silly extract osenv@0.1.5
+1124 silly extract nopt@4.0.1
+1125 silly extract path-is-absolute@1.0.1
+1126 silly extract process-nextick-args@2.0.0
+1127 silly extract minimist@1.2.0
+1128 silly extract semver@5.6.0
+1129 silly extract set-blocking@2.0.0
+1130 silly extract signal-exit@3.0.2
+1131 silly extract string_decoder@1.1.1
+1132 silly extract strip-ansi@3.0.1
+1133 silly extract string-width@1.0.2
+1134 silly extract strip-json-comments@2.0.1
+1135 silly extract rc@1.2.8
+1136 silly extract util-deprecate@1.0.2
+1137 silly extract readable-stream@2.3.6
+1138 silly extract are-we-there-yet@1.1.5
+1139 silly extract wide-align@1.1.3
+1140 silly extract gauge@2.7.4
+1141 silly extract npmlog@4.1.2
+1142 silly extract wrappy@1.0.2
+1143 silly extract once@1.4.0
+1144 silly extract inflight@1.0.6
+1145 silly tarball trying abbrev@1 by hash: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
+1146 silly tarball trying ansi-regex@^2.0.0 by hash: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+1147 silly tarball trying aproba@^1.0.3 by hash: sha512-Y9J6ZjXtoYh8RnXVCMOU/ttDmk1aBjunq9vO0ta5x85WDQiQfUF9sIPBITdbiiIVcBo03Hi3jMxigBtsddlXRw==
+1148 silly tarball trying balanced-match@^1.0.0 by hash: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+1149 silly tarball trying chownr@^1.1.1 by hash: sha512-j38EvO5+LHX84jlo6h4UzmOwi0UgW61WRyPtJz4qaadK5eY3BTS5TY/S1Stc3Uk2lIM6TPevAlULiEJwie860g==
+1150 silly tarball trying code-point-at@^1.0.0 by hash: sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
+1151 silly tarball trying concat-map@0.0.1 by hash: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+1152 silly tarball trying brace-expansion@^1.1.7 by hash: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+1153 silly tarball trying console-control-strings@~1.1.0 by hash: sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+1154 silly tarball trying core-util-is@~1.0.0 by hash: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+1155 silly tarball trying deep-extend@^0.6.0 by hash: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
+1156 silly tarball trying delegates@^1.0.0 by hash: sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
+1157 silly tarball trying detect-libc@^1.0.2 by hash: sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+1158 silly tarball trying fs.realpath@^1.0.0 by hash: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+1159 silly tarball trying has-unicode@^2.0.0 by hash: sha1-4Ob+aijPUROIVeCG0Wkedx3iqLk=
+1160 silly tarball trying ini@~1.3.0 by hash: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+1161 silly tarball trying isarray@~1.0.0 by hash: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+1162 silly tarball trying minimatch@^3.0.4 by hash: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+1163 silly tarball trying ignore-walk@^3.0.1 by hash: sha512-DTVlMx3IYPe0/JJcYP7Gxg7ttZZu3IInhuEhbchuqneY9wWe5Ojy2mXLBaQFUQmo0AW2r3qG7m1mg86js+gnlQ==
+1164 silly tarball trying nan@^2.11.1 by hash: sha512-JY7V6lRkStKcKTvHO5NVSQRv+RV+FIL5pvDoLiAtSL9pKlC5x9PKQcZDsq7m4FO4d57mkhC6Z+QhAh3Jdk5JFw==
+1165 silly tarball trying needle@^2.2.1 by hash: sha512-HyoqEb4wr/rsoaIDfTH2aVL9nWtQqba2/HvMv+++m8u0dz808MaagKILxtfeSN7QU7nvbQ79zk3vYOJp9zsNEA==
+1166 silly tarball trying npm-bundled@^1.0.1 by hash: sha512-m/e6jgWu8/v5niCUKQi9qQl8QdeEduFA96xHDDzFGqly0OOjI7c+60KM/2sppfnUU9JJagf+zs+yGhqSOFj71g==
+1167 silly tarball trying npm-packlist@^1.1.6 by hash: sha512-WJKFOVMeAlsU/pjXuqVdzU0WfgtIBCupkEVwn+1Y0ERAbUfWw8R4GjgVbaKnUjRoD2FoQbHOCbOyT5Mbs9Lw4g==
+1168 silly tarball trying number-is-nan@^1.0.0 by hash: sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+1169 silly tarball trying is-fullwidth-code-point@^1.0.0 by hash: sha1-754xOG8DGn8NZDr4L95QxFfvAMs=
+1170 silly tarball trying object-assign@^4.1.0 by hash: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+1171 silly tarball trying os-homedir@^1.0.0 by hash: sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+1172 silly tarball trying os-tmpdir@^1.0.0 by hash: sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
+1173 silly tarball trying osenv@^0.1.4 by hash: sha512-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis/0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g==
+1174 silly tarball trying nopt@^4.0.1 by hash: sha1-0NRoWv1UFRk8jHUFYC0NF81kR00=
+1175 silly tarball trying path-is-absolute@^1.0.0 by hash: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+1176 silly tarball trying process-nextick-args@~2.0.0 by hash: sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
+1177 silly tarball trying minimist@^1.2.0 by hash: sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+1178 silly tarball trying semver@^5.3.0 by hash: sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+1179 silly tarball trying set-blocking@~2.0.0 by hash: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
+1180 silly tarball trying signal-exit@^3.0.0 by hash: sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+1181 silly tarball trying string_decoder@~1.1.1 by hash: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+1182 silly tarball trying strip-ansi@^3.0.1 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+1183 silly tarball trying string-width@^1.0.1 by hash: sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M=
+1184 silly tarball trying strip-json-comments@~2.0.1 by hash: sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+1185 silly tarball trying rc@^1.2.7 by hash: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
+1186 silly tarball trying util-deprecate@~1.0.1 by hash: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+1187 silly tarball trying readable-stream@^2.0.6 by hash: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
+1188 silly tarball trying are-we-there-yet@~1.1.2 by hash: sha512-5hYdAkZlcG8tOLujVDTgCT+uPX0VnpAH28gWsLfzpXYm7wP6mp5Q/gYyR7YQ0cKVJcXJnl3j2kpBan13PtQf6w==
+1189 silly tarball trying wide-align@^1.1.0 by hash: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
+1190 silly tarball trying gauge@~2.7.3 by hash: sha1-LANAXHU4w51+s3sxcCLjJfsBi/c=
+1191 silly tarball trying npmlog@^4.0.2 by hash: sha512-2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==
+1192 silly tarball trying wrappy@1 by hash: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+1193 silly tarball trying once@^1.3.0 by hash: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+1194 silly tarball trying inflight@^1.0.4 by hash: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+1195 timing audit submit Completed in 585ms
+1196 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 584ms
+1197 timing audit body Completed in 0ms
+1198 silly extract abbrev@1 extracted to /app/node_modules/.staging/abbrev-719cd9e1 (465ms)
+1199 silly extract osenv@^0.1.4 extracted to /app/node_modules/.staging/osenv-733b5fca (448ms)
+1200 silly extract canvas@2.2.0
+1201 silly extract node-pre-gyp@0.11.0
+1202 silly tarball trying canvas@^2.2.0 by hash: sha512-4blMi2I2DuHh9UZNrmvU0hyY4dZJFOjNuqaZpI/66pKCyX1HPstvK+f2fIdc+NaF8b6wiuhvwXEFNkm7jIKYSA==
+1203 silly tarball trying node-pre-gyp@^0.11.0 by hash: sha512-TwWAOZb0j7e9eGaf9esRx3ZcLaE5tQ2lvYy1pb5IAaG1a2e2Kv5Lms1Y4hpj+ciXJRofIxxlt5haeQ/2ANeE0Q==
+1204 silly extract ansi-regex@^2.0.0 extracted to /app/node_modules/.staging/ansi-regex-96b0e51f (471ms)
+1205 silly extract aproba@^1.0.3 extracted to /app/node_modules/.staging/aproba-dd3e58ae (471ms)
+1206 silly extract chownr@^1.1.1 extracted to /app/node_modules/.staging/chownr-6af3f93b (470ms)
+1207 silly extract code-point-at@^1.0.0 extracted to /app/node_modules/.staging/code-point-at-c60d652b (470ms)
+1208 silly extract brace-expansion@^1.1.7 extracted to /app/node_modules/.staging/brace-expansion-2f5689cb (469ms)
+1209 silly extract has-unicode@^2.0.0 extracted to /app/node_modules/.staging/has-unicode-e8c13617 (465ms)
+1210 silly extract npm-bundled@^1.0.1 extracted to /app/node_modules/.staging/npm-bundled-bd266bf1 (460ms)
+1211 silly extract npm-packlist@^1.1.6 extracted to /app/node_modules/.staging/npm-packlist-b1ed679c (460ms)
+1212 silly extract number-is-nan@^1.0.0 extracted to /app/node_modules/.staging/number-is-nan-04083e3b (459ms)
+1213 silly extract is-fullwidth-code-point@^1.0.0 extracted to /app/node_modules/.staging/is-fullwidth-code-point-d1bf273d (459ms)
+1214 silly extract object-assign@^4.1.0 extracted to /app/node_modules/.staging/object-assign-ea1945ca (459ms)
+1215 silly extract os-homedir@^1.0.0 extracted to /app/node_modules/.staging/os-homedir-3d4b397f (458ms)
+1216 silly extract os-tmpdir@^1.0.0 extracted to /app/node_modules/.staging/os-tmpdir-69b030f9 (458ms)
+1217 silly extract path-is-absolute@^1.0.0 extracted to /app/node_modules/.staging/path-is-absolute-62ec34d8 (456ms)
+1218 silly extract process-nextick-args@~2.0.0 extracted to /app/node_modules/.staging/process-nextick-args-4d5a5318 (456ms)
+1219 silly extract tar@4.4.8
+1220 silly extract minizlib@1.2.1
+1221 silly extract fs-minipass@1.2.5
+1222 silly extract minipass@2.3.5
+1223 silly extract yallist@3.0.3
+1224 silly extract rimraf@2.6.2
+1225 silly extract glob@7.1.3
+1226 silly tarball trying tar@^4 by hash: sha512-LzHF64s5chPQQS0IYBn9IN5h3i98c12bo4NCO7e0sGM2llXQ3p2FGC5sdENN4cTW48O915Sh+x+EXx7XW96xYQ==
+1227 silly tarball trying minizlib@^1.1.1 by hash: sha512-7+4oTUOWKg7AuL3vloEWekXY2/D20cevzsrNT2kGWm+39J9hGTCBv8VI5Pm5lXZ/o3/mdR4f8rflAPhnQb8mPA==
+1228 silly tarball trying fs-minipass@^1.2.5 by hash: sha512-JhBl0skXjUPCFH7x6x61gQxrKyXsxB5gcgePLZCwfyCGGsTISMoIeObbrvVeP6Xmyaudw4TT43qV2Gz+iyd2oQ==
+1229 silly tarball trying minipass@^2.3.4 by hash: sha512-Gi1W4k059gyRbyVUZQ4mEqLm0YIUiGYfvxhF6SIlk3ui1WVxMTGfGdQ2SInh3PDrRTVvPKgULkpJtT4RH10+VA==
+1230 silly tarball trying yallist@^3.0.2 by hash: sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A==
+1231 silly tarball trying rimraf@^2.6.1 by hash: sha512-lreewLK/BlghmxtfH36YYVg1i8IAce4TI7oao75I1g245+6BctqTVQiBP3YUJ9C6DQOXJmkYR9X9fCLtCOJc5w==
+1232 silly tarball trying glob@^7.0.5 by hash: sha512-vcfuiIxogLV4DlGBHIUOwI0IbrJ8HWPc4MU7HzviGeNho/UJDfi6B5p3sHeWIQ0KGIU0Jpxi5ZHxemQfLkkAwQ==
+1233 silly extract strip-ansi@^3.0.1 extracted to /app/node_modules/.staging/strip-ansi-50114540 (553ms)
+1234 silly extract string-width@^1.0.1 extracted to /app/node_modules/.staging/string-width-cce90519 (549ms)
+1235 silly extract wide-align@^1.1.0 extracted to /app/node_modules/.staging/wide-align-212f792b (545ms)
+1236 silly extract wrappy@1 extracted to /app/node_modules/.staging/wrappy-5e1b30b2 (539ms)
+1237 silly extract once@^1.3.0 extracted to /app/node_modules/.staging/once-469fa0fa (539ms)
+1238 silly extract inflight@^1.0.4 extracted to /app/node_modules/.staging/inflight-3cfb785a (538ms)
+1239 silly extract ignore-walk@^3.0.1 extracted to /app/node_modules/.staging/ignore-walk-4ee5f035 (566ms)
+1240 silly extract strip-json-comments@~2.0.1 extracted to /app/node_modules/.staging/strip-json-comments-3f23db68 (547ms)
+1241 silly extract balanced-match@^1.0.0 extracted to /app/node_modules/.staging/balanced-match-fca11aa7 (573ms)
+1242 silly extract console-control-strings@~1.1.0 extracted to /app/node_modules/.staging/console-control-strings-5f7ad61f (571ms)
+1243 silly extract set-blocking@~2.0.0 extracted to /app/node_modules/.staging/set-blocking-31d149aa (578ms)
+1244 silly extract ini@~1.3.0 extracted to /app/node_modules/.staging/ini-0b5af1a8 (590ms)
+1245 silly extract fs.realpath@^1.0.0 extracted to /app/node_modules/.staging/fs.realpath-5c1488c2 (591ms)
+1246 silly extract signal-exit@^3.0.0 extracted to /app/node_modules/.staging/signal-exit-6fe7e02b (609ms)
+1247 silly extract deep-extend@^0.6.0 extracted to /app/node_modules/.staging/deep-extend-bd5b9c78 (623ms)
+1248 silly extract util-deprecate@~1.0.1 extracted to /app/node_modules/.staging/util-deprecate-65e3080f (599ms)
+1249 silly extract minimatch@^3.0.4 extracted to /app/node_modules/.staging/minimatch-26053a83 (781ms)
+1250 silly extract string_decoder@~1.1.1 extracted to /app/node_modules/.staging/string_decoder-8dcd55cf (767ms)
+1251 silly extract npmlog@^4.0.2 extracted to /app/node_modules/.staging/npmlog-e1156cae (759ms)
+1252 silly extract isarray@~1.0.0 extracted to /app/node_modules/.staging/isarray-200da2e2 (783ms)
+1253 silly extract concat-map@0.0.1 extracted to /app/node_modules/.staging/concat-map-8a62175b (853ms)
+1254 silly extract core-util-is@~1.0.0 extracted to /app/node_modules/.staging/core-util-is-d703a3dd (851ms)
+1255 silly extract delegates@^1.0.0 extracted to /app/node_modules/.staging/delegates-57bb578b (851ms)
+1256 silly extract detect-libc@^1.0.2 extracted to /app/node_modules/.staging/detect-libc-822652ef (858ms)
+1257 silly extract semver@^5.3.0 extracted to /app/node_modules/.staging/semver-2005f27a (858ms)
+1258 silly extract are-we-there-yet@~1.1.2 extracted to /app/node_modules/.staging/are-we-there-yet-68ecd251 (846ms)
+1259 silly extract nopt@^4.0.1 extracted to /app/node_modules/.staging/nopt-65ea4fd5 (876ms)
+1260 silly extract fs-minipass@^1.2.5 extracted to /app/node_modules/.staging/fs-minipass-f1d94d94 (395ms)
+1261 silly extract rc@^1.2.7 extracted to /app/node_modules/.staging/rc-6f1a8082 (866ms)
+1262 silly extract minipass@^2.3.4 extracted to /app/node_modules/.staging/minipass-92601d3e (400ms)
+1263 silly extract minizlib@^1.1.1 extracted to /app/node_modules/.staging/minizlib-c95412bb (404ms)
+1264 silly extract yallist@^3.0.2 extracted to /app/node_modules/.staging/yallist-45d2452e (402ms)
+1265 silly extract rimraf@^2.6.1 extracted to /app/node_modules/.staging/rimraf-52118a6c (402ms)
+1266 silly extract glob@^7.0.5 extracted to /app/node_modules/.staging/glob-24b4af77 (410ms)
+1267 silly extract gauge@~2.7.3 extracted to /app/node_modules/.staging/gauge-12631d56 (882ms)
+1268 silly extract minimist@^1.2.0 extracted to /app/node_modules/.staging/minimist-d8ac14b9 (897ms)
+1269 silly extract readable-stream@^2.0.6 extracted to /app/node_modules/.staging/readable-stream-ddf3177b (903ms)
+1270 silly extract tar@^4 extracted to /app/node_modules/.staging/tar-840fc197 (444ms)
+1271 silly extract node-pre-gyp@^0.11.0 extracted to /app/node_modules/.staging/node-pre-gyp-b39a19e5 (483ms)
+1272 silly extract needle@^2.2.1 extracted to /app/node_modules/.staging/needle-4d45d986 (948ms)
+1273 silly extract nan@^2.11.1 extracted to /app/node_modules/.staging/nan-4b641147 (959ms)
+1274 silly extract canvas@^2.2.0 extracted to /app/node_modules/.staging/canvas-b6bc6df3 (527ms)
+1275 timing action:extract Completed in 1002ms
+1276 silly doReverseSerial unbuild 476
+1277 silly unbuild node-pre-gyp
+1278 info lifecycle undefined~preuninstall: undefined
+1279 info lifecycle undefined~uninstall: undefined
+1280 silly unbuild node-libcurl
+1281 info lifecycle undefined~preuninstall: undefined
+1282 info lifecycle undefined~uninstall: undefined
+1283 timing action:unbuild Completed in 6ms
+1284 silly doSerial remove 476
+1285 timing action:remove Completed in 0ms
+1286 silly doSerial move 476
+1287 silly doSerial finalize 476
+1288 silly finalize /app/node_modules/abbrev
+1289 silly finalize /app/node_modules/ansi-regex
+1290 silly finalize /app/node_modules/aproba
+1291 silly finalize /app/node_modules/balanced-match
+1292 silly finalize /app/node_modules/chownr
+1293 silly finalize /app/node_modules/code-point-at
+1294 silly finalize /app/node_modules/concat-map
+1295 silly finalize /app/node_modules/brace-expansion
+1296 silly finalize /app/node_modules/console-control-strings
+1297 silly finalize /app/node_modules/core-util-is
+1298 silly finalize /app/node_modules/deep-extend
+1299 silly finalize /app/node_modules/delegates
+1300 silly finalize /app/node_modules/detect-libc
+1301 silly finalize /app/node_modules/fs.realpath
+1302 silly finalize /app/node_modules/has-unicode
+1303 silly finalize /app/node_modules/ini
+1304 silly finalize /app/node_modules/isarray
+1305 silly finalize /app/node_modules/minimatch
+1306 silly finalize /app/node_modules/ignore-walk
+1307 silly finalize /app/node_modules/nan
+1308 silly finalize /app/node_modules/needle
+1309 silly finalize /app/node_modules/npm-bundled
+1310 silly finalize /app/node_modules/npm-packlist
+1311 silly finalize /app/node_modules/number-is-nan
+1312 silly finalize /app/node_modules/is-fullwidth-code-point
+1313 silly finalize /app/node_modules/object-assign
+1314 silly finalize /app/node_modules/os-homedir
+1315 silly finalize /app/node_modules/os-tmpdir
+1316 silly finalize /app/node_modules/osenv
+1317 silly finalize /app/node_modules/nopt
+1318 silly finalize /app/node_modules/path-is-absolute
+1319 silly finalize /app/node_modules/process-nextick-args
+1320 silly finalize /app/node_modules/rc/node_modules/minimist
+1321 silly finalize /app/node_modules/semver
+1322 silly finalize /app/node_modules/set-blocking
+1323 silly finalize /app/node_modules/signal-exit
+1324 silly finalize /app/node_modules/string_decoder
+1325 silly finalize /app/node_modules/strip-ansi
+1326 silly finalize /app/node_modules/string-width
+1327 silly finalize /app/node_modules/strip-json-comments
+1328 silly finalize /app/node_modules/rc
+1329 silly finalize /app/node_modules/util-deprecate
+1330 silly finalize /app/node_modules/readable-stream
+1331 silly finalize /app/node_modules/are-we-there-yet
+1332 silly finalize /app/node_modules/wide-align
+1333 silly finalize /app/node_modules/gauge
+1334 silly finalize /app/node_modules/npmlog
+1335 silly finalize /app/node_modules/wrappy
+1336 silly finalize /app/node_modules/once
+1337 silly finalize /app/node_modules/inflight
+1338 silly finalize /app/node_modules/glob
+1339 silly finalize /app/node_modules/rimraf
+1340 silly finalize /app/node_modules/yallist
+1341 silly finalize /app/node_modules/minipass
+1342 silly finalize /app/node_modules/fs-minipass
+1343 silly finalize /app/node_modules/minizlib
+1344 silly finalize /app/node_modules/tar
+1345 silly finalize /app/node_modules/node-pre-gyp
+1346 silly finalize /app/node_modules/canvas
+1347 timing action:finalize Completed in 176ms
+1348 silly doParallel refresh-package-json 59
+1349 silly refresh-package-json /app/node_modules/abbrev
+1350 silly refresh-package-json /app/node_modules/ansi-regex
+1351 silly refresh-package-json /app/node_modules/aproba
+1352 silly refresh-package-json /app/node_modules/balanced-match
+1353 silly refresh-package-json /app/node_modules/chownr
+1354 silly refresh-package-json /app/node_modules/code-point-at
+1355 silly refresh-package-json /app/node_modules/concat-map
+1356 silly refresh-package-json /app/node_modules/brace-expansion
+1357 silly refresh-package-json /app/node_modules/console-control-strings
+1358 silly refresh-package-json /app/node_modules/core-util-is
+1359 silly refresh-package-json /app/node_modules/deep-extend
+1360 silly refresh-package-json /app/node_modules/delegates
+1361 silly refresh-package-json /app/node_modules/detect-libc
+1362 silly refresh-package-json /app/node_modules/fs.realpath
+1363 silly refresh-package-json /app/node_modules/has-unicode
+1364 silly refresh-package-json /app/node_modules/ini
+1365 silly refresh-package-json /app/node_modules/isarray
+1366 silly refresh-package-json /app/node_modules/minimatch
+1367 silly refresh-package-json /app/node_modules/ignore-walk
+1368 silly refresh-package-json /app/node_modules/nan
+1369 silly refresh-package-json /app/node_modules/needle
+1370 silly refresh-package-json /app/node_modules/npm-bundled
+1371 silly refresh-package-json /app/node_modules/npm-packlist
+1372 silly refresh-package-json /app/node_modules/number-is-nan
+1373 silly refresh-package-json /app/node_modules/is-fullwidth-code-point
+1374 silly refresh-package-json /app/node_modules/object-assign
+1375 silly refresh-package-json /app/node_modules/os-homedir
+1376 silly refresh-package-json /app/node_modules/os-tmpdir
+1377 silly refresh-package-json /app/node_modules/osenv
+1378 silly refresh-package-json /app/node_modules/nopt
+1379 silly refresh-package-json /app/node_modules/path-is-absolute
+1380 silly refresh-package-json /app/node_modules/process-nextick-args
+1381 silly refresh-package-json /app/node_modules/rc/node_modules/minimist
+1382 silly refresh-package-json /app/node_modules/semver
+1383 silly refresh-package-json /app/node_modules/set-blocking
+1384 silly refresh-package-json /app/node_modules/signal-exit
+1385 silly refresh-package-json /app/node_modules/string_decoder
+1386 silly refresh-package-json /app/node_modules/strip-ansi
+1387 silly refresh-package-json /app/node_modules/string-width
+1388 silly refresh-package-json /app/node_modules/strip-json-comments
+1389 silly refresh-package-json /app/node_modules/rc
+1390 silly refresh-package-json /app/node_modules/util-deprecate
+1391 silly refresh-package-json /app/node_modules/readable-stream
+1392 silly refresh-package-json /app/node_modules/are-we-there-yet
+1393 silly refresh-package-json /app/node_modules/wide-align
+1394 silly refresh-package-json /app/node_modules/gauge
+1395 silly refresh-package-json /app/node_modules/npmlog
+1396 silly refresh-package-json /app/node_modules/wrappy
+1397 silly refresh-package-json /app/node_modules/once
+1398 silly refresh-package-json /app/node_modules/inflight
+1399 silly refresh-package-json /app/node_modules/canvas
+1400 silly refresh-package-json /app/node_modules/node-pre-gyp
+1401 silly refresh-package-json /app/node_modules/tar
+1402 silly refresh-package-json /app/node_modules/minizlib
+1403 silly refresh-package-json /app/node_modules/fs-minipass
+1404 silly refresh-package-json /app/node_modules/minipass
+1405 silly refresh-package-json /app/node_modules/yallist
+1406 silly refresh-package-json /app/node_modules/rimraf
+1407 silly refresh-package-json /app/node_modules/glob
+1408 timing action:refresh-package-json Completed in 387ms
+1409 silly doParallel preinstall 59
+1410 silly preinstall abbrev@1.1.1
+1411 info lifecycle abbrev@1.1.1~preinstall: abbrev@1.1.1
+1412 silly preinstall ansi-regex@2.1.1
+1413 info lifecycle ansi-regex@2.1.1~preinstall: ansi-regex@2.1.1
+1414 silly preinstall aproba@1.2.0
+1415 info lifecycle aproba@1.2.0~preinstall: aproba@1.2.0
+1416 silly preinstall balanced-match@1.0.0
+1417 info lifecycle balanced-match@1.0.0~preinstall: balanced-match@1.0.0
+1418 silly preinstall chownr@1.1.1
+1419 info lifecycle chownr@1.1.1~preinstall: chownr@1.1.1
+1420 silly preinstall code-point-at@1.1.0
+1421 info lifecycle code-point-at@1.1.0~preinstall: code-point-at@1.1.0
+1422 silly preinstall concat-map@0.0.1
+1423 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+1424 silly preinstall brace-expansion@1.1.11
+1425 info lifecycle brace-expansion@1.1.11~preinstall: brace-expansion@1.1.11
+1426 silly preinstall console-control-strings@1.1.0
+1427 info lifecycle console-control-strings@1.1.0~preinstall: console-control-strings@1.1.0
+1428 silly preinstall core-util-is@1.0.2
+1429 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+1430 silly preinstall deep-extend@0.6.0
+1431 info lifecycle deep-extend@0.6.0~preinstall: deep-extend@0.6.0
+1432 silly preinstall delegates@1.0.0
+1433 info lifecycle delegates@1.0.0~preinstall: delegates@1.0.0
+1434 silly preinstall detect-libc@1.0.3
+1435 info lifecycle detect-libc@1.0.3~preinstall: detect-libc@1.0.3
+1436 silly preinstall fs.realpath@1.0.0
+1437 info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+1438 silly preinstall has-unicode@2.0.1
+1439 info lifecycle has-unicode@2.0.1~preinstall: has-unicode@2.0.1
+1440 silly preinstall ini@1.3.5
+1441 info lifecycle ini@1.3.5~preinstall: ini@1.3.5
+1442 silly preinstall isarray@1.0.0
+1443 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+1444 silly preinstall minimatch@3.0.4
+1445 info lifecycle minimatch@3.0.4~preinstall: minimatch@3.0.4
+1446 silly preinstall ignore-walk@3.0.1
+1447 info lifecycle ignore-walk@3.0.1~preinstall: ignore-walk@3.0.1
+1448 silly preinstall nan@2.12.1
+1449 info lifecycle nan@2.12.1~preinstall: nan@2.12.1
+1450 silly preinstall needle@2.2.4
+1451 info lifecycle needle@2.2.4~preinstall: needle@2.2.4
+1452 silly preinstall npm-bundled@1.0.5
+1453 info lifecycle npm-bundled@1.0.5~preinstall: npm-bundled@1.0.5
+1454 silly preinstall npm-packlist@1.1.12
+1455 info lifecycle npm-packlist@1.1.12~preinstall: npm-packlist@1.1.12
+1456 silly preinstall number-is-nan@1.0.1
+1457 info lifecycle number-is-nan@1.0.1~preinstall: number-is-nan@1.0.1
+1458 silly preinstall is-fullwidth-code-point@1.0.0
+1459 info lifecycle is-fullwidth-code-point@1.0.0~preinstall: is-fullwidth-code-point@1.0.0
+1460 silly preinstall object-assign@4.1.1
+1461 info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+1462 silly preinstall os-homedir@1.0.2
+1463 info lifecycle os-homedir@1.0.2~preinstall: os-homedir@1.0.2
+1464 silly preinstall os-tmpdir@1.0.2
+1465 info lifecycle os-tmpdir@1.0.2~preinstall: os-tmpdir@1.0.2
+1466 silly preinstall osenv@0.1.5
+1467 info lifecycle osenv@0.1.5~preinstall: osenv@0.1.5
+1468 silly preinstall nopt@4.0.1
+1469 info lifecycle nopt@4.0.1~preinstall: nopt@4.0.1
+1470 silly preinstall path-is-absolute@1.0.1
+1471 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+1472 silly preinstall process-nextick-args@2.0.0
+1473 info lifecycle process-nextick-args@2.0.0~preinstall: process-nextick-args@2.0.0
+1474 silly preinstall minimist@1.2.0
+1475 info lifecycle minimist@1.2.0~preinstall: minimist@1.2.0
+1476 silly preinstall semver@5.6.0
+1477 info lifecycle semver@5.6.0~preinstall: semver@5.6.0
+1478 silly preinstall set-blocking@2.0.0
+1479 info lifecycle set-blocking@2.0.0~preinstall: set-blocking@2.0.0
+1480 silly preinstall signal-exit@3.0.2
+1481 info lifecycle signal-exit@3.0.2~preinstall: signal-exit@3.0.2
+1482 silly preinstall string_decoder@1.1.1
+1483 info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+1484 silly preinstall strip-ansi@3.0.1
+1485 info lifecycle strip-ansi@3.0.1~preinstall: strip-ansi@3.0.1
+1486 silly preinstall string-width@1.0.2
+1487 info lifecycle string-width@1.0.2~preinstall: string-width@1.0.2
+1488 silly preinstall strip-json-comments@2.0.1
+1489 info lifecycle strip-json-comments@2.0.1~preinstall: strip-json-comments@2.0.1
+1490 silly preinstall rc@1.2.8
+1491 info lifecycle rc@1.2.8~preinstall: rc@1.2.8
+1492 silly preinstall util-deprecate@1.0.2
+1493 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+1494 silly preinstall readable-stream@2.3.6
+1495 info lifecycle readable-stream@2.3.6~preinstall: readable-stream@2.3.6
+1496 silly preinstall are-we-there-yet@1.1.5
+1497 info lifecycle are-we-there-yet@1.1.5~preinstall: are-we-there-yet@1.1.5
+1498 silly preinstall wide-align@1.1.3
+1499 info lifecycle wide-align@1.1.3~preinstall: wide-align@1.1.3
+1500 silly preinstall gauge@2.7.4
+1501 info lifecycle gauge@2.7.4~preinstall: gauge@2.7.4
+1502 silly preinstall npmlog@4.1.2
+1503 info lifecycle npmlog@4.1.2~preinstall: npmlog@4.1.2
+1504 silly preinstall wrappy@1.0.2
+1505 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+1506 silly preinstall once@1.4.0
+1507 info lifecycle once@1.4.0~preinstall: once@1.4.0
+1508 silly preinstall inflight@1.0.6
+1509 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+1510 silly preinstall canvas@2.2.0
+1511 info lifecycle canvas@2.2.0~preinstall: canvas@2.2.0
+1512 silly preinstall node-pre-gyp@0.11.0
+1513 info lifecycle node-pre-gyp@0.11.0~preinstall: node-pre-gyp@0.11.0
+1514 silly preinstall tar@4.4.8
+1515 info lifecycle tar@4.4.8~preinstall: tar@4.4.8
+1516 silly preinstall minizlib@1.2.1
+1517 info lifecycle minizlib@1.2.1~preinstall: minizlib@1.2.1
+1518 silly preinstall fs-minipass@1.2.5
+1519 info lifecycle fs-minipass@1.2.5~preinstall: fs-minipass@1.2.5
+1520 silly preinstall minipass@2.3.5
+1521 info lifecycle minipass@2.3.5~preinstall: minipass@2.3.5
+1522 silly preinstall yallist@3.0.3
+1523 info lifecycle yallist@3.0.3~preinstall: yallist@3.0.3
+1524 silly preinstall rimraf@2.6.2
+1525 info lifecycle rimraf@2.6.2~preinstall: rimraf@2.6.2
+1526 silly preinstall glob@7.1.3
+1527 info lifecycle glob@7.1.3~preinstall: glob@7.1.3
+1528 timing action:preinstall Completed in 6ms
+1529 silly doSerial build 476
+1530 silly build abbrev@1.1.1
+1531 info linkStuff abbrev@1.1.1
+1532 silly linkStuff abbrev@1.1.1 has /app/node_modules as its parent node_modules
+1533 silly build ansi-regex@2.1.1
+1534 info linkStuff ansi-regex@2.1.1
+1535 silly linkStuff ansi-regex@2.1.1 has /app/node_modules as its parent node_modules
+1536 silly build aproba@1.2.0
+1537 info linkStuff aproba@1.2.0
+1538 silly linkStuff aproba@1.2.0 has /app/node_modules as its parent node_modules
+1539 silly build balanced-match@1.0.0
+1540 info linkStuff balanced-match@1.0.0
+1541 silly linkStuff balanced-match@1.0.0 has /app/node_modules as its parent node_modules
+1542 silly build chownr@1.1.1
+1543 info linkStuff chownr@1.1.1
+1544 silly linkStuff chownr@1.1.1 has /app/node_modules as its parent node_modules
+1545 silly build code-point-at@1.1.0
+1546 info linkStuff code-point-at@1.1.0
+1547 silly linkStuff code-point-at@1.1.0 has /app/node_modules as its parent node_modules
+1548 silly build concat-map@0.0.1
+1549 info linkStuff concat-map@0.0.1
+1550 silly linkStuff concat-map@0.0.1 has /app/node_modules as its parent node_modules
+1551 silly build brace-expansion@1.1.11
+1552 info linkStuff brace-expansion@1.1.11
+1553 silly linkStuff brace-expansion@1.1.11 has /app/node_modules as its parent node_modules
+1554 silly build console-control-strings@1.1.0
+1555 info linkStuff console-control-strings@1.1.0
+1556 silly linkStuff console-control-strings@1.1.0 has /app/node_modules as its parent node_modules
+1557 silly build core-util-is@1.0.2
+1558 info linkStuff core-util-is@1.0.2
+1559 silly linkStuff core-util-is@1.0.2 has /app/node_modules as its parent node_modules
+1560 silly build deep-extend@0.6.0
+1561 info linkStuff deep-extend@0.6.0
+1562 silly linkStuff deep-extend@0.6.0 has /app/node_modules as its parent node_modules
+1563 silly build delegates@1.0.0
+1564 info linkStuff delegates@1.0.0
+1565 silly linkStuff delegates@1.0.0 has /app/node_modules as its parent node_modules
+1566 silly build detect-libc@1.0.3
+1567 info linkStuff detect-libc@1.0.3
+1568 silly linkStuff detect-libc@1.0.3 has /app/node_modules as its parent node_modules
+1569 verbose linkBins [ { 'detect-libc': './bin/detect-libc.js' },
+1569 verbose linkBins   '/app/node_modules/.bin',
+1569 verbose linkBins   false ]
+1570 silly build fs.realpath@1.0.0
+1571 info linkStuff fs.realpath@1.0.0
+1572 silly linkStuff fs.realpath@1.0.0 has /app/node_modules as its parent node_modules
+1573 silly build has-unicode@2.0.1
+1574 info linkStuff has-unicode@2.0.1
+1575 silly linkStuff has-unicode@2.0.1 has /app/node_modules as its parent node_modules
+1576 silly build ini@1.3.5
+1577 info linkStuff ini@1.3.5
+1578 silly linkStuff ini@1.3.5 has /app/node_modules as its parent node_modules
+1579 silly build isarray@1.0.0
+1580 info linkStuff isarray@1.0.0
+1581 silly linkStuff isarray@1.0.0 has /app/node_modules as its parent node_modules
+1582 silly build minimatch@3.0.4
+1583 info linkStuff minimatch@3.0.4
+1584 silly linkStuff minimatch@3.0.4 has /app/node_modules as its parent node_modules
+1585 silly build ignore-walk@3.0.1
+1586 info linkStuff ignore-walk@3.0.1
+1587 silly linkStuff ignore-walk@3.0.1 has /app/node_modules as its parent node_modules
+1588 silly build nan@2.12.1
+1589 info linkStuff nan@2.12.1
+1590 silly linkStuff nan@2.12.1 has /app/node_modules as its parent node_modules
+1591 silly build needle@2.2.4
+1592 info linkStuff needle@2.2.4
+1593 silly linkStuff needle@2.2.4 has /app/node_modules as its parent node_modules
+1594 verbose linkBins [ { needle: './bin/needle' }, '/app/node_modules/.bin', false ]
+1595 silly build npm-bundled@1.0.5
+1596 info linkStuff npm-bundled@1.0.5
+1597 silly linkStuff npm-bundled@1.0.5 has /app/node_modules as its parent node_modules
+1598 silly build npm-packlist@1.1.12
+1599 info linkStuff npm-packlist@1.1.12
+1600 silly linkStuff npm-packlist@1.1.12 has /app/node_modules as its parent node_modules
+1601 silly build number-is-nan@1.0.1
+1602 info linkStuff number-is-nan@1.0.1
+1603 silly linkStuff number-is-nan@1.0.1 has /app/node_modules as its parent node_modules
+1604 silly build is-fullwidth-code-point@1.0.0
+1605 info linkStuff is-fullwidth-code-point@1.0.0
+1606 silly linkStuff is-fullwidth-code-point@1.0.0 has /app/node_modules as its parent node_modules
+1607 silly build object-assign@4.1.1
+1608 info linkStuff object-assign@4.1.1
+1609 silly linkStuff object-assign@4.1.1 has /app/node_modules as its parent node_modules
+1610 silly build os-homedir@1.0.2
+1611 info linkStuff os-homedir@1.0.2
+1612 silly linkStuff os-homedir@1.0.2 has /app/node_modules as its parent node_modules
+1613 silly build os-tmpdir@1.0.2
+1614 info linkStuff os-tmpdir@1.0.2
+1615 silly linkStuff os-tmpdir@1.0.2 has /app/node_modules as its parent node_modules
+1616 silly build osenv@0.1.5
+1617 info linkStuff osenv@0.1.5
+1618 silly linkStuff osenv@0.1.5 has /app/node_modules as its parent node_modules
+1619 silly build nopt@4.0.1
+1620 info linkStuff nopt@4.0.1
+1621 silly linkStuff nopt@4.0.1 has /app/node_modules as its parent node_modules
+1622 verbose linkBins [ { nopt: './bin/nopt.js' }, '/app/node_modules/.bin', false ]
+1623 silly build path-is-absolute@1.0.1
+1624 info linkStuff path-is-absolute@1.0.1
+1625 silly linkStuff path-is-absolute@1.0.1 has /app/node_modules as its parent node_modules
+1626 silly build process-nextick-args@2.0.0
+1627 info linkStuff process-nextick-args@2.0.0
+1628 silly linkStuff process-nextick-args@2.0.0 has /app/node_modules as its parent node_modules
+1629 silly build minimist@1.2.0
+1630 info linkStuff minimist@1.2.0
+1631 silly linkStuff minimist@1.2.0 has /app/node_modules/rc/node_modules as its parent node_modules
+1632 silly build semver@5.6.0
+1633 info linkStuff semver@5.6.0
+1634 silly linkStuff semver@5.6.0 has /app/node_modules as its parent node_modules
+1635 verbose linkBins [ { semver: './bin/semver' }, '/app/node_modules/.bin', false ]
+1636 silly build set-blocking@2.0.0
+1637 info linkStuff set-blocking@2.0.0
+1638 silly linkStuff set-blocking@2.0.0 has /app/node_modules as its parent node_modules
+1639 silly build signal-exit@3.0.2
+1640 info linkStuff signal-exit@3.0.2
+1641 silly linkStuff signal-exit@3.0.2 has /app/node_modules as its parent node_modules
+1642 silly build string_decoder@1.1.1
+1643 info linkStuff string_decoder@1.1.1
+1644 silly linkStuff string_decoder@1.1.1 has /app/node_modules as its parent node_modules
+1645 silly build strip-ansi@3.0.1
+1646 info linkStuff strip-ansi@3.0.1
+1647 silly linkStuff strip-ansi@3.0.1 has /app/node_modules as its parent node_modules
+1648 silly build string-width@1.0.2
+1649 info linkStuff string-width@1.0.2
+1650 silly linkStuff string-width@1.0.2 has /app/node_modules as its parent node_modules
+1651 silly build strip-json-comments@2.0.1
+1652 info linkStuff strip-json-comments@2.0.1
+1653 silly linkStuff strip-json-comments@2.0.1 has /app/node_modules as its parent node_modules
+1654 silly build rc@1.2.8
+1655 info linkStuff rc@1.2.8
+1656 silly linkStuff rc@1.2.8 has /app/node_modules as its parent node_modules
+1657 verbose linkBins [ { rc: './cli.js' }, '/app/node_modules/.bin', false ]
+1658 silly build util-deprecate@1.0.2
+1659 info linkStuff util-deprecate@1.0.2
+1660 silly linkStuff util-deprecate@1.0.2 has /app/node_modules as its parent node_modules
+1661 silly build readable-stream@2.3.6
+1662 info linkStuff readable-stream@2.3.6
+1663 silly linkStuff readable-stream@2.3.6 has /app/node_modules as its parent node_modules
+1664 silly build are-we-there-yet@1.1.5
+1665 info linkStuff are-we-there-yet@1.1.5
+1666 silly linkStuff are-we-there-yet@1.1.5 has /app/node_modules as its parent node_modules
+1667 silly build wide-align@1.1.3
+1668 info linkStuff wide-align@1.1.3
+1669 silly linkStuff wide-align@1.1.3 has /app/node_modules as its parent node_modules
+1670 silly build gauge@2.7.4
+1671 info linkStuff gauge@2.7.4
+1672 silly linkStuff gauge@2.7.4 has /app/node_modules as its parent node_modules
+1673 silly build npmlog@4.1.2
+1674 info linkStuff npmlog@4.1.2
+1675 silly linkStuff npmlog@4.1.2 has /app/node_modules as its parent node_modules
+1676 silly build wrappy@1.0.2
+1677 info linkStuff wrappy@1.0.2
+1678 silly linkStuff wrappy@1.0.2 has /app/node_modules as its parent node_modules
+1679 silly build once@1.4.0
+1680 info linkStuff once@1.4.0
+1681 silly linkStuff once@1.4.0 has /app/node_modules as its parent node_modules
+1682 silly build inflight@1.0.6
+1683 info linkStuff inflight@1.0.6
+1684 silly linkStuff inflight@1.0.6 has /app/node_modules as its parent node_modules
+1685 silly build glob@7.1.3
+1686 info linkStuff glob@7.1.3
+1687 silly linkStuff glob@7.1.3 has /app/node_modules as its parent node_modules
+1688 silly build rimraf@2.6.2
+1689 info linkStuff rimraf@2.6.2
+1690 silly linkStuff rimraf@2.6.2 has /app/node_modules as its parent node_modules
+1691 verbose linkBins [ { rimraf: './bin.js' }, '/app/node_modules/.bin', false ]
+1692 silly build yallist@3.0.3
+1693 info linkStuff yallist@3.0.3
+1694 silly linkStuff yallist@3.0.3 has /app/node_modules as its parent node_modules
+1695 silly build minipass@2.3.5
+1696 info linkStuff minipass@2.3.5
+1697 silly linkStuff minipass@2.3.5 has /app/node_modules as its parent node_modules
+1698 silly build fs-minipass@1.2.5
+1699 info linkStuff fs-minipass@1.2.5
+1700 silly linkStuff fs-minipass@1.2.5 has /app/node_modules as its parent node_modules
+1701 silly build minizlib@1.2.1
+1702 info linkStuff minizlib@1.2.1
+1703 silly linkStuff minizlib@1.2.1 has /app/node_modules as its parent node_modules
+1704 silly build tar@4.4.8
+1705 info linkStuff tar@4.4.8
+1706 silly linkStuff tar@4.4.8 has /app/node_modules as its parent node_modules
+1707 silly build node-pre-gyp@0.11.0
+1708 info linkStuff node-pre-gyp@0.11.0
+1709 silly linkStuff node-pre-gyp@0.11.0 has /app/node_modules as its parent node_modules
+1710 verbose linkBins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+1710 verbose linkBins   '/app/node_modules/.bin',
+1710 verbose linkBins   false ]
+1711 silly build canvas@2.2.0
+1712 info linkStuff canvas@2.2.0
+1713 silly linkStuff canvas@2.2.0 has /app/node_modules as its parent node_modules
+1714 timing action:build Completed in 39ms
+1715 silly doSerial global-link 476
+1716 silly doParallel update-linked 0
+1717 silly doSerial install 476
+1718 silly install abbrev@1.1.1
+1719 info lifecycle abbrev@1.1.1~install: abbrev@1.1.1
+1720 silly install ansi-regex@2.1.1
+1721 info lifecycle ansi-regex@2.1.1~install: ansi-regex@2.1.1
+1722 silly install aproba@1.2.0
+1723 info lifecycle aproba@1.2.0~install: aproba@1.2.0
+1724 silly install balanced-match@1.0.0
+1725 info lifecycle balanced-match@1.0.0~install: balanced-match@1.0.0
+1726 silly install chownr@1.1.1
+1727 info lifecycle chownr@1.1.1~install: chownr@1.1.1
+1728 silly install code-point-at@1.1.0
+1729 info lifecycle code-point-at@1.1.0~install: code-point-at@1.1.0
+1730 silly install concat-map@0.0.1
+1731 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+1732 silly install brace-expansion@1.1.11
+1733 info lifecycle brace-expansion@1.1.11~install: brace-expansion@1.1.11
+1734 silly install console-control-strings@1.1.0
+1735 info lifecycle console-control-strings@1.1.0~install: console-control-strings@1.1.0
+1736 silly install core-util-is@1.0.2
+1737 info lifecycle core-util-is@1.0.2~install: core-util-is@1.0.2
+1738 silly install deep-extend@0.6.0
+1739 info lifecycle deep-extend@0.6.0~install: deep-extend@0.6.0
+1740 silly install delegates@1.0.0
+1741 info lifecycle delegates@1.0.0~install: delegates@1.0.0
+1742 silly install detect-libc@1.0.3
+1743 info lifecycle detect-libc@1.0.3~install: detect-libc@1.0.3
+1744 silly install fs.realpath@1.0.0
+1745 info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+1746 silly install has-unicode@2.0.1
+1747 info lifecycle has-unicode@2.0.1~install: has-unicode@2.0.1
+1748 silly install ini@1.3.5
+1749 info lifecycle ini@1.3.5~install: ini@1.3.5
+1750 silly install isarray@1.0.0
+1751 info lifecycle isarray@1.0.0~install: isarray@1.0.0
+1752 silly install minimatch@3.0.4
+1753 info lifecycle minimatch@3.0.4~install: minimatch@3.0.4
+1754 silly install ignore-walk@3.0.1
+1755 info lifecycle ignore-walk@3.0.1~install: ignore-walk@3.0.1
+1756 silly install nan@2.12.1
+1757 info lifecycle nan@2.12.1~install: nan@2.12.1
+1758 silly install needle@2.2.4
+1759 info lifecycle needle@2.2.4~install: needle@2.2.4
+1760 silly install npm-bundled@1.0.5
+1761 info lifecycle npm-bundled@1.0.5~install: npm-bundled@1.0.5
+1762 silly install npm-packlist@1.1.12
+1763 info lifecycle npm-packlist@1.1.12~install: npm-packlist@1.1.12
+1764 silly install number-is-nan@1.0.1
+1765 info lifecycle number-is-nan@1.0.1~install: number-is-nan@1.0.1
+1766 silly install is-fullwidth-code-point@1.0.0
+1767 info lifecycle is-fullwidth-code-point@1.0.0~install: is-fullwidth-code-point@1.0.0
+1768 silly install object-assign@4.1.1
+1769 info lifecycle object-assign@4.1.1~install: object-assign@4.1.1
+1770 silly install os-homedir@1.0.2
+1771 info lifecycle os-homedir@1.0.2~install: os-homedir@1.0.2
+1772 silly install os-tmpdir@1.0.2
+1773 info lifecycle os-tmpdir@1.0.2~install: os-tmpdir@1.0.2
+1774 silly install osenv@0.1.5
+1775 info lifecycle osenv@0.1.5~install: osenv@0.1.5
+1776 silly install nopt@4.0.1
+1777 info lifecycle nopt@4.0.1~install: nopt@4.0.1
+1778 silly install path-is-absolute@1.0.1
+1779 info lifecycle path-is-absolute@1.0.1~install: path-is-absolute@1.0.1
+1780 silly install process-nextick-args@2.0.0
+1781 info lifecycle process-nextick-args@2.0.0~install: process-nextick-args@2.0.0
+1782 silly install minimist@1.2.0
+1783 info lifecycle minimist@1.2.0~install: minimist@1.2.0
+1784 silly install semver@5.6.0
+1785 info lifecycle semver@5.6.0~install: semver@5.6.0
+1786 silly install set-blocking@2.0.0
+1787 info lifecycle set-blocking@2.0.0~install: set-blocking@2.0.0
+1788 silly install signal-exit@3.0.2
+1789 info lifecycle signal-exit@3.0.2~install: signal-exit@3.0.2
+1790 silly install string_decoder@1.1.1
+1791 info lifecycle string_decoder@1.1.1~install: string_decoder@1.1.1
+1792 silly install strip-ansi@3.0.1
+1793 info lifecycle strip-ansi@3.0.1~install: strip-ansi@3.0.1
+1794 silly install string-width@1.0.2
+1795 info lifecycle string-width@1.0.2~install: string-width@1.0.2
+1796 silly install strip-json-comments@2.0.1
+1797 info lifecycle strip-json-comments@2.0.1~install: strip-json-comments@2.0.1
+1798 silly install rc@1.2.8
+1799 info lifecycle rc@1.2.8~install: rc@1.2.8
+1800 silly install util-deprecate@1.0.2
+1801 info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+1802 silly install readable-stream@2.3.6
+1803 info lifecycle readable-stream@2.3.6~install: readable-stream@2.3.6
+1804 silly install are-we-there-yet@1.1.5
+1805 info lifecycle are-we-there-yet@1.1.5~install: are-we-there-yet@1.1.5
+1806 silly install wide-align@1.1.3
+1807 info lifecycle wide-align@1.1.3~install: wide-align@1.1.3
+1808 silly install gauge@2.7.4
+1809 info lifecycle gauge@2.7.4~install: gauge@2.7.4
+1810 silly install npmlog@4.1.2
+1811 info lifecycle npmlog@4.1.2~install: npmlog@4.1.2
+1812 silly install wrappy@1.0.2
+1813 info lifecycle wrappy@1.0.2~install: wrappy@1.0.2
+1814 silly install once@1.4.0
+1815 info lifecycle once@1.4.0~install: once@1.4.0
+1816 silly install inflight@1.0.6
+1817 info lifecycle inflight@1.0.6~install: inflight@1.0.6
+1818 silly install glob@7.1.3
+1819 info lifecycle glob@7.1.3~install: glob@7.1.3
+1820 silly install rimraf@2.6.2
+1821 info lifecycle rimraf@2.6.2~install: rimraf@2.6.2
+1822 silly install yallist@3.0.3
+1823 info lifecycle yallist@3.0.3~install: yallist@3.0.3
+1824 silly install minipass@2.3.5
+1825 info lifecycle minipass@2.3.5~install: minipass@2.3.5
+1826 silly install fs-minipass@1.2.5
+1827 info lifecycle fs-minipass@1.2.5~install: fs-minipass@1.2.5
+1828 silly install minizlib@1.2.1
+1829 info lifecycle minizlib@1.2.1~install: minizlib@1.2.1
+1830 silly install tar@4.4.8
+1831 info lifecycle tar@4.4.8~install: tar@4.4.8
+1832 silly install node-pre-gyp@0.11.0
+1833 info lifecycle node-pre-gyp@0.11.0~install: node-pre-gyp@0.11.0
+1834 silly install canvas@2.2.0
+1835 info lifecycle canvas@2.2.0~install: canvas@2.2.0
+1836 verbose lifecycle canvas@2.2.0~install: unsafe-perm in lifecycle true
+1837 verbose lifecycle canvas@2.2.0~install: PATH: /opt/nvm/versions/node/v8.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/app/node_modules/canvas/node_modules/.bin:/app/node_modules/.bin:/app/bin:/app/.local/bin:/app/node_modules/.bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvm/versions/node/v8/bin
+1838 verbose lifecycle canvas@2.2.0~install: CWD: /app/node_modules/canvas
+1839 silly lifecycle canvas@2.2.0~install: Args: [ '-c', 'node-pre-gyp install --fallback-to-build' ]
+1840 silly lifecycle canvas@2.2.0~install: Returned: code: 6  signal: null
+1841 info lifecycle canvas@2.2.0~install: Failed to exec install script
+1842 timing action:install Completed in 5835ms
+1843 verbose unlock done using /app/.npm/_locks/staging-bd3355550c5a469e.lock for /app/node_modules/.staging
+1844 timing stage:rollbackFailedOptional Completed in 227ms
+1845 timing stage:runTopLevelLifecycles Completed in 12372ms
+1846 silly saveTree contextio-glitch@0.0.2
+1846 silly saveTree ├─┬ canvas@2.2.0
+1846 silly saveTree │ ├── nan@2.12.1
+1846 silly saveTree │ └─┬ node-pre-gyp@0.11.0
+1846 silly saveTree │   ├── detect-libc@1.0.3
+1846 silly saveTree │   ├─┬ mkdirp@0.5.1
+1846 silly saveTree │   │ └── minimist@0.0.8
+1846 silly saveTree │   ├─┬ needle@2.2.4
+1846 silly saveTree │   │ ├─┬ debug@2.6.9
+1846 silly saveTree │   │ │ └── ms@2.0.0
+1846 silly saveTree │   │ ├─┬ iconv-lite@0.4.23
+1846 silly saveTree │   │ │ └── safer-buffer@2.1.2
+1846 silly saveTree │   │ └── sax@1.2.4
+1846 silly saveTree │   ├─┬ nopt@4.0.1
+1846 silly saveTree │   │ ├── abbrev@1.1.1
+1846 silly saveTree │   │ └─┬ osenv@0.1.5
+1846 silly saveTree │   │   ├── os-homedir@1.0.2
+1846 silly saveTree │   │   └── os-tmpdir@1.0.2
+1846 silly saveTree │   ├─┬ npm-packlist@1.1.12
+1846 silly saveTree │   │ ├─┬ ignore-walk@3.0.1
+1846 silly saveTree │   │ │ └─┬ minimatch@3.0.4
+1846 silly saveTree │   │ │   └─┬ brace-expansion@1.1.11
+1846 silly saveTree │   │ │     ├── balanced-match@1.0.0
+1846 silly saveTree │   │ │     └── concat-map@0.0.1
+1846 silly saveTree │   │ └── npm-bundled@1.0.5
+1846 silly saveTree │   ├─┬ npmlog@4.1.2
+1846 silly saveTree │   │ ├─┬ are-we-there-yet@1.1.5
+1846 silly saveTree │   │ │ ├── delegates@1.0.0
+1846 silly saveTree │   │ │ └─┬ readable-stream@2.3.6
+1846 silly saveTree │   │ │   ├── core-util-is@1.0.2
+1846 silly saveTree │   │ │   ├── inherits@2.0.3
+1846 silly saveTree │   │ │   ├── isarray@1.0.0
+1846 silly saveTree │   │ │   ├── process-nextick-args@2.0.0
+1846 silly saveTree │   │ │   ├── safe-buffer@5.1.2
+1846 silly saveTree │   │ │   ├── string_decoder@1.1.1
+1846 silly saveTree │   │ │   └── util-deprecate@1.0.2
+1846 silly saveTree │   │ ├── console-control-strings@1.1.0
+1846 silly saveTree │   │ ├─┬ gauge@2.7.4
+1846 silly saveTree │   │ │ ├── aproba@1.2.0
+1846 silly saveTree │   │ │ ├── has-unicode@2.0.1
+1846 silly saveTree │   │ │ ├── object-assign@4.1.1
+1846 silly saveTree │   │ │ ├── signal-exit@3.0.2
+1846 silly saveTree │   │ │ ├─┬ string-width@1.0.2
+1846 silly saveTree │   │ │ │ ├── code-point-at@1.1.0
+1846 silly saveTree │   │ │ │ ├─┬ is-fullwidth-code-point@1.0.0
+1846 silly saveTree │   │ │ │ │ └── number-is-nan@1.0.1
+1846 silly saveTree │   │ │ │ └─┬ strip-ansi@3.0.1
+1846 silly saveTree │   │ │ │   └── ansi-regex@2.1.1
+1846 silly saveTree │   │ │ ├── strip-ansi@3.0.1
+1846 silly saveTree │   │ │ └── wide-align@1.1.3
+1846 silly saveTree │   │ └── set-blocking@2.0.0
+1846 silly saveTree │   ├─┬ rc@1.2.8
+1846 silly saveTree │   │ ├── deep-extend@0.6.0
+1846 silly saveTree │   │ ├── ini@1.3.5
+1846 silly saveTree │   │ ├── minimist@1.2.0
+1846 silly saveTree │   │ └── strip-json-comments@2.0.1
+1846 silly saveTree │   ├─┬ rimraf@2.6.2
+1846 silly saveTree │   │ └─┬ glob@7.1.3
+1846 silly saveTree │   │   ├── fs.realpath@1.0.0
+1846 silly saveTree │   │   ├─┬ inflight@1.0.6
+1846 silly saveTree │   │   │ ├─┬ once@1.4.0
+1846 silly saveTree │   │   │ │ └── wrappy@1.0.2
+1846 silly saveTree │   │   │ └── wrappy@1.0.2
+1846 silly saveTree │   │   ├── once@1.4.0
+1846 silly saveTree │   │   └── path-is-absolute@1.0.1
+1846 silly saveTree │   ├── semver@5.6.0
+1846 silly saveTree │   └─┬ tar@4.4.8
+1846 silly saveTree │     ├── chownr@1.1.1
+1846 silly saveTree │     ├─┬ fs-minipass@1.2.5
+1846 silly saveTree │     │ └─┬ minipass@2.3.5
+1846 silly saveTree │     │   └── yallist@3.0.3
+1846 silly saveTree │     ├── minipass@2.3.5
+1846 silly saveTree │     ├── minizlib@1.2.1
+1846 silly saveTree │     └── yallist@3.0.3
+1846 silly saveTree ├─┬ discord.js-commando@0.10.0
+1846 silly saveTree │ ├── common-tags@1.8.0
+1846 silly saveTree │ ├── escape-string-regexp@1.0.5
+1846 silly saveTree │ └── require-all@2.2.0
+1846 silly saveTree ├─┬ discord.js@11.4.2
+1846 silly saveTree │ ├── long@4.0.0
+1846 silly saveTree │ ├── prism-media@0.0.3
+1846 silly saveTree │ ├── snekfetch@3.6.4
+1846 silly saveTree │ ├── tweetnacl@1.0.0
+1846 silly saveTree │ └─┬ ws@4.1.0
+1846 silly saveTree │   └── async-limiter@1.0.0
+1846 silly saveTree ├─┬ express@4.16.4
+1846 silly saveTree │ ├─┬ accepts@1.3.5
+1846 silly saveTree │ │ ├─┬ mime-types@2.1.21
+1846 silly saveTree │ │ │ └── mime-db@1.37.0
+1846 silly saveTree │ │ └── negotiator@0.6.1
+1846 silly saveTree │ ├── array-flatten@1.1.1
+1846 silly saveTree │ ├─┬ body-parser@1.18.3
+1846 silly saveTree │ │ ├── bytes@3.0.0
+1846 silly saveTree │ │ ├── content-type@1.0.4
+1846 silly saveTree │ │ ├── depd@1.1.2
+1846 silly saveTree │ │ ├─┬ http-errors@1.6.3
+1846 silly saveTree │ │ │ ├── setprototypeof@1.1.0
+1846 silly saveTree │ │ │ └── statuses@1.4.0
+1846 silly saveTree │ │ ├─┬ on-finished@2.3.0
+1846 silly saveTree │ │ │ └── ee-first@1.1.1
+1846 silly saveTree │ │ ├── qs@6.5.2
+1846 silly saveTree │ │ ├─┬ raw-body@2.3.3
+1846 silly saveTree │ │ │ └── unpipe@1.0.0
+1846 silly saveTree │ │ └─┬ type-is@1.6.16
+1846 silly saveTree │ │   └── media-typer@0.3.0
+1846 silly saveTree │ ├── content-disposition@0.5.2
+1846 silly saveTree │ ├── content-type@1.0.4
+1846 silly saveTree │ ├── cookie-signature@1.0.6
+1846 silly saveTree │ ├── cookie@0.3.1
+1846 silly saveTree │ ├── depd@1.1.2
+1846 silly saveTree │ ├── encodeurl@1.0.2
+1846 silly saveTree │ ├── escape-html@1.0.3
+1846 silly saveTree │ ├── etag@1.8.1
+1846 silly saveTree │ ├─┬ finalhandler@1.1.1
+1846 silly saveTree │ │ └── parseurl@1.3.2
+1846 silly saveTree │ ├── fresh@0.5.2
+1846 silly saveTree │ ├── merge-descriptors@1.0.1
+1846 silly saveTree │ ├── methods@1.1.2
+1846 silly saveTree │ ├── on-finished@2.3.0
+1846 silly saveTree │ ├── parseurl@1.3.2
+1846 silly saveTree │ ├── path-to-regexp@0.1.7
+1846 silly saveTree │ ├─┬ proxy-addr@2.0.4
+1846 silly saveTree │ │ ├── forwarded@0.1.2
+1846 silly saveTree │ │ └── ipaddr.js@1.8.0
+1846 silly saveTree │ ├── qs@6.5.2
+1846 silly saveTree │ ├── range-parser@1.2.0
+1846 silly saveTree │ ├─┬ send@0.16.2
+1846 silly saveTree │ │ ├── destroy@1.0.4
+1846 silly saveTree │ │ └── mime@1.4.1
+1846 silly saveTree │ ├── serve-static@1.13.2
+1846 silly saveTree │ ├── setprototypeof@1.1.0
+1846 silly saveTree │ ├── statuses@1.4.0
+1846 silly saveTree │ ├── type-is@1.6.16
+1846 silly saveTree │ ├── utils-merge@1.0.1
+1846 silly saveTree │ └── vary@1.1.2
+1846 silly saveTree ├─┬ jimp@0.6.0
+1846 silly saveTree │ ├─┬ @babel/polyfill@7.2.5
+1846 silly saveTree │ │ ├── core-js@2.6.1
+1846 silly saveTree │ │ └── regenerator-runtime@0.12.1
+1846 silly saveTree │ ├─┬ @jimp/custom@0.6.0
+1846 silly saveTree │ │ └─┬ @jimp/core@0.6.0
+1846 silly saveTree │ │   ├── @jimp/utils@0.6.0
+1846 silly saveTree │ │   ├── any-base@1.1.0
+1846 silly saveTree │ │   ├─┬ buffer@5.2.1
+1846 silly saveTree │ │   │ ├── base64-js@1.3.0
+1846 silly saveTree │ │   │ └── ieee754@1.1.12
+1846 silly saveTree │ │   ├── exif-parser@0.1.12
+1846 silly saveTree │ │   ├── file-type@9.0.0
+1846 silly saveTree │ │   ├─┬ load-bmfont@1.4.0
+1846 silly saveTree │ │   │ ├── buffer-equal@0.0.1
+1846 silly saveTree │ │   │ ├── parse-bmfont-ascii@1.0.6
+1846 silly saveTree │ │   │ ├── parse-bmfont-binary@1.0.6
+1846 silly saveTree │ │   │ ├─┬ parse-bmfont-xml@1.1.4
+1846 silly saveTree │ │   │ │ ├── xml-parse-from-string@1.0.1
+1846 silly saveTree │ │   │ │ └─┬ xml2js@0.4.19
+1846 silly saveTree │ │   │ │   └── xmlbuilder@9.0.7
+1846 silly saveTree │ │   │ ├── phin@2.9.3
+1846 silly saveTree │ │   │ ├─┬ xhr@2.5.0
+1846 silly saveTree │ │   │ │ ├─┬ global@4.3.2
+1846 silly saveTree │ │   │ │ │ ├─┬ min-document@2.19.0
+1846 silly saveTree │ │   │ │ │ │ └── dom-walk@0.1.1
+1846 silly saveTree │ │   │ │ │ └── process@0.5.2
+1846 silly saveTree │ │   │ │ ├── is-function@1.0.1
+1846 silly saveTree │ │   │ │ ├─┬ parse-headers@2.0.1
+1846 silly saveTree │ │   │ │ │ ├─┬ for-each@0.3.3
+1846 silly saveTree │ │   │ │ │ │ └── is-callable@1.1.4
+1846 silly saveTree │ │   │ │ │ └── trim@0.0.1
+1846 silly saveTree │ │   │ │ └── xtend@4.0.1
+1846 silly saveTree │ │   │ └── xtend@4.0.1
+1846 silly saveTree │ │   ├── phin@2.9.3
+1846 silly saveTree │ │   ├─┬ pixelmatch@4.0.2
+1846 silly saveTree │ │   │ └── pngjs@3.3.3
+1846 silly saveTree │ │   └── tinycolor2@1.4.1
+1846 silly saveTree │ ├─┬ @jimp/plugins@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-blit@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-blur@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-color@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-contain@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-cover@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-crop@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-displace@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-dither@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-flip@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-gaussian@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-invert@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-mask@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-normalize@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-print@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-resize@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-rotate@0.6.0
+1846 silly saveTree │ │ ├── @jimp/plugin-scale@0.6.0
+1846 silly saveTree │ │ └── timm@1.6.1
+1846 silly saveTree │ ├─┬ @jimp/types@0.6.0
+1846 silly saveTree │ │ ├─┬ @jimp/bmp@0.6.0
+1846 silly saveTree │ │ │ └── bmp-js@0.1.0
+1846 silly saveTree │ │ ├─┬ @jimp/gif@0.6.0
+1846 silly saveTree │ │ │ └── omggif@1.0.9
+1846 silly saveTree │ │ ├─┬ @jimp/jpeg@0.6.0
+1846 silly saveTree │ │ │ └── jpeg-js@0.3.4
+1846 silly saveTree │ │ ├── @jimp/png@0.6.0
+1846 silly saveTree │ │ └─┬ @jimp/tiff@0.6.0
+1846 silly saveTree │ │   └─┬ utif@2.0.1
+1846 silly saveTree │ │     └── pako@1.0.7
+1846 silly saveTree │ └── core-js@2.6.1
+1846 silly saveTree ├─┬ node@11.5.0
+1846 silly saveTree │ └── node-bin-setup@1.0.6
+1846 silly saveTree └── opusscript@0.0.6
+1847 warn discord.js@11.4.2 requires a peer of bufferutil@^3.0.3 but none is installed. You must install peer dependencies yourself.
+1848 warn discord.js@11.4.2 requires a peer of erlpack@discordapp/erlpack but none is installed. You must install peer dependencies yourself.
+1849 warn discord.js@11.4.2 requires a peer of node-opus@^0.2.7 but none is installed. You must install peer dependencies yourself.
+1850 warn discord.js@11.4.2 requires a peer of sodium@^2.0.3 but none is installed. You must install peer dependencies yourself.
+1851 warn discord.js@11.4.2 requires a peer of libsodium-wrappers@^0.7.3 but none is installed. You must install peer dependencies yourself.
+1852 warn discord.js@11.4.2 requires a peer of uws@^9.14.0 but none is installed. You must install peer dependencies yourself.
+1853 warn discord.js-commando@0.10.0 requires a peer of sqlite@^2.0.0 but none is installed. You must install peer dependencies yourself.
+1854 verbose stack Error: canvas@2.2.0 install: `node-pre-gyp install --fallback-to-build`
+1854 verbose stack Exit status 6
+1854 verbose stack     at EventEmitter.<anonymous> (/opt/nvm/versions/node/v8.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:301:16)
+1854 verbose stack     at EventEmitter.emit (events.js:189:13)
+1854 verbose stack     at ChildProcess.<anonymous> (/opt/nvm/versions/node/v8.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+1854 verbose stack     at ChildProcess.emit (events.js:189:13)
+1854 verbose stack     at maybeClose (internal/child_process.js:978:16)
+1854 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:265:5)
+1855 verbose pkgid canvas@2.2.0
+1856 verbose cwd /app
+1857 verbose Linux 4.4.0-1066-aws
+1858 verbose argv "/app/node_modules/node/bin/node" "/opt/nvm/versions/node/v8/bin/npm-real" "install"
+1859 verbose node v11.5.0
+1860 verbose npm  v6.4.1
+1861 error code ELIFECYCLE
+1862 error errno 6
+1863 error canvas@2.2.0 install: `node-pre-gyp install --fallback-to-build`
+1863 error Exit status 6
+1864 error Failed at the canvas@2.2.0 install script.
+1864 error This is probably not a problem with npm. There is likely additional logging output above.
+1865 verbose exit [ 6, true ]
