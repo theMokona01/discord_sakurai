@@ -239,5 +239,5 @@ bot.on('ready', function(){
 
 
 
-bot.login("NTE2Njg2NzcyNjA1MDI2MzE5.XXxm8Q.3xxS6aofC1atAYLmInorSVELpP0").catch(r => console.log(r));
+bot.login(null).catch(r => console.log(r));
 
